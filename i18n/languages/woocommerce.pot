@@ -2,9 +2,9 @@
 # This file is distributed under the same license as the WooCommerce package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 3.9.0\n"
+"Project-Id-Version: WooCommerce 3.9.1\n"
 "Report-Msgid-Bugs-To: https://github.com/woocommerce/woocommerce/issues\n"
-"POT-Creation-Date: 2020-01-22 00:25:45+00:00\n"
+"POT-Creation-Date: 2020-01-28 21:27:06+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -7488,7 +7488,7 @@ msgstr ""
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:126
 #: includes/admin/list-tables/class-wc-admin-list-table-orders.php:467
 #: includes/admin/meta-boxes/views/html-order-item.php:100
-#: includes/admin/meta-boxes/views/html-order-item.php:146
+#: includes/admin/meta-boxes/views/html-order-item.php:148
 #: includes/admin/meta-boxes/views/html-order-items.php:33
 #: includes/admin/meta-boxes/views/html-order-items.php:199
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:218
@@ -11627,7 +11627,7 @@ msgid "%s discount"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-item.php:96
-#: includes/admin/meta-boxes/views/html-order-item.php:142
+#: includes/admin/meta-boxes/views/html-order-item.php:144
 msgid "Before discount"
 msgstr ""
 
@@ -11635,11 +11635,11 @@ msgstr ""
 msgid "After pre-tax discounts."
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-item.php:162
+#: includes/admin/meta-boxes/views/html-order-item.php:164
 msgid "Edit item"
 msgstr ""
 
-#: includes/admin/meta-boxes/views/html-order-item.php:162
+#: includes/admin/meta-boxes/views/html-order-item.php:164
 msgid "Delete item"
 msgstr ""
 
@@ -19374,47 +19374,47 @@ msgid ""
 "href=\"%s\">PayPal Sandbox Testing Guide</a> for more details."
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:154
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:157
 msgid "PayPal acceptance mark"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:157
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:160
 msgid "What is PayPal?"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:281
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:284
 msgid "Gateway disabled"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:281
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:284
 msgid "PayPal does not support your store currency."
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:370
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:373
 msgid "Refund failed."
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:389
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:392
 #. translators: 1: Refund amount, 2: Refund ID
 msgid "Refunded %1$s - Refund ID: %2$s"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:412
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:415
 #. translators: %s: Paypal gateway error message
 msgid "Payment could not be captured: %s"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:423
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:426
 #. translators: 1: Amount, 2: Authorization ID, 3: Transaction ID
 msgid "Payment of %1$s was captured - Auth ID: %2$s, Transaction ID: %3$s"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:429
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:432
 #. translators: 1: Authorization ID, 2: Payment status
 msgid "Payment could not be captured - Auth ID: %1$s, Status: %2$s"
 msgstr ""
 
-#: includes/gateways/paypal/class-wc-gateway-paypal.php:465
+#: includes/gateways/paypal/class-wc-gateway-paypal.php:468
 msgid ""
 "Thank you for your payment. Your transaction has been completed, and a "
 "receipt for your purchase has been emailed to you. Log into your PayPal "
@@ -22415,9 +22415,9 @@ msgid "(can be backordered)"
 msgstr ""
 
 #: includes/wc-notice-functions.php:25 includes/wc-notice-functions.php:56
-#: includes/wc-notice-functions.php:75 includes/wc-notice-functions.php:102
-#: includes/wc-notice-functions.php:116 includes/wc-notice-functions.php:131
-#: includes/wc-notice-functions.php:208
+#: includes/wc-notice-functions.php:76 includes/wc-notice-functions.php:107
+#: includes/wc-notice-functions.php:121 includes/wc-notice-functions.php:136
+#: includes/wc-notice-functions.php:215
 msgid "This function should not be called before woocommerce_init."
 msgstr ""
 
