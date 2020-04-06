@@ -121,7 +121,7 @@ add_action( 'plugins_loaded', array( '\Automattic\WooCommerce\Blocks\Package', '
  * @return string JSON translations.
  */
 function woocommerce_blocks_get_i18n_data_json( $translations, $file, $handle, $domain ) {
-	if ( 'woocommerce' !== $domain ) {
+	if ( 'woo-gutenberg-products-block' !== $domain ) {
 		return $translations;
 	}
 
