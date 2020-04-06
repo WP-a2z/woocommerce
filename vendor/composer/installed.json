@@ -225,17 +225,17 @@
     },
     {
         "name": "woocommerce/woocommerce-blocks",
-        "version": "v2.5.11",
-        "version_normalized": "2.5.11.0",
+        "version": "v2.5.14",
+        "version_normalized": "2.5.14.0",
         "source": {
             "type": "git",
             "url": "https://github.com/woocommerce/woocommerce-gutenberg-products-block.git",
-            "reference": "3d3c7bf1b425bbf39a222a4715b1c8efe9e72f60"
+            "reference": "0dd70617085d2e73f3adfb38df98a90df3514816"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/woocommerce/woocommerce-gutenberg-products-block/zipball/3d3c7bf1b425bbf39a222a4715b1c8efe9e72f60",
-            "reference": "3d3c7bf1b425bbf39a222a4715b1c8efe9e72f60",
+            "url": "https://api.github.com/repos/woocommerce/woocommerce-gutenberg-products-block/zipball/0dd70617085d2e73f3adfb38df98a90df3514816",
+            "reference": "0dd70617085d2e73f3adfb38df98a90df3514816",
             "shasum": ""
         },
         "require": {
@@ -246,7 +246,7 @@
             "phpunit/phpunit": "6.5.14",
             "woocommerce/woocommerce-sniffs": "0.0.7"
         },
-        "time": "2020-01-20T20:26:05+00:00",
+        "time": "2020-03-03T13:25:56+00:00",
         "type": "wordpress-plugin",
         "extra": {
             "scripts-description": {
