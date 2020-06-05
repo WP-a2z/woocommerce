@@ -1,6 +1,6 @@
 <?php
 /**
- * REST API Onboarding Plugins Controller
+ * REST API Plugins Controller
  *
  * Handles requests to install and activate depedent plugins.
  *
@@ -11,16 +11,17 @@ namespace Automattic\WooCommerce\Admin\API;
 
 use Automattic\WooCommerce\Admin\Features\Onboarding;
 use Automattic\WooCommerce\Admin\PluginsHelper;
+use \Automattic\WooCommerce\Admin\Notes\WC_Admin_Notes_Install_JP_And_WCS_Plugins;
 
 defined( 'ABSPATH' ) || exit;
 
 /**
- * Onboarding Plugins Controller.
+ * Plugins Controller.
  *
  * @package WooCommerce Admin/API
  * @extends WC_REST_Data_Controller
  */
-class OnboardingPlugins extends \WC_REST_Data_Controller {
+class Plugins extends \WC_REST_Data_Controller {
 	/**
 	 * Endpoint namespace.
 	 *
@@ -33,7 +34,7 @@ class OnboardingPlugins extends \WC_REST_Data_Controller {
 	 *
 	 * @var string
 	 */
-	protected $rest_base = 'onboarding/plugins';
+	protected $rest_base = 'plugins';
 
 	/**
 	 * Register routes.
@@ -59,6 +60,19 @@ class OnboardingPlugins extends \WC_REST_Data_Controller {
 				array(
 					'methods'             => \WP_REST_Server::READABLE,
 					'callback'            => array( $this, 'active_plugins' ),
+					'permission_callback' => array( $this, 'get_item_permissions_check' ),
+				),
+				'schema' => array( $this, 'get_item_schema' ),
+			)
+		);
+
+		register_rest_route(
+			$this->namespace,
+			'/' . $this->rest_base . '/installed',
+			array(
+				array(
+					'methods'             => \WP_REST_Server::READABLE,
+					'callback'            => array( $this, 'installed_plugins' ),
 					'permission_callback' => array( $this, 'get_item_permissions_check' ),
 				),
 				'schema' => array( $this, 'get_item_schema' ),
@@ -171,13 +185,24 @@ class OnboardingPlugins extends \WC_REST_Data_Controller {
 	}
 
 	/**
+	 * Create an alert notification in response to an error installing a plugin.
+	 *
+	 * @todo This should be moved to a filter to make this API more generic and less plugin-specific.
+	 *
+	 * @param string $slug The slug of the plugin being installed.
+	 */
+	private function create_install_plugin_error_inbox_notification_for_jetpack_installs( $slug ) {
+		WC_Admin_Notes_Install_JP_And_WCS_Plugins::possibly_add_install_jp_and_wcs_note( $slug );
+	}
+
+	/**
 	 * Installs the requested plugin.
 	 *
 	 * @param  WP_REST_Request $request Full details about the request.
 	 * @return WP_Error|array Plugin Status
 	 */
 	public function install_plugin( $request ) {
-		$allowed_plugins = Onboarding::get_allowed_plugins();
+		$allowed_plugins = self::get_allowed_plugins();
 		$plugin          = sanitize_title_with_dashes( $request['plugin'] );
 		if ( ! in_array( $plugin, array_keys( $allowed_plugins ), true ) ) {
 			return new \WP_Error( 'woocommerce_rest_invalid_plugin', __( 'Invalid plugin.', 'woocommerce' ), 404 );
@@ -222,6 +247,8 @@ class OnboardingPlugins extends \WC_REST_Data_Controller {
 			);
 			wc_admin_record_tracks_event( 'install_plugin_error', $properties );
 
+			$this->create_install_plugin_error_inbox_notification_for_jetpack_installs( $slug );
+
 			return new \WP_Error(
 				'woocommerce_rest_plugin_install',
 				sprintf(
@@ -247,6 +274,8 @@ class OnboardingPlugins extends \WC_REST_Data_Controller {
 			);
 			wc_admin_record_tracks_event( 'install_plugin_error', $properties );
 
+			$this->create_install_plugin_error_inbox_notification_for_jetpack_installs( $slug );
+
 			return new \WP_Error(
 				'woocommerce_rest_plugin_install',
 				sprintf(
@@ -266,14 +295,44 @@ class OnboardingPlugins extends \WC_REST_Data_Controller {
 	}
 
 	/**
+	 * Gets an array of plugins that can be installed & activated.
+	 *
+	 * @return array
+	 */
+	public static function get_allowed_plugins() {
+		return apply_filters( 'woocommerce_admin_plugins_whitelist', array() );
+	}
+
+	/**
+	 * Returns a list of active plugins in API format.
+	 *
+	 * @return array Active plugins
+	 */
+	public static function active_plugins() {
+		$allowed = self::get_allowed_plugins();
+		$plugins = array_values( array_intersect( PluginsHelper::get_active_plugin_slugs(), array_keys( $allowed ) ) );
+		return( array(
+			'plugins' => array_values( $plugins ),
+		) );
+	}
+	/**
 	 * Returns a list of active plugins.
 	 *
 	 * @return array Active plugins
 	 */
-	public function active_plugins() {
-		$plugins = Onboarding::get_active_plugins();
+	public static function get_active_plugins() {
+		$data = self::active_plugins();
+		return $data['plugins'];
+	}
+
+	/**
+	 * Returns a list of installed plugins.
+	 *
+	 * @return array Installed plugins
+	 */
+	public function installed_plugins() {
 		return( array(
-			'plugins' => array_values( $plugins ),
+			'plugins' => PluginsHelper::get_installed_plugin_slugs(),
 		) );
 	}
 
@@ -284,7 +343,7 @@ class OnboardingPlugins extends \WC_REST_Data_Controller {
 	 * @return WP_Error|array Plugin Status
 	 */
 	public function activate_plugins( $request ) {
-		$allowed_plugins = Onboarding::get_allowed_plugins();
+		$allowed_plugins = self::get_allowed_plugins();
 		$_plugins        = explode( ',', $request['plugins'] );
 		$plugins         = array_intersect( array_keys( $allowed_plugins ), $_plugins );
 
@@ -305,13 +364,15 @@ class OnboardingPlugins extends \WC_REST_Data_Controller {
 
 			$result = activate_plugin( $path );
 			if ( ! is_null( $result ) ) {
+				$this->create_install_plugin_error_inbox_notification_for_jetpack_installs( $slug );
+
 				return new \WP_Error( 'woocommerce_rest_invalid_plugin', sprintf( __( 'The requested plugins could not be activated.', 'woocommerce' ), $slug ), 500 );
 			}
 		}
 
 		return( array(
 			'activatedPlugins' => array_values( $plugins ),
-			'active'           => Onboarding::get_active_plugins(),
+			'active'           => self::get_active_plugins(),
 			'status'           => 'success',
 		) );
 	}
@@ -575,7 +636,7 @@ class OnboardingPlugins extends \WC_REST_Data_Controller {
 	public function get_item_schema() {
 		$schema = array(
 			'$schema'    => 'http://json-schema.org/draft-04/schema#',
-			'title'      => 'onboarding_plugin',
+			'title'      => 'plugins',
 			'type'       => 'object',
 			'properties' => array(
 				'slug'   => array(
