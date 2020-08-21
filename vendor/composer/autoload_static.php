@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit9fbf73dfbe2ec36c11d12c13f57b568d
+class ComposerStaticInite28a3826cc873afccbdf43e1e4d218ca
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -19,10 +19,6 @@ class ComposerStaticInit9fbf73dfbe2ec36c11d12c13f57b568d
         'M' => 
         array (
             'MaxMind\\Db\\' => 11,
-        ),
-        'L' => 
-        array (
-            'League\\Container\\' => 17,
         ),
         'C' => 
         array (
@@ -56,10 +52,6 @@ class ComposerStaticInit9fbf73dfbe2ec36c11d12c13f57b568d
         'MaxMind\\Db\\' => 
         array (
             0 => __DIR__ . '/..' . '/maxmind-db/reader/src/MaxMind/Db',
-        ),
-        'League\\Container\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/league/container/src',
         ),
         'Composer\\Installers\\' => 
         array (
@@ -197,9 +189,9 @@ class ComposerStaticInit9fbf73dfbe2ec36c11d12c13f57b568d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit9fbf73dfbe2ec36c11d12c13f57b568d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit9fbf73dfbe2ec36c11d12c13f57b568d::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit9fbf73dfbe2ec36c11d12c13f57b568d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInite28a3826cc873afccbdf43e1e4d218ca::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInite28a3826cc873afccbdf43e1e4d218ca::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInite28a3826cc873afccbdf43e1e4d218ca::$classMap;
 
         }, null, ClassLoader::class);
     }

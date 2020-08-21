@@ -262,106 +262,6 @@ return array(
 		'version' => '1.6.0.0',
 		'path'    => $vendorDir . '/maxmind-db/reader/src/MaxMind/Db/Reader.php'
 	),
-	'League\\Container\\ContainerAwareTrait' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/ContainerAwareTrait.php'
-	),
-	'League\\Container\\Container' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Container.php'
-	),
-	'League\\Container\\Argument\\RawArgument' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Argument/RawArgument.php'
-	),
-	'League\\Container\\Argument\\ClassName' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Argument/ClassName.php'
-	),
-	'League\\Container\\Argument\\ArgumentResolverTrait' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Argument/ArgumentResolverTrait.php'
-	),
-	'League\\Container\\Argument\\ArgumentResolverInterface' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Argument/ArgumentResolverInterface.php'
-	),
-	'League\\Container\\Argument\\RawArgumentInterface' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Argument/RawArgumentInterface.php'
-	),
-	'League\\Container\\Argument\\ClassNameInterface' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Argument/ClassNameInterface.php'
-	),
-	'League\\Container\\Inflector\\InflectorAggregate' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Inflector/InflectorAggregate.php'
-	),
-	'League\\Container\\Inflector\\InflectorAggregateInterface' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Inflector/InflectorAggregateInterface.php'
-	),
-	'League\\Container\\Inflector\\InflectorInterface' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Inflector/InflectorInterface.php'
-	),
-	'League\\Container\\Inflector\\Inflector' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Inflector/Inflector.php'
-	),
-	'League\\Container\\ServiceProvider\\ServiceProviderAggregateInterface' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/ServiceProvider/ServiceProviderAggregateInterface.php'
-	),
-	'League\\Container\\ServiceProvider\\AbstractServiceProvider' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/ServiceProvider/AbstractServiceProvider.php'
-	),
-	'League\\Container\\ServiceProvider\\ServiceProviderAggregate' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/ServiceProvider/ServiceProviderAggregate.php'
-	),
-	'League\\Container\\ServiceProvider\\BootableServiceProviderInterface' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/ServiceProvider/BootableServiceProviderInterface.php'
-	),
-	'League\\Container\\ServiceProvider\\ServiceProviderInterface' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/ServiceProvider/ServiceProviderInterface.php'
-	),
-	'League\\Container\\Definition\\DefinitionAggregate' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Definition/DefinitionAggregate.php'
-	),
-	'League\\Container\\Definition\\Definition' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Definition/Definition.php'
-	),
-	'League\\Container\\Definition\\DefinitionAggregateInterface' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Definition/DefinitionAggregateInterface.php'
-	),
-	'League\\Container\\Definition\\DefinitionInterface' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Definition/DefinitionInterface.php'
-	),
-	'League\\Container\\ReflectionContainer' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/ReflectionContainer.php'
-	),
-	'League\\Container\\Exception\\ContainerException' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Exception/ContainerException.php'
-	),
-	'League\\Container\\Exception\\NotFoundException' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/Exception/NotFoundException.php'
-	),
-	'League\\Container\\ContainerAwareInterface' => array(
-		'version' => '3.3.1.0',
-		'path'    => $vendorDir . '/league/container/src/ContainerAwareInterface.php'
-	),
 	'Composer\\Installers\\GravInstaller' => array(
 		'version' => '1.7.0.0',
 		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/GravInstaller.php'
@@ -742,57 +642,9 @@ return array(
 		'version' => 'dev-release/4.4',
 		'path'    => $baseDir . '/tests/php/src/Internal/WCCom/ConnectionHelperTest.php'
 	),
-	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExtendedContainerTest' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExtendedContainerTest.php'
-	),
-	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\ClassWithScalarInjectionMethodArgument' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/ClassWithScalarInjectionMethodArgument.php'
-	),
-	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\ClassWithDependencies' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/ClassWithDependencies.php'
-	),
-	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\DependencyClass' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/DependencyClass.php'
-	),
-	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\ClassWithPrivateInjectionMethod' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/ClassWithPrivateInjectionMethod.php'
-	),
-	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\ClassWithNonFinalInjectionMethod' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/ClassWithNonFinalInjectionMethod.php'
-	),
-	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\ClassWithInjectionMethodArgumentWithoutTypeHint' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/ClassWithInjectionMethodArgumentWithoutTypeHint.php'
-	),
-	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\AbstractServiceProviderTest' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/AbstractServiceProviderTest.php'
-	),
 	'Automattic\\WooCommerce\\Tests\\Utilities\\StringUtilTest' => array(
 		'version' => 'dev-release/4.4',
 		'path'    => $baseDir . '/tests/php/src/Utilities/StringUtilTest.php'
-	),
-	'Automattic\\WooCommerce\\Tests\\Proxies\\LegacyProxyTest' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Proxies/LegacyProxyTest.php'
-	),
-	'Automattic\\WooCommerce\\Tests\\Proxies\\ExampleClasses\\ClassThatDependsOnLegacyCode' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Proxies/ExampleClasses/ClassThatDependsOnLegacyCode.php'
-	),
-	'Automattic\\WooCommerce\\Tests\\Proxies\\MockableLegacyProxyTest' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Proxies/MockableLegacyProxyTest.php'
-	),
-	'Automattic\\WooCommerce\\Tests\\Proxies\\ClassThatDependsOnLegacyCodeTest' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/tests/php/src/Proxies/ClassThatDependsOnLegacyCodeTest.php'
 	),
 	'Automattic\\WooCommerce\\Testing\\Tools\\CodeHacking\\CodeHackerTestHook' => array(
 		'version' => 'dev-release/4.4',
@@ -2041,26 +1893,6 @@ return array(
 	'Automattic\\WooCommerce\\Internal\\WCCom\\ConnectionHelper' => array(
 		'version' => 'dev-release/4.4',
 		'path'    => $baseDir . '/src/Internal/WCCom/ConnectionHelper.php'
-	),
-	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ContainerException' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/src/Internal/DependencyManagement/ContainerException.php'
-	),
-	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ExtendedContainer' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/src/Internal/DependencyManagement/ExtendedContainer.php'
-	),
-	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\AbstractServiceProvider' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/src/Internal/DependencyManagement/AbstractServiceProvider.php'
-	),
-	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\Definition' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/src/Internal/DependencyManagement/Definition.php'
-	),
-	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\ProxiesServiceProvider' => array(
-		'version' => 'dev-release/4.4',
-		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/ProxiesServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\Checkout\\Helpers\\ReserveStock' => array(
 		'version' => 'dev-release/4.4',
