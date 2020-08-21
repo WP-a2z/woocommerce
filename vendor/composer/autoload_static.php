@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit59af27a7bf321fa3c5eec815bc33891c
+class ComposerStaticInit9fbf73dfbe2ec36c11d12c13f57b568d
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -13,11 +13,16 @@ class ComposerStaticInit59af27a7bf321fa3c5eec815bc33891c
         ),
         'P' => 
         array (
+            'Psr\\Container\\' => 14,
             'Pelago\\' => 7,
         ),
         'M' => 
         array (
             'MaxMind\\Db\\' => 11,
+        ),
+        'L' => 
+        array (
+            'League\\Container\\' => 17,
         ),
         'C' => 
         array (
@@ -40,6 +45,10 @@ class ComposerStaticInit59af27a7bf321fa3c5eec815bc33891c
         array (
             0 => __DIR__ . '/..' . '/symfony/css-selector',
         ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
         'Pelago\\' => 
         array (
             0 => __DIR__ . '/..' . '/pelago/emogrifier/src',
@@ -47,6 +56,10 @@ class ComposerStaticInit59af27a7bf321fa3c5eec815bc33891c
         'MaxMind\\Db\\' => 
         array (
             0 => __DIR__ . '/..' . '/maxmind-db/reader/src/MaxMind/Db',
+        ),
+        'League\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/league/container/src',
         ),
         'Composer\\Installers\\' => 
         array (
@@ -184,9 +197,9 @@ class ComposerStaticInit59af27a7bf321fa3c5eec815bc33891c
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit59af27a7bf321fa3c5eec815bc33891c::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit59af27a7bf321fa3c5eec815bc33891c::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInit59af27a7bf321fa3c5eec815bc33891c::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit9fbf73dfbe2ec36c11d12c13f57b568d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit9fbf73dfbe2ec36c11d12c13f57b568d::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit9fbf73dfbe2ec36c11d12c13f57b568d::$classMap;
 
         }, null, ClassLoader::class);
     }
