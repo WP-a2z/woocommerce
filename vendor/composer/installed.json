@@ -538,17 +538,17 @@
     },
     {
         "name": "woocommerce/woocommerce-rest-api",
-        "version": "1.0.10-pl-1",
-        "version_normalized": "1.0.10.0-patch1",
+        "version": "1.0.10-pl-2",
+        "version_normalized": "1.0.10.0-patch2",
         "source": {
             "type": "git",
             "url": "https://github.com/woocommerce/woocommerce-rest-api.git",
-            "reference": "3da37902921fd90a010a8d2277fc56425c3b1f02"
+            "reference": "7a46674fe6ba4981e0d21795ddc70aa5b8dbbf6b"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/woocommerce/woocommerce-rest-api/zipball/3da37902921fd90a010a8d2277fc56425c3b1f02",
-            "reference": "3da37902921fd90a010a8d2277fc56425c3b1f02",
+            "url": "https://api.github.com/repos/woocommerce/woocommerce-rest-api/zipball/7a46674fe6ba4981e0d21795ddc70aa5b8dbbf6b",
+            "reference": "7a46674fe6ba4981e0d21795ddc70aa5b8dbbf6b",
             "shasum": ""
         },
         "require": {
@@ -558,7 +558,7 @@
             "phpunit/phpunit": "6.5.14",
             "woocommerce/woocommerce-sniffs": "0.0.9"
         },
-        "time": "2020-08-07T12:26:08+00:00",
+        "time": "2020-08-13T14:58:06+00:00",
         "type": "wordpress-plugin",
         "installation-source": "dist",
         "autoload": {
@@ -576,6 +576,7 @@
             "GPL-3.0-or-later"
         ],
         "description": "The WooCommerce core REST API.",
-        "homepage": "https://github.com/woocommerce/woocommerce-rest-api"
+        "homepage": "https://github.com/woocommerce/woocommerce-rest-api",
+        "abandoned": true
     }
 ]
