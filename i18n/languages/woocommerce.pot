@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 4.6.1\n"
+"Project-Id-Version: WooCommerce 4.6.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-10-21T14:26:58-03:00\n"
+"POT-Creation-Date: 2020-11-05T16:49:34-03:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: woocommerce\n"
@@ -17551,73 +17551,73 @@ msgid "Password"
 msgstr ""
 
 #. translators: %s: field name
-#: includes/class-wc-checkout.php:747
+#: includes/class-wc-checkout.php:750
 msgctxt "checkout-validation"
 msgid "Shipping %s"
 msgstr ""
 
 #. translators: %s: field name
-#: includes/class-wc-checkout.php:751
+#: includes/class-wc-checkout.php:754
 msgctxt "checkout-validation"
 msgid "Billing %s"
 msgstr ""
 
 #. translators: %1$s: field name, %2$s finder.eircode.ie URL
-#: includes/class-wc-checkout.php:763
+#: includes/class-wc-checkout.php:766
 msgid "%1$s is not valid. You can look up the correct Eircode <a target=\"_blank\" href=\"%2$s\">here</a>."
 msgstr ""
 
 #. translators: %s: field name
-#: includes/class-wc-checkout.php:767
+#: includes/class-wc-checkout.php:770
 msgid "%s is not a valid postcode / ZIP."
 msgstr ""
 
 #. translators: %s: phone number
 #. translators: %s: Phone number.
-#: includes/class-wc-checkout.php:776
+#: includes/class-wc-checkout.php:779
 #: includes/class-wc-form-handler.php:142
 msgid "%s is not a valid phone number."
 msgstr ""
 
 #. translators: %s: email address
 #. translators: %s: Email address.
-#: includes/class-wc-checkout.php:786
+#: includes/class-wc-checkout.php:789
 #: includes/class-wc-form-handler.php:150
 msgid "%s is not a valid email address."
 msgstr ""
 
 #. translators: 1: state field 2: valid states
-#: includes/class-wc-checkout.php:806
+#: includes/class-wc-checkout.php:809
 msgid "%1$s is not valid. Please enter one of the following: %2$s"
 msgstr ""
 
 #. translators: %s: field name
 #. translators: %s: Field name.
-#: includes/class-wc-checkout.php:813
+#: includes/class-wc-checkout.php:816
 #: includes/class-wc-form-handler.php:116
 #: includes/class-wc-form-handler.php:262
 msgid "%s is a required field."
 msgstr ""
 
-#: includes/class-wc-checkout.php:831
+#: includes/class-wc-checkout.php:834
 #: includes/class-wc-form-handler.php:396
 msgid "Please read and accept the terms and conditions to proceed with your order."
 msgstr ""
 
-#: includes/class-wc-checkout.php:838
+#: includes/class-wc-checkout.php:841
 msgid "Please enter an address to continue."
 msgstr ""
 
 #. translators: %s: shipping location
-#: includes/class-wc-checkout.php:841
+#: includes/class-wc-checkout.php:844
 msgid "Unfortunately <strong>we do not ship %s</strong>. Please enter an alternative shipping address."
 msgstr ""
 
-#: includes/class-wc-checkout.php:847
+#: includes/class-wc-checkout.php:850
 msgid "No shipping method has been selected. Please double check your address, or contact us if you need any help."
 msgstr ""
 
-#: includes/class-wc-checkout.php:857
+#: includes/class-wc-checkout.php:860
 #: includes/class-wc-form-handler.php:406
 #: includes/class-wc-form-handler.php:413
 #: includes/class-wc-form-handler.php:540
@@ -17625,16 +17625,16 @@ msgstr ""
 msgid "Invalid payment method."
 msgstr ""
 
-#: includes/class-wc-checkout.php:1112
+#: includes/class-wc-checkout.php:1115
 msgid "We were unable to process your order, please try again."
 msgstr ""
 
 #. translators: %s: shop cart url
-#: includes/class-wc-checkout.php:1122
+#: includes/class-wc-checkout.php:1125
 msgid "Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return to shop</a>"
 msgstr ""
 
-#: includes/class-wc-checkout.php:1153
+#: includes/class-wc-checkout.php:1156
 msgid "Unable to create order."
 msgstr ""
 
