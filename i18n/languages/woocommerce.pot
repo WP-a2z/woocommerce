@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 4.6.0\n"
+"Project-Id-Version: WooCommerce 4.6.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-10-14T15:18:52-03:00\n"
+"POT-Creation-Date: 2020-10-21T14:26:58-03:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: woocommerce\n"
@@ -7941,7 +7941,7 @@ msgstr ""
 #: includes/widgets/class-wc-widget-product-categories.php:52
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:586
 #: templates/single-product-reviews.php:89
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Name"
 msgstr ""
 
@@ -8122,7 +8122,7 @@ msgstr ""
 #: includes/admin/importers/class-wc-product-csv-importer-controller.php:668
 #: includes/export/class-wc-product-csv-exporter.php:106
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php:304
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 msgid "Type"
 msgstr ""
 
@@ -8382,10 +8382,10 @@ msgstr ""
 #: packages/woocommerce-admin/src/API/Reports/Stock/Controller.php:526
 #: packages/woocommerce-admin/src/API/Reports/Variations/Controller.php:362
 #: templates/myaccount/my-orders.php:16
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgid "Status"
 msgstr ""
 
@@ -9009,7 +9009,7 @@ msgstr ""
 #: includes/admin/views/html-notice-wp-php-minimum-requirements.php:11
 #: includes/wc-template-functions.php:1056
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/chunks/49.e78eb9119c8eac3f6923.js:1
 msgid "Dismiss"
 msgstr ""
@@ -9271,7 +9271,7 @@ msgstr ""
 #: packages/action-scheduler/classes/ActionScheduler_ListTable.php:133
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
 #: packages/woocommerce-admin/dist/chunks/12.1e3fd4a0eb677c221f97.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-blocks/assets/js/blocks/product-tag/block.js:213
 #: packages/woocommerce-blocks/build/all-products.js:1
 #: packages/woocommerce-blocks/build/product-category.js:1
@@ -9402,7 +9402,7 @@ msgstr ""
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/BillingAddressSchema.php:54
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/ShippingAddressSchema.php:55
 #: templates/cart/shipping-calculator.php:76
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 #: packages/woocommerce-admin/dist/chunks/46.c754aac4b14123e58adb.js:1
 #: packages/woocommerce-admin/dist/chunks/49.e78eb9119c8eac3f6923.js:1
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/address-form/default-address-fields.js:94
@@ -9435,7 +9435,7 @@ msgstr ""
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:125
 #: includes/class-wc-countries.php:682
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:594
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 #: packages/woocommerce-admin/dist/chunks/46.c754aac4b14123e58adb.js:1
 #: packages/woocommerce-admin/dist/chunks/49.e78eb9119c8eac3f6923.js:1
 msgid "Country / Region"
@@ -9529,15 +9529,15 @@ msgstr ""
 #: packages/woocommerce-admin/src/Features/Analytics.php:138
 #: packages/woocommerce-admin/src/ReportCSVEmail.php:33
 #: packages/woocommerce-admin/dist/app/index.js:2
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/11.e31ce9931c09bfa70ffd.js:1
 #: packages/woocommerce-admin/dist/chunks/14.57ecb260ced16ea3d9cd.js:1
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Orders"
 msgstr ""
@@ -9567,7 +9567,7 @@ msgstr ""
 #: packages/woocommerce-admin/src/Features/Analytics.php:180
 #: packages/woocommerce-admin/src/ReportCSVEmail.php:40
 #: packages/woocommerce-admin/dist/app/index.js:2
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Customers"
 msgstr ""
 
@@ -9590,10 +9590,10 @@ msgstr ""
 #: packages/woocommerce-admin/src/Features/Analytics.php:174
 #: packages/woocommerce-admin/src/ReportCSVEmail.php:39
 #: packages/woocommerce-admin/dist/app/index.js:2
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/12.1e3fd4a0eb677c221f97.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgid "Stock"
 msgstr ""
 
@@ -9610,8 +9610,8 @@ msgstr ""
 #: packages/woocommerce-admin/src/Features/Analytics.php:162
 #: packages/woocommerce-admin/src/ReportCSVEmail.php:37
 #: packages/woocommerce-admin/dist/app/index.js:2
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/totals-taxes-item/index.js:29
 #: packages/woocommerce-blocks/build/cart-frontend.js:14
@@ -9713,7 +9713,7 @@ msgstr ""
 #: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:454
 #: templates/cart/cart-totals.php:52
 #: templates/cart/cart-totals.php:53
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/totals-shipping-item/index.js:54
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/totals-shipping-item/index.js:94
@@ -9883,7 +9883,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-setup-wizard.php:786
 #: includes/admin/class-wc-admin-setup-wizard.php:826
 #: packages/woocommerce-admin/src/API/Plugins.php:463
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "Jetpack"
 msgstr ""
@@ -10090,13 +10090,13 @@ msgid "PayPal email address"
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1470
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "Klarna Checkout for WooCommerce"
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1478
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "Klarna Payments for WooCommerce"
 msgstr ""
@@ -10227,7 +10227,7 @@ msgid "Mailchimp icon"
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1931
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "Mailchimp for WooCommerce"
 msgstr ""
@@ -10245,7 +10245,7 @@ msgid "Facebook icon"
 msgstr ""
 
 #: includes/admin/class-wc-admin-setup-wizard.php:1942
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "Facebook for WooCommerce"
 msgstr ""
@@ -10507,9 +10507,9 @@ msgstr ""
 #: packages/woocommerce-admin/src/Features/Analytics.php:144
 #: packages/woocommerce-admin/src/ReportCSVEmail.php:34
 #: packages/woocommerce-admin/dist/app/index.js:2
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/14.57ecb260ced16ea3d9cd.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-blocks/assets/js/blocks/handpicked-products/block.js:100
 #: packages/woocommerce-blocks/assets/js/editor-components/product-control/index.js:40
@@ -10800,7 +10800,7 @@ msgstr ""
 
 #: includes/admin/helper/class-wc-helper.php:360
 #: includes/admin/reports/class-wc-report-sales-by-category.php:232
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-admin/dist/components/index.js:2
 #: packages/woocommerce-blocks/build/vendors.js:6
@@ -10844,7 +10844,7 @@ msgstr ""
 #: includes/legacy/abstract-wc-legacy-order.php:508
 #: includes/wc-account-functions.php:221
 #: includes/wc-template-functions.php:3335
-#: packages/woocommerce-admin/dist/chunks/0.c2bc01c0f1fb53b04619.js:1
+#: packages/woocommerce-admin/dist/chunks/0.d82e0e3293a5788ce1b3.js:1
 msgid "Download"
 msgstr ""
 
@@ -10917,7 +10917,7 @@ msgid "WooCommerce Extensions"
 msgstr ""
 
 #: includes/admin/helper/views/html-main.php:10
-#: packages/woocommerce-admin/src/Features/Onboarding.php:421
+#: packages/woocommerce-admin/src/Features/Onboarding.php:437
 msgid "Subscriptions"
 msgstr ""
 
@@ -10997,8 +10997,8 @@ msgid "Once connected, your WooCommerce.com purchases will be listed here."
 msgstr ""
 
 #: includes/admin/helper/views/html-oauth-start.php:27
-#: packages/woocommerce-admin/src/Features/Onboarding.php:928
-#: packages/woocommerce-admin/src/Features/Onboarding.php:932
+#: packages/woocommerce-admin/src/Features/Onboarding.php:944
+#: packages/woocommerce-admin/src/Features/Onboarding.php:948
 #: packages/woocommerce-admin/src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:190
 #: packages/woocommerce-admin/dist/chunks/6.a1cfaa769c3ae60919e3.js:1
 #: packages/woocommerce-admin/dist/chunks/49.e78eb9119c8eac3f6923.js:1
@@ -11088,9 +11088,9 @@ msgstr ""
 #: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:387
 #: packages/woocommerce-admin/src/API/Reports/Stock/Controller.php:525
 #: packages/woocommerce-admin/src/API/Reports/Variations/Controller.php:355
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgid "SKU"
 msgstr ""
 
@@ -11456,13 +11456,13 @@ msgstr ""
 #: includes/wc-account-functions.php:101
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:144
 #: packages/woocommerce-admin/src/Features/Analytics.php:168
-#: packages/woocommerce-admin/src/Features/Onboarding.php:418
+#: packages/woocommerce-admin/src/Features/Onboarding.php:434
 #: packages/woocommerce-admin/src/ReportCSVEmail.php:38
 #: templates/emails/email-downloads.php:22
 #: templates/emails/plain/email-downloads.php:20
 #: templates/order/order-downloads.php:24
 #: packages/woocommerce-admin/dist/app/index.js:2
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Downloads"
 msgstr ""
@@ -11589,8 +11589,8 @@ msgstr ""
 #: includes/admin/importers/mappings/generic.php:22
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Controller.php:398
 #: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:386
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/title/constants.js:7
 #: packages/woocommerce-blocks/build/all-products.js:1
 msgid "Product Title"
@@ -11679,7 +11679,7 @@ msgstr ""
 #: templates/checkout/review-order.php:23
 #: templates/emails/email-order-details.php:42
 #: templates/order/order-details.php:51
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-blocks/assets/js/blocks/cart-checkout/cart/full-cart/cart-line-items-table.js:34
 #: packages/woocommerce-blocks/assets/js/blocks/reviews/edit-utils.js:126
@@ -11854,9 +11854,9 @@ msgstr ""
 #: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:494
 #: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:448
 #: templates/myaccount/my-orders.php:15
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 msgid "Date"
 msgstr ""
 
@@ -11957,7 +11957,7 @@ msgstr ""
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:590
 #: packages/woocommerce-blocks/src/StoreApi/Schemas/BillingAddressSchema.php:74
 #: templates/single-product-reviews.php:95
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Email"
 msgstr ""
 
@@ -12053,9 +12053,9 @@ msgstr ""
 #: templates/order/order-details-customer.php:34
 #: templates/order/order-details-customer.php:52
 #: templates/single-product/meta.php:30
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 #: packages/woocommerce-admin/dist/components/index.js:2
 #: packages/woocommerce-blocks/build/vendors.js:6
 msgid "N/A"
@@ -12479,7 +12479,7 @@ msgstr ""
 #: includes/admin/meta-boxes/class-wc-meta-box-order-data.php:409
 #: includes/admin/meta-boxes/views/html-order-shipping.php:44
 #: includes/admin/meta-boxes/views/html-order-shipping.php:46
-#: packages/woocommerce-admin/src/Features/Onboarding.php:397
+#: packages/woocommerce-admin/src/Features/Onboarding.php:413
 #: packages/woocommerce-admin/dist/chunks/46.c754aac4b14123e58adb.js:1
 msgid "Other"
 msgstr ""
@@ -12578,7 +12578,7 @@ msgstr ""
 #: includes/admin/meta-boxes/class-wc-meta-box-product-data.php:117
 #: includes/class-wc-post-types.php:366
 #: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:392
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
 msgid "Variations"
 msgstr ""
@@ -12743,7 +12743,7 @@ msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-items.php:107
 #: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:500
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 msgid "Coupon(s)"
 msgstr ""
 
@@ -12886,7 +12886,7 @@ msgid "Refund %s manually"
 msgstr ""
 
 #: includes/admin/meta-boxes/views/html-order-items.php:383
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Add products"
 msgstr ""
 
@@ -13721,13 +13721,13 @@ msgstr ""
 #: includes/admin/reports/class-wc-report-sales-by-product.php:222
 #: includes/widgets/class-wc-widget-products.php:41
 #: packages/woocommerce-admin/dist/chunks/14.57ecb260ced16ea3d9cd.js:1
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Show"
 msgstr ""
@@ -13817,8 +13817,8 @@ msgstr ""
 #: includes/class-wc-checkout.php:253
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:587
 #: templates/myaccount/form-login.php:79
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Username"
 msgstr ""
@@ -13859,7 +13859,7 @@ msgid "Guest orders"
 msgstr ""
 
 #: includes/admin/reports/class-wc-report-customers.php:150
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
 msgid "orders"
 msgid_plural "orders"
@@ -13956,7 +13956,7 @@ msgid "Select categories&hellip;"
 msgstr ""
 
 #: includes/admin/reports/class-wc-report-sales-by-category.php:231
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "None"
 msgstr ""
@@ -14143,7 +14143,7 @@ msgstr ""
 
 #: includes/admin/reports/class-wc-report-taxes-by-code.php:191
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Controller.php:303
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 msgid "Rate"
 msgstr ""
 
@@ -14751,7 +14751,7 @@ msgstr ""
 
 #: includes/admin/settings/class-wc-settings-emails.php:294
 #: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:497
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 msgid "Customer"
 msgstr ""
 
@@ -16913,8 +16913,8 @@ msgstr ""
 #: includes/admin/views/html-bulk-edit-product.php:189
 #: includes/admin/views/html-quick-edit-product.php:147
 #: packages/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:672
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-blocks/assets/js/blocks/product-search/block.js:52
 #: packages/woocommerce-blocks/assets/js/blocks/product-search/edit.js:88
@@ -17790,7 +17790,7 @@ msgstr ""
 #: includes/class-wc-countries.php:991
 #: includes/class-wc-countries.php:1157
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:596
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/address-form/country-address-fields.js:164
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/address-form/country-address-fields.js:247
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/address-form/country-address-fields.js:413
@@ -18059,7 +18059,7 @@ msgstr ""
 #: includes/wc-account-functions.php:220
 #: includes/wc-account-functions.php:244
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php:303
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 msgid "Expires"
 msgstr ""
 
@@ -18508,7 +18508,7 @@ msgstr ""
 #: packages/woocommerce-admin/src/API/Leaderboards.php:188
 #: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:329
 #: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:391
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/14.57ecb260ced16ea3d9cd.js:1
 #: packages/woocommerce-blocks/assets/js/blocks/reviews/reviews-by-category/edit.js:77
 #: packages/woocommerce-blocks/build/reviews-by-category.js:1
@@ -18710,7 +18710,7 @@ msgstr ""
 
 #: includes/class-wc-post-types.php:316
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-blocks/assets/js/blocks/products/all-products/index.js:18
 #: packages/woocommerce-blocks/build/all-products.js:1
@@ -18751,7 +18751,7 @@ msgid "View product"
 msgstr ""
 
 #: includes/class-wc-post-types.php:325
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Search products"
 msgstr ""
@@ -18863,7 +18863,7 @@ msgid "This is where store orders are stored."
 msgstr ""
 
 #: includes/class-wc-post-types.php:422
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Refunds"
 msgstr ""
@@ -18876,9 +18876,9 @@ msgstr ""
 #: packages/woocommerce-admin/src/Features/Coupons.php:75
 #: packages/woocommerce-admin/src/ReportCSVEmail.php:36
 #: packages/woocommerce-admin/dist/app/index.js:2
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-blocks/assets/js/base/components/cart-checkout/totals/totals-discount-item/index.js:88
 #: packages/woocommerce-blocks/build/cart-frontend.js:14
@@ -18918,7 +18918,7 @@ msgid "View coupon"
 msgstr ""
 
 #: includes/class-wc-post-types.php:455
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Search coupons"
 msgstr ""
@@ -19299,14 +19299,14 @@ msgstr ""
 
 #: includes/class-wc-privacy-exporters.php:150
 #: includes/class-wc-privacy-exporters.php:254
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "IP Address"
 msgstr ""
 
 #: includes/class-wc-privacy-exporters.php:250
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 msgid "Order Number"
 msgstr ""
 
@@ -22241,7 +22241,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:408
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:701
 #: includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php:71
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:595
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:594
 #: packages/woocommerce-admin/src/API/Reports/Stock/Controller.php:370
 #: packages/woocommerce-blocks/src/StoreApi/Routes/ProductAttributesById.php:28
 #: packages/woocommerce-blocks/src/StoreApi/Routes/ProductCategoriesById.php:28
@@ -24908,7 +24908,7 @@ msgstr ""
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:246
 #: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:276
 #: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:343
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:674
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:673
 #: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:276
 #: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:329
 #: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:375
@@ -24929,7 +24929,7 @@ msgstr ""
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Stats/Controller.php:252
 #: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:282
 #: packages/woocommerce-admin/src/API/Reports/Orders/Stats/Controller.php:349
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:680
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:679
 #: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:282
 #: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:335
 #: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:381
@@ -25047,7 +25047,7 @@ msgid "Name of the customer for the order"
 msgstr ""
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-network-orders-v2-controller.php:76
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Order Status"
 msgstr ""
@@ -26693,7 +26693,7 @@ msgstr ""
 
 #: includes/shipping/legacy-local-delivery/class-wc-shipping-legacy-local-delivery.php:117
 #: includes/shipping/legacy-local-pickup/class-wc-shipping-legacy-local-pickup.php:96
-#: packages/woocommerce-admin/src/Features/Onboarding.php:920
+#: packages/woocommerce-admin/src/Features/Onboarding.php:936
 msgid "Enable"
 msgstr ""
 
@@ -28053,7 +28053,7 @@ msgid "Filter by"
 msgstr ""
 
 #: includes/widgets/class-wc-widget-layered-nav.php:80
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Attribute"
 msgstr ""
@@ -28979,13 +28979,13 @@ msgstr ""
 
 #: packages/woocommerce-admin/src/API/Leaderboards.php:122
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php:299
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 msgid "Coupon Code"
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Leaderboards.php:128
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php:301
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 msgid "Amount Discounted"
 msgstr ""
 
@@ -29000,9 +29000,9 @@ msgstr ""
 #: packages/woocommerce-admin/src/API/Reports/Products/Controller.php:388
 #: packages/woocommerce-admin/src/API/Reports/Products/Stats/Controller.php:157
 #: packages/woocommerce-admin/src/API/Reports/Variations/Controller.php:356
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/14.57ecb260ced16ea3d9cd.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Items Sold"
@@ -29010,11 +29010,11 @@ msgstr ""
 
 #: packages/woocommerce-admin/src/API/Leaderboards.php:194
 #: packages/woocommerce-admin/src/API/Leaderboards.php:324
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/14.57ecb260ced16ea3d9cd.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Net Sales"
 msgstr ""
@@ -29029,7 +29029,7 @@ msgstr ""
 
 #: packages/woocommerce-admin/src/API/Leaderboards.php:258
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:592
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Total Spend"
 msgstr ""
 
@@ -29714,14 +29714,14 @@ msgid "Add additional piece of info about each coupon to the report."
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php:302
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 msgid "Created"
 msgstr ""
 
 #. translators: %s is product name
 #: packages/woocommerce-admin/src/API/Reports/Coupons/DataStore.php:168
 #: packages/woocommerce-admin/src/API/Reports/Products/DataStore.php:227
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 msgid "(Deleted)"
 msgstr ""
 
@@ -29730,7 +29730,7 @@ msgid "Number of coupons."
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:158
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Discounted Orders"
 msgstr ""
@@ -30063,22 +30063,22 @@ msgid "Limit result to items with specified customer ids."
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:588
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Last Active"
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:589
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Sign Up"
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:593
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "AOV"
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Customers/Controller.php:597
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Postal Code"
 msgstr ""
 
@@ -30176,14 +30176,14 @@ msgid "Limit response to objects that don't have a specified ip address."
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Controller.php:399
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 msgid "File Name"
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Controller.php:400
 #: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:495
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Order #"
 msgstr ""
@@ -30193,7 +30193,7 @@ msgid "User Name"
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Downloads/Controller.php:402
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 msgid "IP"
 msgstr ""
 
@@ -30355,7 +30355,7 @@ msgid "%1$s× %2$s"
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Orders/Controller.php:498
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 msgid "Product(s)"
 msgstr ""
 
@@ -30401,40 +30401,40 @@ msgstr ""
 msgid "Sorry, fetching performance indicators failed."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:225
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:224
 msgid "Visitors"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:231
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:230
 msgid "Views"
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:406
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:405
 msgid "A list of stats to query must be provided."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:602
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:601
 msgid "The specific chart this stat referrers to."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:608
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:607
 msgid "Human readable label for the stat."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:614
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:613
 msgid "Format of the stat."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:621
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:620
 msgid "Value of the stat. Returns null if the stat does not exist or cannot be loaded."
 msgstr ""
 
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:652
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:651
 msgid "There was an issue loading the report endpoints"
 msgstr ""
 
 #. translators: Allowed values is a list of stat endpoints.
-#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:662
+#: packages/woocommerce-admin/src/API/Reports/PerformanceIndicators/Controller.php:661
 msgid "Limit response to specific report stats. Allowed values: %s."
 msgstr ""
 
@@ -30521,7 +30521,7 @@ msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:212
 #: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:451
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Returns"
 msgstr ""
@@ -30543,7 +30543,7 @@ msgid "Gross Sales."
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Revenue/Stats/Controller.php:450
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Total Sales"
 msgstr ""
@@ -30561,7 +30561,7 @@ msgid "Limit result set to items assigned a stock report type."
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Stock/Controller.php:524
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgid "Product / Variation"
 msgstr ""
 
@@ -30608,24 +30608,24 @@ msgid "Limit result set to items assigned one or more tax rates."
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Controller.php:302
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 msgid "Tax Code"
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Controller.php:304
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Total Tax"
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Controller.php:305
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Order Tax"
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Reports/Taxes/Controller.php:306
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Shipping Tax"
 msgstr ""
@@ -30727,7 +30727,7 @@ msgstr ""
 #: packages/woocommerce-admin/src/Features/Analytics.php:132
 #: packages/woocommerce-admin/src/ReportCSVEmail.php:32
 #: packages/woocommerce-admin/dist/app/index.js:2
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 msgid "Revenue"
 msgstr ""
 
@@ -30746,102 +30746,102 @@ msgstr ""
 msgid "Marketing"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:362
+#: packages/woocommerce-admin/src/Features/Onboarding.php:378
 msgid "Fashion, apparel, and accessories"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:367
+#: packages/woocommerce-admin/src/Features/Onboarding.php:383
 msgid "Health and beauty"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:372
+#: packages/woocommerce-admin/src/Features/Onboarding.php:388
 msgid "Electronics and computers"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:377
+#: packages/woocommerce-admin/src/Features/Onboarding.php:393
 msgid "Food and drink"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:382
+#: packages/woocommerce-admin/src/Features/Onboarding.php:398
 msgid "Home, furniture, and garden"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:387
+#: packages/woocommerce-admin/src/Features/Onboarding.php:403
 msgid "CBD and other hemp-derived products"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:392
+#: packages/woocommerce-admin/src/Features/Onboarding.php:408
 msgid "Education and learning"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:414
+#: packages/woocommerce-admin/src/Features/Onboarding.php:430
 msgid "Physical products"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:425
+#: packages/woocommerce-admin/src/Features/Onboarding.php:441
 msgid "Memberships"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:429
+#: packages/woocommerce-admin/src/Features/Onboarding.php:445
 msgid "Bookings"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:433
+#: packages/woocommerce-admin/src/Features/Onboarding.php:449
 msgid "Bundles"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:437
+#: packages/woocommerce-admin/src/Features/Onboarding.php:453
 msgid "Customizable products"
 msgstr ""
 
 #. translators: site currency symbol (used to show that the product costs money)
-#: packages/woocommerce-admin/src/Features/Onboarding.php:623
+#: packages/woocommerce-admin/src/Features/Onboarding.php:639
 msgid " — %s"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:905
-#: packages/woocommerce-admin/src/Features/Onboarding.php:915
+#: packages/woocommerce-admin/src/Features/Onboarding.php:921
+#: packages/woocommerce-admin/src/Features/Onboarding.php:931
 msgid "Setup wizard"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:911
+#: packages/woocommerce-admin/src/Features/Onboarding.php:927
 msgid "WooCommerce Onboarding"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:913
+#: packages/woocommerce-admin/src/Features/Onboarding.php:929
 msgid "Profile Setup Wizard"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:914
+#: packages/woocommerce-admin/src/Features/Onboarding.php:930
 msgid "If you need to access the setup wizard again, please click on the button below."
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:917
+#: packages/woocommerce-admin/src/Features/Onboarding.php:933
 msgid "Task List"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:918
+#: packages/woocommerce-admin/src/Features/Onboarding.php:934
 msgid "If you need to enable or disable the task list, please click on the button below."
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:921
+#: packages/woocommerce-admin/src/Features/Onboarding.php:937
 msgid "Disable"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:925
+#: packages/woocommerce-admin/src/Features/Onboarding.php:941
 msgid "Calypso / WordPress.com"
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:927
+#: packages/woocommerce-admin/src/Features/Onboarding.php:943
 msgid "Quickly access the Jetpack connection flow in Calypso."
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:931
+#: packages/woocommerce-admin/src/Features/Onboarding.php:947
 msgid "Quickly access the WooCommerce.com connection flow in Calypso."
 msgstr ""
 
-#: packages/woocommerce-admin/src/Features/Onboarding.php:978
-#: packages/woocommerce-admin/src/Features/Onboarding.php:984
+#: packages/woocommerce-admin/src/Features/Onboarding.php:994
+#: packages/woocommerce-admin/src/Features/Onboarding.php:1000
 msgid "WooCommerce Helper was not able to connect to WooCommerce.com."
 msgstr ""
 
@@ -33365,7 +33365,7 @@ msgstr ""
 
 #: packages/woocommerce-admin/dist/app/index.js:2
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Inbox"
 msgstr ""
 
@@ -33445,60 +33445,60 @@ msgstr ""
 msgid "Select a default date range. When no range is selected, reports will be viewed by the default date range."
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/0.c2bc01c0f1fb53b04619.js:1
+#: packages/woocommerce-admin/dist/chunks/0.d82e0e3293a5788ce1b3.js:1
 #: packages/woocommerce-admin/dist/chunks/13.1fb65e2fff8975ecf26a.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-admin/dist/chunks/36.22aea36f504a5d4259ea.js:1
 msgid "There was an error getting your stats. Please try again."
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/0.c2bc01c0f1fb53b04619.js:1
+#: packages/woocommerce-admin/dist/chunks/0.d82e0e3293a5788ce1b3.js:1
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
 #: packages/woocommerce-admin/dist/chunks/11.e31ce9931c09bfa70ffd.js:1
 #: packages/woocommerce-admin/dist/chunks/12.1e3fd4a0eb677c221f97.js:1
 #: packages/woocommerce-admin/dist/chunks/13.1fb65e2fff8975ecf26a.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/chunks/36.22aea36f504a5d4259ea.js:1
 msgid "Reload"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/0.c2bc01c0f1fb53b04619.js:1
+#: packages/woocommerce-admin/dist/chunks/0.d82e0e3293a5788ce1b3.js:1
 #: packages/woocommerce-admin/dist/chunks/13.1fb65e2fff8975ecf26a.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-admin/dist/chunks/36.22aea36f504a5d4259ea.js:1
 msgid "No results could be found for this date range."
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/0.c2bc01c0f1fb53b04619.js:1
+#: packages/woocommerce-admin/dist/chunks/0.d82e0e3293a5788ce1b3.js:1
 #: packages/woocommerce-admin/dist/chunks/13.1fb65e2fff8975ecf26a.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-admin/dist/chunks/36.22aea36f504a5d4259ea.js:1
 msgid "View Orders"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/0.c2bc01c0f1fb53b04619.js:1
+#: packages/woocommerce-admin/dist/chunks/0.d82e0e3293a5788ce1b3.js:1
 msgid "Check at least two items below to compare"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/0.c2bc01c0f1fb53b04619.js:1
+#: packages/woocommerce-admin/dist/chunks/0.d82e0e3293a5788ce1b3.js:1
 #: packages/woocommerce-admin/dist/chunks/14.57ecb260ced16ea3d9cd.js:1
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Compare"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/0.c2bc01c0f1fb53b04619.js:1
+#: packages/woocommerce-admin/dist/chunks/0.d82e0e3293a5788ce1b3.js:1
 msgid "Search by item name"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/0.c2bc01c0f1fb53b04619.js:1
+#: packages/woocommerce-admin/dist/chunks/0.d82e0e3293a5788ce1b3.js:1
 msgid "Your %s Report will be emailed to you."
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/0.c2bc01c0f1fb53b04619.js:1
+#: packages/woocommerce-admin/dist/chunks/0.d82e0e3293a5788ce1b3.js:1
 msgid "There was a problem exporting your %s Report. Please try again."
 msgstr ""
 
@@ -33716,7 +33716,7 @@ msgid "Setting up a store for a client? {{link}}Start here{{/link}}"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/6.a1cfaa769c3ae60919e3.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "WooCommerce Payments"
 msgstr ""
@@ -33785,105 +33785,105 @@ msgstr ""
 msgid "Take payments via bank transfer."
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 #: packages/woocommerce-admin/dist/components/index.js:2
 #: packages/woocommerce-blocks/build/vendors.js:6
 msgid "TAX"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "No data for the current search"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "No data for the selected date range"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/chunks/48.77063cbcc06c66457bda.js:1
 #: packages/woocommerce-admin/dist/components/index.js:2
 #: packages/woocommerce-blocks/build/vendors.js:6
 msgid "Previous Period:"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/48.77063cbcc06c66457bda.js:1
 msgid "Previous Year:"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgctxt "Indication of a low quantity"
 msgid "Low"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 msgctxt "categories"
 msgid "+%d more"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgid "product"
 msgid_plural "products"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/14.57ecb260ced16ea3d9cd.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
 msgid "item sold"
 msgid_plural "items sold"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/14.57ecb260ced16ea3d9cd.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 msgid "net sales"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Check at least two products below to compare"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/7.c9ed2f5aab5e118da74b.js:1
+#: packages/woocommerce-admin/dist/chunks/7.98d5571225e8bb353b9c.js:1
 msgid "Search by product name or SKU"
 msgstr ""
 
@@ -33996,69 +33996,69 @@ msgid "Documentation"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Message dismissed."
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/chunks/49.e78eb9119c8eac3f6923.js:1
 msgid "Undo"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Message could not be dismissed."
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "All messages dismissed."
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Dismiss this message"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Dismiss all messages"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Yes, I'm sure"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/wp-admin-scripts/print-shipping-label-banner.js:2
 msgid "Are you sure?"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Dismissed messages cannot be viewed again"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Your inbox is empty"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "As things begin to happen in your store your inbox will start to fill up. You'll see things like achievements, new feature announcements, extension recommendations and more!"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "There was an error getting your inbox. Please try again."
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/10.5ad18ec555981926de5a.js:1
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Insights and growth tips for your business"
 msgstr ""
 
@@ -34151,7 +34151,7 @@ msgid "Update stock"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/12.1e3fd4a0eb677c221f97.js:1
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgid "in stock"
 msgstr ""
 
@@ -34188,9 +34188,9 @@ msgid "Type to search for a category"
 msgstr ""
 
 #: packages/woocommerce-admin/dist/chunks/14.57ecb260ced16ea3d9cd.js:1
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 #: packages/woocommerce-admin/dist/chunks/19.2c402410e34b9bac52cb.js:1
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Comparison"
 msgstr ""
@@ -34214,10 +34214,10 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: packages/woocommerce-admin/dist/chunks/14.57ecb260ced16ea3d9cd.js:1
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 msgid "order"
 msgid_plural "orders"
 msgstr[0] ""
@@ -34236,758 +34236,758 @@ msgstr ""
 msgid "%d categories"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 msgid "coupon"
 msgid_plural "coupons"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 msgid "amount discounted"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 msgid "Percentage"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 msgid "Fixed cart"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 msgid "Fixed product"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 msgid "%d coupons"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Amount"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "All Coupons"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Single Coupon"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Type to search for a coupon"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Compare Coupon Codes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/15.934189b80932b4467ca6.js:1
+#: packages/woocommerce-admin/dist/chunks/15.b43dc4898cfe64a80f40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Check at least two coupon codes below to compare"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "All Customers"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Single Customer"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Type to search for a customer"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Advanced Filters"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "A sentence describing filters for Customers. See screen shot for context: https://cloudup.com/cCsm3GeXJbE"
 msgid "Customers Match {{select /}} Filters"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Remove customer name filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select a customer name filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "{{title}}Name{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select customer name"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "customer names"
 msgid "Includes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "customer names"
 msgid "Excludes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Remove country / region filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select a country / region filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "{{title}}Country / Region{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select country / region"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "countries"
 msgid "Includes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "countries"
 msgid "Excludes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Search customer username"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Remove customer username filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select a customer username filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "{{title}}Username{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select customer username"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "customer usernames"
 msgid "Includes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "customer usernames"
 msgid "Excludes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Search customer email"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Remove customer email filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select a customer email filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "{{title}}Email{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select customer email"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "customer emails"
 msgid "Includes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "customer emails"
 msgid "Excludes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "No. of Orders"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Remove order filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select an order count filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "{{title}}No. of Orders{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "number of orders"
 msgid "Less Than"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "number of orders"
 msgid "More Than"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "number of orders"
 msgid "Between"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Remove total spend filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select a total spend filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "{{title}}Total Spend{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "total spend by customer"
 msgid "Less Than"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "total spend by customer"
 msgid "More Than"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "total spend by customer"
 msgid "Between"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Remove average order value filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select an average order value filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "{{title}}AOV{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "average order value of customer"
 msgid "Less Than"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "average order value of customer"
 msgid "More Than"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "average order value of customer"
 msgid "Between"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Registered"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Remove registered filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select a registered filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "{{title}}Registered{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select registered date"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "date"
 msgid "Before"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "date"
 msgid "After"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgctxt "date"
 msgid "Between"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Last active"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Remove last active filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Select a last active filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "{{title}}Last active{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Average Order Value"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "customer"
 msgid_plural "customers"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "average order"
 msgid_plural "average orders"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "average lifetime spend"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "average order value"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/16.6f98e3a278dc368551b4.js:1
+#: packages/woocommerce-admin/dist/chunks/16.49b97e6388f1e4ab98e0.js:1
 msgid "Search by customer name"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 msgid "day"
 msgid_plural "days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/wp-admin-scripts/print-shipping-label-banner.js:2
 msgid "download"
 msgid_plural "downloads"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "All Downloads"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "A sentence describing filters for Downloads. See screen shot for context: https://cloudup.com/ccxhyH2mEDg"
 msgid "Downloads Match {{select /}} Filters"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Remove product filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select a product filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "{{title}}Product{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select product"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "products"
 msgid "Includes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "products"
 msgid "Excludes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Search order number"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Remove order number filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select a order number filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "{{title}}Order #{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select order number"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "order numbers"
 msgid "Includes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "order numbers"
 msgid "Excludes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Search IP address"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Remove IP address filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select an IP address filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "{{title}}IP Address{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select IP address"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "IP addresses"
 msgid "Includes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/17.1a5e680f689570177bca.js:1
+#: packages/woocommerce-admin/dist/chunks/17.3bb7411d9278dab5881f.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "IP addresses"
 msgid "Excludes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 msgid "%s× %s"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 msgid " customer"
 msgid_plural " customers"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Average Items Per Order"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "All Orders"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "A sentence describing filters for Orders. See screen shot for context: https://cloudup.com/cSsUY9VeCVJ"
 msgid "Orders Match {{select /}} Filters"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Remove order status filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select an order status filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "{{title}}Order Status{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select an order status"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "order status"
 msgid "Is"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "order status"
 msgid "Is Not"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Remove products filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select products"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Coupon Codes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Remove coupon filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select a coupon filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "{{title}}Coupon Code{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select coupon codes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "coupon code"
 msgid "Includes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "coupon code"
 msgid "Excludes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Customer Type"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Remove customer filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select a customer filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "{{title}}Customer is{{/title}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select a customer type"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "New"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Returning"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Remove refunds filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select a refund filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "{{title}}Refunds{{/title}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select a refund type"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Partially refunded"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Fully refunded"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Tax Rates"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Search tax rates"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Remove tax rate filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select a tax rate filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "{{title}}Tax Rate{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select tax rates"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "tax rate"
 msgid "Includes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "tax rate"
 msgid "Excludes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Search attributes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Remove attribute filter"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select a product attribute filter match"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "{{title}}Attribute{{/title}} {{rule /}} {{filter /}}"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Select attributes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "product attribute"
 msgid "Is"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/18.710d406511658613bdf5.js:1
+#: packages/woocommerce-admin/dist/chunks/18.9a8ad51cd904fce65ba8.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgctxt "product attribute"
 msgid "Is Not"
@@ -35060,36 +35060,36 @@ msgstr ""
 msgid "Compare Variations"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Gross Sales"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 msgid "gross sales"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 msgid "returns"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 msgid "coupons"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 msgid "taxes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 msgid "shipping"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/20.e9ccb66341a5c6731490.js:1
+#: packages/woocommerce-admin/dist/chunks/20.4da69c21435efd2c9e40.js:1
 msgid "total sales"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/stock-indicator/block.js:73
 #: packages/woocommerce-blocks/build/all-products.js:1
 #: packages/woocommerce-blocks/build/atomic-block-components/stock-indicator-frontend.js:1
@@ -35097,11 +35097,11 @@ msgstr ""
 msgid "Out of Stock"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgid "Low Stock"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 #: packages/woocommerce-blocks/assets/js/atomic/blocks/product-elements/stock-indicator/block.js:72
 #: packages/woocommerce-blocks/build/all-products.js:1
 #: packages/woocommerce-blocks/build/atomic-block-components/stock-indicator-frontend.js:1
@@ -35109,60 +35109,60 @@ msgstr ""
 msgid "In Stock"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgid "On Backorder"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgid "out of stock"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgid "low stock"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/21.46016e50e137d2ae3be4.js:1
+#: packages/woocommerce-admin/dist/chunks/21.0573c8f697c9f049bb48.js:1
 msgid "on backorder"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 msgid "tax code"
 msgid_plural "tax codes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 msgid "total tax"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 msgid "order tax"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 msgid "shipping tax"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 msgid "%d taxes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "All Taxes"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Check at least two tax codes below to compare"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Search for tax codes to compare"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/22.b36b1a8590f375fa0f66.js:1
+#: packages/woocommerce-admin/dist/chunks/22.236bdfd5d0b2ac1d6f41.js:1
 #: packages/woocommerce-admin/dist/chunks/30.7e1d8028430fa7148071.js:1
 msgid "Compare Tax Codes"
 msgstr ""
@@ -35405,150 +35405,150 @@ msgstr ""
 msgid "Bar chart"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Market my store"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/chunks/49.e78eb9119c8eac3f6923.js:1
 msgid "Personalize my store"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Shipping settings"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Tax settings"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Payment settings"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Edit store details"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/chunks/38.6eb0f9093968baecc7b4.js:1
 msgid "Get support"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "View my store"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Store management"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "WooCommerce PayPal"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "WooCommerce Stripe"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "WooCommerce PayFast"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "WooCommerce Shipping & Tax"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "WooCommerce ShipStation Gateway"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/data/index.js:2
 msgid "Google Ads"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Get traffic stats with Jetpack"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Keep an eye on your views and visitors metrics with Jetpack. Requires Jetpack plugin and a WordPress.com account."
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Get Jetpack"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Activate Jetpack"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Connect Jetpack"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/chunks/46.c754aac4b14123e58adb.js:1
 #: packages/woocommerce-admin/dist/chunks/49.e78eb9119c8eac3f6923.js:1
 #: packages/woocommerce-admin/dist/components/index.js:2
 msgid "No thanks"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Stats overview"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/components/index.js:2
 #: packages/woocommerce-blocks/build/vendors.js:6
 msgid "Choose which values to display"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Display stats:"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 #: packages/woocommerce-admin/dist/date/index.js:1
 #: packages/woocommerce-blocks/build/vendors.js:6
 msgid "Today"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Week to date"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Month to date"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Welcome to your WooCommerce store’s online HQ!"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Here's where you’ll find setup suggestions, tips and tools, and key data on your store’s performance and earnings — all the basics for store management and growth."
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "A personalized inbox full of relevant advice."
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Check your inbox for helpful growth tips tailored to your store and notifications about key traffic and sales milestones. We look forward to celebrating them with you!"
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Good data leads to smart business decisions."
 msgstr ""
 
-#: packages/woocommerce-admin/dist/chunks/34.8f95c34ec8de842b441e.js:1
+#: packages/woocommerce-admin/dist/chunks/34.d3144bb875308a09d8d7.js:1
 msgid "Let's go"
 msgstr ""
 

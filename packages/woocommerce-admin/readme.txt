@@ -4,7 +4,7 @@ Tags: ecommerce, e-commerce, store, sales, reports, analytics, dashboard, activi
 Requires at least: 5.3.0
 Tested up to: 5.4.2
 Requires PHP: 5.6.20
-Stable tag: 1.6.1
+Stable tag: 1.6.2
 License: GPLv3
 License URI: https://github.com/woocommerce/woocommerce-admin/blob/main/license.txt
 
@@ -71,8 +71,16 @@ Release and roadmap notes are available on the [WooCommerce Developers Blog](htt
 
 == Changelog ==
 
+= 1.6.2 10/16/2020 =
+- Fix: Missing activity panels on ugraded sites #5400
+- Fix: Casting of onboarding profile data to array #5415
+- Fix: Gutenberg 9.1.1 compat for inbox on home screen not showing #5416
+- Fix: i18n of Performance Indicator strings #5405
+- Fix: Gutenberg 9.1.1 compat for empty data sets #5409
+
 = 1.6.1 10/13/2020 =
 - Fix: Hide setup checklist shortcut when setup checklist skipped #5360
+- Fix: use of undefined function on WC < 4.0.0.
 
 = 1.6.0 10/9/2020 =
 - Dev: Reviews wp.data store #4941

@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WooCommerce Admin package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Admin 1.6.1\n"
+"Project-Id-Version: WooCommerce Admin 1.6.2\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/woocommerce-admin\n"
-"POT-Creation-Date: 2020-10-13 21:49:52+00:00\n"
+"POT-Creation-Date: 2020-10-16 19:22:56+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -109,7 +109,7 @@ msgstr ""
 #: client/analytics/report/taxes/config.js:43
 #: client/analytics/report/taxes/table.js:58
 #: client/dashboard/dashboard-charts/config.js:40
-#: client/header/activity-panel/index.js:167
+#: client/header/activity-panel/index.js:171
 #: client/header/activity-panel/panels/orders.js:297
 msgid "Orders"
 msgstr ""
@@ -344,7 +344,7 @@ msgstr ""
 #: src/API/Reports/Downloads/Stats/Controller.php:246
 #: src/API/Reports/Orders/Controller.php:276
 #: src/API/Reports/Orders/Stats/Controller.php:343
-#: src/API/Reports/PerformanceIndicators/Controller.php:674
+#: src/API/Reports/PerformanceIndicators/Controller.php:673
 #: src/API/Reports/Products/Controller.php:276
 #: src/API/Reports/Products/Stats/Controller.php:329
 #: src/API/Reports/Revenue/Stats/Controller.php:375
@@ -361,7 +361,7 @@ msgstr ""
 #: src/API/Reports/Downloads/Stats/Controller.php:252
 #: src/API/Reports/Orders/Controller.php:282
 #: src/API/Reports/Orders/Stats/Controller.php:349
-#: src/API/Reports/PerformanceIndicators/Controller.php:680
+#: src/API/Reports/PerformanceIndicators/Controller.php:679
 #: src/API/Reports/Products/Controller.php:282
 #: src/API/Reports/Products/Stats/Controller.php:335
 #: src/API/Reports/Revenue/Stats/Controller.php:381
@@ -1769,7 +1769,7 @@ msgid "IP"
 msgstr ""
 
 #: src/API/Reports/Downloads/Stats/Controller.php:144
-#: src/Features/Analytics.php:168 src/Features/Onboarding.php:418
+#: src/Features/Analytics.php:168 src/Features/Onboarding.php:434
 #: src/ReportCSVEmail.php:38
 #: client/analytics/report/downloads/config.js:25
 #: client/analytics/report/downloads/table.js:197
@@ -2010,46 +2010,46 @@ msgstr ""
 msgid "Sorry, fetching performance indicators failed."
 msgstr ""
 
-#: src/API/Reports/PerformanceIndicators/Controller.php:225
+#: src/API/Reports/PerformanceIndicators/Controller.php:224
 msgid "Visitors"
 msgstr ""
 
-#: src/API/Reports/PerformanceIndicators/Controller.php:231
+#: src/API/Reports/PerformanceIndicators/Controller.php:230
 msgid "Views"
 msgstr ""
 
-#: src/API/Reports/PerformanceIndicators/Controller.php:406
+#: src/API/Reports/PerformanceIndicators/Controller.php:405
 msgid "A list of stats to query must be provided."
 msgstr ""
 
-#: src/API/Reports/PerformanceIndicators/Controller.php:595
+#: src/API/Reports/PerformanceIndicators/Controller.php:594
 #: src/API/Reports/Stock/Controller.php:370
 msgid "Unique identifier for the resource."
 msgstr ""
 
-#: src/API/Reports/PerformanceIndicators/Controller.php:602
+#: src/API/Reports/PerformanceIndicators/Controller.php:601
 msgid "The specific chart this stat referrers to."
 msgstr ""
 
-#: src/API/Reports/PerformanceIndicators/Controller.php:608
+#: src/API/Reports/PerformanceIndicators/Controller.php:607
 msgid "Human readable label for the stat."
 msgstr ""
 
-#: src/API/Reports/PerformanceIndicators/Controller.php:614
+#: src/API/Reports/PerformanceIndicators/Controller.php:613
 msgid "Format of the stat."
 msgstr ""
 
-#: src/API/Reports/PerformanceIndicators/Controller.php:621
+#: src/API/Reports/PerformanceIndicators/Controller.php:620
 msgid ""
 "Value of the stat. Returns null if the stat does not exist or cannot be "
 "loaded."
 msgstr ""
 
-#: src/API/Reports/PerformanceIndicators/Controller.php:652
+#: src/API/Reports/PerformanceIndicators/Controller.php:651
 msgid "There was an issue loading the report endpoints"
 msgstr ""
 
-#: src/API/Reports/PerformanceIndicators/Controller.php:662
+#: src/API/Reports/PerformanceIndicators/Controller.php:661
 #. translators: Allowed values is a list of stat endpoints.
 msgid "Limit response to specific report stats. Allowed values: %s."
 msgstr ""
@@ -2151,7 +2151,7 @@ msgstr ""
 #: client/analytics/report/products/table-variations.js:82
 #: client/analytics/report/products/table.js:91
 #: client/analytics/report/stock/table.js:198
-#: client/header/activity-panel/index.js:173
+#: client/header/activity-panel/index.js:177
 #: client/header/activity-panel/panels/stock/index.js:79
 msgid "Stock"
 msgstr ""
@@ -2497,114 +2497,114 @@ msgstr ""
 msgid "Marketing"
 msgstr ""
 
-#: src/Features/Onboarding.php:362
+#: src/Features/Onboarding.php:378
 msgid "Fashion, apparel, and accessories"
 msgstr ""
 
-#: src/Features/Onboarding.php:367
+#: src/Features/Onboarding.php:383
 msgid "Health and beauty"
 msgstr ""
 
-#: src/Features/Onboarding.php:372
+#: src/Features/Onboarding.php:388
 msgid "Electronics and computers"
 msgstr ""
 
-#: src/Features/Onboarding.php:377
+#: src/Features/Onboarding.php:393
 msgid "Food and drink"
 msgstr ""
 
-#: src/Features/Onboarding.php:382
+#: src/Features/Onboarding.php:398
 msgid "Home, furniture, and garden"
 msgstr ""
 
-#: src/Features/Onboarding.php:387
+#: src/Features/Onboarding.php:403
 msgid "CBD and other hemp-derived products"
 msgstr ""
 
-#: src/Features/Onboarding.php:392
+#: src/Features/Onboarding.php:408
 msgid "Education and learning"
 msgstr ""
 
-#: src/Features/Onboarding.php:397
+#: src/Features/Onboarding.php:413
 #: client/profile-wizard/steps/business-details.js:786
 msgid "Other"
 msgstr ""
 
-#: src/Features/Onboarding.php:414
+#: src/Features/Onboarding.php:430
 msgid "Physical products"
 msgstr ""
 
-#: src/Features/Onboarding.php:421
+#: src/Features/Onboarding.php:437
 msgid "Subscriptions"
 msgstr ""
 
-#: src/Features/Onboarding.php:425
+#: src/Features/Onboarding.php:441
 msgid "Memberships"
 msgstr ""
 
-#: src/Features/Onboarding.php:429
+#: src/Features/Onboarding.php:445
 msgid "Bookings"
 msgstr ""
 
-#: src/Features/Onboarding.php:433
+#: src/Features/Onboarding.php:449
 msgid "Bundles"
 msgstr ""
 
-#: src/Features/Onboarding.php:437
+#: src/Features/Onboarding.php:453
 msgid "Customizable products"
 msgstr ""
 
-#: src/Features/Onboarding.php:623
+#: src/Features/Onboarding.php:639
 #. translators: site currency symbol (used to show that the product costs
 #. money)
 msgid " — %s"
 msgstr ""
 
-#: src/Features/Onboarding.php:905 src/Features/Onboarding.php:915
+#: src/Features/Onboarding.php:921 src/Features/Onboarding.php:931
 msgid "Setup wizard"
 msgstr ""
 
-#: src/Features/Onboarding.php:911
+#: src/Features/Onboarding.php:927
 msgid "WooCommerce Onboarding"
 msgstr ""
 
-#: src/Features/Onboarding.php:913
+#: src/Features/Onboarding.php:929
 msgid "Profile Setup Wizard"
 msgstr ""
 
-#: src/Features/Onboarding.php:914
+#: src/Features/Onboarding.php:930
 msgid ""
 "If you need to access the setup wizard again, please click on the button "
 "below."
 msgstr ""
 
-#: src/Features/Onboarding.php:917
+#: src/Features/Onboarding.php:933
 msgid "Task List"
 msgstr ""
 
-#: src/Features/Onboarding.php:918
+#: src/Features/Onboarding.php:934
 msgid ""
 "If you need to enable or disable the task list, please click on the button "
 "below."
 msgstr ""
 
-#: src/Features/Onboarding.php:920
+#: src/Features/Onboarding.php:936
 msgid "Enable"
 msgstr ""
 
-#: src/Features/Onboarding.php:921
+#: src/Features/Onboarding.php:937
 msgid "Disable"
 msgstr ""
 
-#: src/Features/Onboarding.php:925
+#: src/Features/Onboarding.php:941
 msgid "Calypso / WordPress.com"
 msgstr ""
 
-#: src/Features/Onboarding.php:927
+#: src/Features/Onboarding.php:943
 msgid "Quickly access the Jetpack connection flow in Calypso."
 msgstr ""
 
-#: src/Features/Onboarding.php:928 src/Features/Onboarding.php:932
+#: src/Features/Onboarding.php:944 src/Features/Onboarding.php:948
 #: src/Notes/WC_Admin_Notes_Woo_Subscriptions_Notes.php:190
 #: client/dashboard/components/connect/index.js:86
 #: client/task-list/tasks/payments/paypal.js:324
@@ -2613,11 +2613,11 @@ msgstr ""
 msgid "Connect"
 msgstr ""
 
-#: src/Features/Onboarding.php:931
+#: src/Features/Onboarding.php:947
 msgid "Quickly access the WooCommerce.com connection flow in Calypso."
 msgstr ""
 
-#: src/Features/Onboarding.php:978 src/Features/Onboarding.php:984
+#: src/Features/Onboarding.php:994 src/Features/Onboarding.php:1000
 msgid "WooCommerce Helper was not able to connect to WooCommerce.com."
 msgstr ""
 
@@ -3443,14 +3443,14 @@ msgstr ""
 msgid "View Orders"
 msgstr ""
 
-#: client/analytics/components/report-summary/index.js:95
+#: client/analytics/components/report-summary/index.js:98
 #: client/dashboard/store-performance/index.js:131
 #: client/homescreen/stats-overview/stats-list.js:75
 #: packages/components/build-module/summary/number.js:184
 msgid "Previous Period:"
 msgstr ""
 
-#: client/analytics/components/report-summary/index.js:96
+#: client/analytics/components/report-summary/index.js:99
 #: client/dashboard/store-performance/index.js:132
 msgid "Previous Year:"
 msgstr ""
@@ -4682,37 +4682,37 @@ msgstr ""
 msgid "Display Stats:"
 msgstr ""
 
-#: client/header/activity-panel/index.js:147
+#: client/header/activity-panel/index.js:153
 #: client/header/activity-panel/panels/inbox/index.js:128
 msgid "Inbox"
 msgstr ""
 
-#: client/header/activity-panel/index.js:157
+#: client/header/activity-panel/index.js:162
 msgid "Store Setup"
 msgstr ""
 
-#: client/header/activity-panel/index.js:183
+#: client/header/activity-panel/index.js:185
 #: client/header/activity-panel/panels/reviews.js:281
 msgid "Reviews"
 msgstr ""
 
-#: client/header/activity-panel/index.js:197
+#: client/header/activity-panel/index.js:199
 msgid "Help"
 msgstr ""
 
-#: client/header/activity-panel/index.js:316
+#: client/header/activity-panel/index.js:318
 msgid "View Activity Panel, you have unread activity"
 msgstr ""
 
-#: client/header/activity-panel/index.js:320
+#: client/header/activity-panel/index.js:322
 msgid "View Activity Panel"
 msgstr ""
 
-#: client/header/activity-panel/index.js:325
+#: client/header/activity-panel/index.js:327
 msgid "Store Activity"
 msgstr ""
 
-#: client/header/activity-panel/index.js:338
+#: client/header/activity-panel/index.js:340
 msgid "Close Activity Panel"
 msgstr ""
 
