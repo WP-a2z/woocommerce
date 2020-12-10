@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 4.7.0\n"
+"Project-Id-Version: WooCommerce 4.7.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2020-11-10T18:01:54-03:00\n"
+"POT-Creation-Date: 2020-11-24T22:03:30-03:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.4.0\n"
 "X-Domain: woocommerce\n"
@@ -17550,7 +17550,7 @@ msgstr ""
 #. translators: %d: Page number.
 #. translators: %d is the page number (1, 2, 3...).
 #: includes/class-wc-breadcrumb.php:377
-#: includes/class-wc-template-loader.php:437
+#: includes/class-wc-template-loader.php:438
 #: packages/woocommerce-blocks/assets/js/base/components/pagination/index.js:97
 #: packages/woocommerce-blocks/assets/js/base/components/pagination/index.js:136
 #: packages/woocommerce-blocks/assets/js/base/components/pagination/index.js:170
@@ -18405,10 +18405,15 @@ msgstr ""
 msgid "Please choose a product to add to your cart&hellip;"
 msgstr ""
 
-#: includes/class-wc-form-handler.php:932
-#: includes/class-wc-form-handler.php:936
-#: includes/class-wc-form-handler.php:1071
-#: includes/class-wc-form-handler.php:1105
+#. translators: 1: product link, 2: product name
+#: includes/class-wc-form-handler.php:911
+msgid "Please choose product options by visiting <a href=\"%1$s\" title=\"%2$s\">%2$s</a>."
+msgstr ""
+
+#: includes/class-wc-form-handler.php:946
+#: includes/class-wc-form-handler.php:950
+#: includes/class-wc-form-handler.php:1085
+#: includes/class-wc-form-handler.php:1119
 #: packages/woocommerce-blocks/assets/js/base/components/block-error-boundary/block-error.js:16
 #: packages/woocommerce-blocks/build/active-filters-frontend.js:1
 #: packages/woocommerce-blocks/build/all-products-frontend.js:6
@@ -18424,23 +18429,23 @@ msgstr ""
 msgid "Error:"
 msgstr ""
 
-#: includes/class-wc-form-handler.php:936
+#: includes/class-wc-form-handler.php:950
 msgid "Username is required."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:1024
+#: includes/class-wc-form-handler.php:1038
 msgid "Please enter your password."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:1028
+#: includes/class-wc-form-handler.php:1042
 msgid "Passwords do not match."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:1083
+#: includes/class-wc-form-handler.php:1097
 msgid "Your account was created successfully and a password has been sent to your email address."
 msgstr ""
 
-#: includes/class-wc-form-handler.php:1085
+#: includes/class-wc-form-handler.php:1099
 msgid "Your account was created successfully. Your login details have been sent to your email address."
 msgstr ""
 
@@ -26228,27 +26233,27 @@ msgstr ""
 msgid "cURL installed but unable to retrieve version."
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1159
+#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1172
 msgctxt "Page setting"
 msgid "Shop base"
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1163
+#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1176
 msgctxt "Page setting"
 msgid "Cart"
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1167
+#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1180
 msgctxt "Page setting"
 msgid "Checkout"
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1171
+#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1184
 msgctxt "Page setting"
 msgid "My account"
 msgstr ""
 
-#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1175
+#: includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php:1188
 msgctxt "Page setting"
 msgid "Terms and conditions"
 msgstr ""
