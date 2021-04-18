@@ -34,7 +34,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 	 *
 	 * @return array List of block attributes with type and defaults.
 	 */
-	protected function get_attributes() {
+	protected function get_block_type_attributes() {
 		return array(
 			'className'         => $this->get_schema_string(),
 			'columns'           => $this->get_schema_number( wc_get_theme_support( 'product_blocks::default_columns', 3 ) ),
@@ -58,7 +58,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 	 * @param string $content    Block content. Default empty string.
 	 * @return string Rendered block type output.
 	 */
-	public function render( $attributes = array(), $content = '' ) {
+	protected function render( $attributes = array(), $content = '' ) {
 		$this->attributes = $this->parse_attributes( $attributes );
 		$this->content    = $content;
 		$this->query_args = $this->parse_query_args();
@@ -308,7 +308,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 	 * @param int $id Product ID.
 	 * @return string Rendered product output.
 	 */
-	public function render_product( $id ) {
+	protected function render_product( $id ) {
 		$product = wc_get_product( $id );
 
 		if ( ! $product ) {
@@ -349,7 +349,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 	 * @return string
 	 */
 	protected function get_image_html( $product ) {
-		return '<div class="wc-block-grid__product-image">' . $product->get_image( 'woocommerce_thumbnail' ) . '</div>';
+		return '<div class="wc-block-grid__product-image">' . $product->get_image( 'woocommerce_thumbnail' ) . '</div>'; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 	}
 
 	/**
@@ -362,7 +362,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 		if ( empty( $this->attributes['contentVisibility']['title'] ) ) {
 			return '';
 		}
-		return '<div class="wc-block-grid__product-title">' . $product->get_title() . '</div>';
+		return '<div class="wc-block-grid__product-title">' . wp_kses_post( $product->get_title() ) . '</div>';
 	}
 
 	/**
@@ -382,7 +382,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 		if ( $rating_count > 0 ) {
 			return sprintf(
 				'<div class="wc-block-grid__product-rating">%s</div>',
-				wc_get_rating_html( $average, $rating_count )
+				wc_get_rating_html( $average, $rating_count ) // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 			);
 		}
 		return '';
@@ -400,7 +400,7 @@ abstract class AbstractProductGrid extends AbstractDynamicBlock {
 		}
 		return sprintf(
 			'<div class="wc-block-grid__product-price price">%s</div>',
-			$product->get_price_html()
+			wp_kses_post( $product->get_price_html() )
 		);
 	}
 

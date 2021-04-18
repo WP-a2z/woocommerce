@@ -255,7 +255,7 @@ const AttributeFilterBlock = ( {
 				if ( filterAddedName && filterRemovedName ) {
 					speak(
 						sprintf(
-							/* Translators: %1$s and %2$s are attribute terms (for example: 'red', 'blue', 'large'...). */
+							/* translators: %1$s and %2$s are attribute terms (for example: 'red', 'blue', 'large'...). */
 							__(
 								'%1$s filter replaced with %2$s.',
 								'woocommerce'
@@ -267,7 +267,7 @@ const AttributeFilterBlock = ( {
 				} else if ( filterAddedName ) {
 					speak(
 						sprintf(
-							/* Translators: %s attribute term (for example: 'red', 'blue', 'large'...) */
+							/* translators: %s attribute term (for example: 'red', 'blue', 'large'...) */
 							__(
 								'%s filter added.',
 								'woocommerce'
@@ -278,7 +278,7 @@ const AttributeFilterBlock = ( {
 				} else if ( filterRemovedName ) {
 					speak(
 						sprintf(
-							/* Translators: %s attribute term (for example: 'red', 'blue', 'large'...) */
+							/* translators: %s attribute term (for example: 'red', 'blue', 'large'...) */
 							__(
 								'%s filter removed.',
 								'woocommerce'

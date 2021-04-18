@@ -33,8 +33,6 @@ class Init {
 		add_action( 'admin_enqueue_scripts', array( $this, 'maybe_enqueue_opt_out_scripts' ) );
 
 		if ( Loader::is_feature_enabled( 'navigation' ) ) {
-			add_action( 'in_admin_header', array( __CLASS__, 'embed_navigation' ) );
-
 			Menu::instance()->init();
 			CoreMenu::instance()->init();
 			Screen::instance()->init();
@@ -113,6 +111,11 @@ class Init {
 		$has_option_disabled = 'yes' !== get_option( self::TOGGLE_OPTION_NAME, 'no' );
 		$is_not_compatible   = ! self::is_nav_compatible();
 
+		/* phpcs:disable WordPress.Security.NonceVerification */
+		if ( $has_option_disabled && isset( $_POST['woocommerce_navigation_enabled'] ) && '1' === $_POST['woocommerce_navigation_enabled'] ) {
+			$has_option_disabled = false;
+		}
+
 		if ( ( $has_feature_enabled && $has_option_disabled ) || $is_not_compatible ) {
 			$features = array_diff( $features, array( 'navigation' ) );
 		}
@@ -129,20 +132,6 @@ class Init {
 		$options[] = self::TOGGLE_OPTION_NAME;
 
 		return $options;
-	}
-
-	/**
-	 * Set up a div for the navigation.
-	 * The initial contents here are meant as a place loader for when the PHP page initialy loads.
-	 */
-	public static function embed_navigation() {
-		if ( ! Screen::is_woocommerce_page() ) {
-			return;
-		}
-
-		?>
-		<div id="woocommerce-embedded-navigation"></div>
-		<?php
 	}
 
 	/**

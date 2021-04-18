@@ -4,7 +4,7 @@ Tags: ecommerce, e-commerce, store, sales, reports, analytics, dashboard, activi
 Requires at least: 5.4.0
 Tested up to: 5.6.0
 Requires PHP: 7.0
-Stable tag: 2.0.2
+Stable tag: 2.1.5
 License: GPLv3
 License URI: https://github.com/woocommerce/woocommerce-admin/blob/main/license.txt
 
@@ -36,8 +36,8 @@ WooCommerce Admin also allows store owners to customize a new dashboard screen w
 
 = Minimum Requirements =
 
-* WordPress 5.3
-* WooCommerce 4.5 or greater
+* WordPress 5.4
+* WooCommerce 4.8 or greater
 * PHP version 7.0 or greater. PHP 7.2 or greater is recommended
 * MySQL version 5.0 or greater. MySQL 5.6 or greater is recommended
 
@@ -73,6 +73,76 @@ Release and roadmap notes are available on the [WooCommerce Developers Blog](htt
 
 == Changelog ==
 
+== 2.1.4 3/29/2021  ==
+
+- Fix: Adding New Zealand and Ireland to selective bundle option, previously missed. #6649
+
+== 2.1.3 3/14/2021  ==
+
+- Feature: Increase target audience for business feature step. #6508
+- Fix: Correct a bug where the JP connection flow would not happen when installing JP in the OBW. #6521
+
+== 2.1.2 3/10/2021  ==
+
+- Fix: Add guard to "Deactivate Plugin" note handlers to prevent fatal error. #6532
+- Fix: Crash of Analytics > Settings page when Gutenberg is installed. #6540
+
+== 2.1.1 3/4/2021  ==
+
+- Fix: Restore missing Correct the Klarna slug #6440
+
+== 2.1.0 3/4/2021  ==
+
+- Dev: Allow highlight tooltip to use body tag as parent. #6309
+- Dev: Remove Google fonts and material icons. #6343
+- Add: Remove CES actions for adding and editing a product and editing an order #6355
+- Dev: Add filter to allow enabling the WP toolbar within the new navigation. #6371
+- Dev: Add unit tests to Navigation's Container component. #6344
+- Fix: Enqueue scripts called incorrectly in php unit tests #6358
+- Fix: Removed @woocommerce/components/card from OBW #6374
+- Fix: Email notes now are turned off by default #6324
+- Add: CES track settings tab on updating settings #6368
+- Fix: Top bar slightly overlaps wp-admin navigation on mobile #6292
+- Fix: Hide tooltip in welcome modal #6142
+- Fix: update single column home screen width to 680px #6297
+- Fix: Recommended Payment Banner missing in Safari #6375
+- Tweak: Order and styles updates to nav footer #6373
+- Enhancement: Move capability checks to client #6365
+- Tweak: Enqueue beta features scripts on enqueue_scripts action instead of filter  #6358
+- Enhancement: Navigation: Add test to container component #6344
+- Fix: Empty nav menu #6366
+- Enhancement: override wpbody styles when nav present #6354
+- Fix: Check if tax was successfully added before displaying notice #6229
+- Fix: Update timing of InboxPanel state changes for the unread indicator #6246
+- Tweak: Set `is_deleted` from the database when instantiating a `Note` #6322
+- Tweak: New Settings: Turn off in dev mode #6348
+- Add: Favorites tooltip to the navigation #6312
+- Fix: Display" option fails to collapse upon invoking "Help" option #6233
+- Enhancement: Move favorited menu items to primary menu #6290
+- Dev: Use box sizing and padding to fix nav and admin menu styling #6335
+- Tweak: Update inline documentation for navigation Screen class #6173
+- Tweak: Remove categories without menu items #6329
+- Add: Core settings redirection to new settings pages #6091
+- Add: Settings feature and pages #6089
+- Add: Settings client pages #6092
+- Add: Favoriting extensions client UI #6287
+- Dev: Refactor head and body heights #6247
+- Fix: Removal of core settings pages #6328
+- Dev: Fix the react state update error on homescreen. #6320
+- Tweak: Navigation: Migrate methods to `admin_menu` hook #6319
+- Tweak: Move admin menu manipulation from admin_head to admin_menu #6310
+- Tweak: Updates to copy and punctuation to be more conversational and consistent. #6298
+- Dev: Change `siteUrl` to `homeUrl` on navigation site title #6240
+- Dev: Add navigation favorites data store #6275
+- Add: Add navigation intro modal. #6367
+- Fix: Reset Navigation submenu before making Flyout #6396
+- Fix: Broken link anchors to online documentation. #6455
+- Fix: Add check for navigating being enabled. #6462
+
+== 2.0.3 03/10/2021 ==
+
+- Fix: Crash of Analytics > Settings page when Gutenberg is installed. #6540
+
 == 2.0.2 25/05/2021 ==
 
 - Fix: Correct the Klarna slug #6440
@@ -90,12 +160,16 @@ Release and roadmap notes are available on the [WooCommerce Developers Blog](htt
 - Dev: Add wait script for mysql to be ready for phpunit tests in docker. #6185
 - Update: Homescreen layout, moving Inbox panel for better interaction. #6122
 - Dev: Remove old debug code for connecting to Calypso / Wordpress.com. #6097
+- Tweak: Adjust the Marketing note not to show until store is at least 5 days. #6083
 - Add: Task list payments - include Mollie as an option. #6257
 - Tweak: Refactored extended task list. #6081
 - Fix: Fixed the Add First Product email note checks. #6260
 - Fix: Onboarding - Fixed "Business Details" error. #6271
 - Enhancement: Use the new Paypal payments plugin for onboarding. #6261
 - Fix: Show management links when only main task list is hidden. #6291
+- Dev: Allow highlight tooltip to use body tag as parent. #6309
+- Add: Allow users to install the PayU plugin in the payments setup task. #6332
+- Fix: Persist the enabling of plugins in the payments setup task. #6332
 
 == 1.9.0 1/15/2021 ==
 
