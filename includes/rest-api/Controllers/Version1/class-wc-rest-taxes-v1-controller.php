@@ -4,6 +4,8 @@
  *
  * Handles requests to the /taxes endpoint.
  *
+ * @author   WooThemes
+ * @category API
  * @package WooCommerce\RestApi
  * @since    3.0.0
  */
@@ -38,79 +40,67 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 	 * Register the routes for taxes.
 	 */
 	public function register_routes() {
-		register_rest_route(
-			$this->namespace,
-			'/' . $this->rest_base,
+		register_rest_route( $this->namespace, '/' . $this->rest_base, array(
 			array(
-				array(
-					'methods'             => WP_REST_Server::READABLE,
-					'callback'            => array( $this, 'get_items' ),
-					'permission_callback' => array( $this, 'get_items_permissions_check' ),
-					'args'                => $this->get_collection_params(),
-				),
-				array(
-					'methods'             => WP_REST_Server::CREATABLE,
-					'callback'            => array( $this, 'create_item' ),
-					'permission_callback' => array( $this, 'create_item_permissions_check' ),
-					'args'                => $this->get_endpoint_args_for_item_schema( WP_REST_Server::CREATABLE ),
-				),
-				'schema' => array( $this, 'get_public_item_schema' ),
-			)
-		);
+				'methods'             => WP_REST_Server::READABLE,
+				'callback'            => array( $this, 'get_items' ),
+				'permission_callback' => array( $this, 'get_items_permissions_check' ),
+				'args'                => $this->get_collection_params(),
+			),
+			array(
+				'methods'             => WP_REST_Server::CREATABLE,
+				'callback'            => array( $this, 'create_item' ),
+				'permission_callback' => array( $this, 'create_item_permissions_check' ),
+				'args'                => $this->get_endpoint_args_for_item_schema( WP_REST_Server::CREATABLE ),
+			),
+			'schema' => array( $this, 'get_public_item_schema' ),
+		) );
 
-		register_rest_route(
-			$this->namespace,
-			'/' . $this->rest_base . '/(?P<id>[\d]+)',
+		register_rest_route( $this->namespace, '/' . $this->rest_base . '/(?P<id>[\d]+)', array(
+			'args' => array(
+				'id' => array(
+					'description' => __( 'Unique identifier for the resource.', 'woocommerce' ),
+					'type'        => 'integer',
+				),
+			),
 			array(
-				'args'   => array(
-					'id' => array(
-						'description' => __( 'Unique identifier for the resource.', 'woocommerce' ),
-						'type'        => 'integer',
+				'methods'             => WP_REST_Server::READABLE,
+				'callback'            => array( $this, 'get_item' ),
+				'permission_callback' => array( $this, 'get_item_permissions_check' ),
+				'args'                => array(
+					'context' => $this->get_context_param( array( 'default' => 'view' ) ),
+				),
+			),
+			array(
+				'methods'             => WP_REST_Server::EDITABLE,
+				'callback'            => array( $this, 'update_item' ),
+				'permission_callback' => array( $this, 'update_item_permissions_check' ),
+				'args'                => $this->get_endpoint_args_for_item_schema( WP_REST_Server::EDITABLE ),
+			),
+			array(
+				'methods'             => WP_REST_Server::DELETABLE,
+				'callback'            => array( $this, 'delete_item' ),
+				'permission_callback' => array( $this, 'delete_item_permissions_check' ),
+				'args'                => array(
+					'force' => array(
+						'default'     => false,
+						'type'        => 'boolean',
+						'description' => __( 'Required to be true, as resource does not support trashing.', 'woocommerce' ),
 					),
 				),
-				array(
-					'methods'             => WP_REST_Server::READABLE,
-					'callback'            => array( $this, 'get_item' ),
-					'permission_callback' => array( $this, 'get_item_permissions_check' ),
-					'args'                => array(
-						'context' => $this->get_context_param( array( 'default' => 'view' ) ),
-					),
-				),
-				array(
-					'methods'             => WP_REST_Server::EDITABLE,
-					'callback'            => array( $this, 'update_item' ),
-					'permission_callback' => array( $this, 'update_item_permissions_check' ),
-					'args'                => $this->get_endpoint_args_for_item_schema( WP_REST_Server::EDITABLE ),
-				),
-				array(
-					'methods'             => WP_REST_Server::DELETABLE,
-					'callback'            => array( $this, 'delete_item' ),
-					'permission_callback' => array( $this, 'delete_item_permissions_check' ),
-					'args'                => array(
-						'force' => array(
-							'default'     => false,
-							'type'        => 'boolean',
-							'description' => __( 'Required to be true, as resource does not support trashing.', 'woocommerce' ),
-						),
-					),
-				),
-				'schema' => array( $this, 'get_public_item_schema' ),
-			)
-		);
+			),
+			'schema' => array( $this, 'get_public_item_schema' ),
+		) );
 
-		register_rest_route(
-			$this->namespace,
-			'/' . $this->rest_base . '/batch',
+		register_rest_route( $this->namespace, '/' . $this->rest_base . '/batch', array(
 			array(
-				array(
-					'methods'             => WP_REST_Server::EDITABLE,
-					'callback'            => array( $this, 'batch_items' ),
-					'permission_callback' => array( $this, 'batch_items_permissions_check' ),
-					'args'                => $this->get_endpoint_args_for_item_schema( WP_REST_Server::EDITABLE ),
-				),
-				'schema' => array( $this, 'get_public_batch_schema' ),
-			)
-		);
+				'methods'             => WP_REST_Server::EDITABLE,
+				'callback'            => array( $this, 'batch_items' ),
+				'permission_callback' => array( $this, 'batch_items_permissions_check' ),
+				'args'                => $this->get_endpoint_args_for_item_schema( WP_REST_Server::EDITABLE ),
+			),
+			'schema' => array( $this, 'get_public_batch_schema' ),
+		) );
 	}
 
 	/**
@@ -210,7 +200,7 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 	public function get_items( $request ) {
 		global $wpdb;
 
-		$prepared_args           = array();
+		$prepared_args = array();
 		$prepared_args['order']  = $request['order'];
 		$prepared_args['number'] = $request['per_page'];
 		if ( ! empty( $request['offset'] ) ) {
@@ -218,10 +208,9 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 		} else {
 			$prepared_args['offset'] = ( $request['page'] - 1 ) * $prepared_args['number'];
 		}
-		$orderby_possibles        = array(
-			'id'       => 'tax_rate_id',
-			'order'    => 'tax_rate_order',
-			'priority' => 'tax_rate_priority',
+		$orderby_possibles = array(
+			'id'    => 'tax_rate_id',
+			'order' => 'tax_rate_order',
 		);
 		$prepared_args['orderby'] = $orderby_possibles[ $request['orderby'] ];
 		$prepared_args['class']   = $request['class'];
@@ -234,42 +223,30 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 		 */
 		$prepared_args = apply_filters( 'woocommerce_rest_tax_query', $prepared_args, $request );
 
-		$orderby = sanitize_key( $prepared_args['orderby'] ) . ' ' . sanitize_key( $prepared_args['order'] );
-		$query   = "
+		$query = "
 			SELECT *
 			FROM {$wpdb->prefix}woocommerce_tax_rates
-			%s
-			ORDER BY {$orderby}
-			LIMIT %%d, %%d
+			WHERE 1 = 1
 		";
 
-		$wpdb_prepare_args = array(
-			$prepared_args['offset'],
-			$prepared_args['number'],
-		);
-
 		// Filter by tax class.
-		if ( empty( $prepared_args['class'] ) ) {
-			$query = sprintf( $query, '' );
-		} else {
+		if ( ! empty( $prepared_args['class'] ) ) {
 			$class = 'standard' !== $prepared_args['class'] ? sanitize_title( $prepared_args['class'] ) : '';
-			array_unshift( $wpdb_prepare_args, $class );
-			$query = sprintf( $query, 'WHERE tax_rate_class = %s' );
+			$query .= " AND tax_rate_class = '$class'";
 		}
 
+		// Order tax rates.
+		$order_by = sprintf( ' ORDER BY %s', sanitize_key( $prepared_args['orderby'] ) );
+
+		// Pagination.
+		$pagination = sprintf( ' LIMIT %d, %d', $prepared_args['offset'], $prepared_args['number'] );
+
 		// Query taxes.
-		// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
-		$results = $wpdb->get_results(
-			$wpdb->prepare(
-				$query,
-				$wpdb_prepare_args
-			)
-		);
-		// phpcs:enable WordPress.DB.PreparedSQL.NotPrepared
+		$results = $wpdb->get_results( $query . $order_by . $pagination );
 
 		$taxes = array();
 		foreach ( $results as $tax ) {
-			$data    = $this->prepare_item_for_response( $tax, $request );
+			$data = $this->prepare_item_for_response( $tax, $request );
 			$taxes[] = $this->prepare_response_for_collection( $data );
 		}
 
@@ -277,18 +254,10 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 
 		// Store pagination values for headers then unset for count query.
 		$per_page = (int) $prepared_args['number'];
-		$page     = ceil( ( ( (int) $prepared_args['offset'] ) / $per_page ) + 1 );
+		$page = ceil( ( ( (int) $prepared_args['offset'] ) / $per_page ) + 1 );
 
 		// Query only for ids.
-		// phpcs:disable WordPress.DB.PreparedSQL.NotPrepared
-		$query = str_replace( 'SELECT *', 'SELECT tax_rate_id', $query );
-		$wpdb->get_results(
-			$wpdb->prepare(
-				$query,
-				$wpdb_prepare_args
-			)
-		);
-		// phpcs:enable WordPress.DB.PreparedSQL.NotPrepared
+		$wpdb->get_results( str_replace( 'SELECT *', 'SELECT tax_rate_id', $query ) );
 
 		// Calculate totals.
 		$total_taxes = (int) $wpdb->num_rows;
@@ -318,13 +287,13 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 	 * Take tax data from the request and return the updated or newly created rate.
 	 *
 	 * @param WP_REST_Request $request Full details about the request.
-	 * @param stdClass|null   $current Existing tax object.
+	 * @param stdClass|null $current Existing tax object.
 	 * @return object
 	 */
 	protected function create_or_update_tax( $request, $current = null ) {
-		$id     = absint( isset( $request['id'] ) ? $request['id'] : 0 );
-		$data   = array();
-		$fields = array(
+		$id          = absint( isset( $request['id'] ) ? $request['id'] : 0 );
+		$data        = array();
+		$fields      = array(
 			'tax_rate_country',
 			'tax_rate_state',
 			'tax_rate',
@@ -352,25 +321,25 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 
 			// Add to data array.
 			switch ( $key ) {
-				case 'tax_rate_priority':
-				case 'tax_rate_compound':
-				case 'tax_rate_shipping':
-				case 'tax_rate_order':
+				case 'tax_rate_priority' :
+				case 'tax_rate_compound' :
+				case 'tax_rate_shipping' :
+				case 'tax_rate_order' :
 					$data[ $field ] = absint( $request[ $key ] );
 					break;
-				case 'tax_rate_class':
+				case 'tax_rate_class' :
 					$data[ $field ] = 'standard' !== $request['tax_rate_class'] ? $request['tax_rate_class'] : '';
 					break;
-				default:
+				default :
 					$data[ $field ] = wc_clean( $request[ $key ] );
 					break;
 			}
 		}
 
-		if ( ! $id ) {
-			$id = WC_Tax::_insert_tax_rate( $data );
-		} elseif ( $data ) {
+		if ( $id ) {
 			WC_Tax::_update_tax_rate( $id, $data );
+		} else {
+			$id = WC_Tax::_insert_tax_rate( $data );
 		}
 
 		// Add locales.
@@ -518,12 +487,13 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 	/**
 	 * Prepare a single tax output for response.
 	 *
-	 * @param stdClass        $tax     Tax object.
+	 * @param stdClass $tax Tax object.
 	 * @param WP_REST_Request $request Request object.
-	 *
 	 * @return WP_REST_Response $response Response data.
 	 */
 	public function prepare_item_for_response( $tax, $request ) {
+		global $wpdb;
+
 		$id   = (int) $tax->tax_rate_id;
 		$data = array(
 			'id'       => $id,
@@ -540,7 +510,18 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 			'class'    => $tax->tax_rate_class ? $tax->tax_rate_class : 'standard',
 		);
 
-		$data = $this->add_tax_rate_locales( $data, $tax );
+		// Get locales from a tax rate.
+		$locales = $wpdb->get_results( $wpdb->prepare( "
+			SELECT location_code, location_type
+			FROM {$wpdb->prefix}woocommerce_tax_rate_locations
+			WHERE tax_rate_id = %d
+		", $id ) );
+
+		if ( ! is_wp_error( $tax ) && ! is_null( $tax ) ) {
+			foreach ( $locales as $locale ) {
+				$data[ $locale->location_type ] = $locale->location_code;
+			}
+		}
 
 		$context = ! empty( $request['context'] ) ? $request['context'] : 'view';
 		$data    = $this->add_additional_fields_to_object( $data, $request );
@@ -569,7 +550,7 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 	 */
 	protected function prepare_links( $tax ) {
 		$links = array(
-			'self'       => array(
+			'self' => array(
 				'href' => rest_url( sprintf( '/%s/%s/%d', $this->namespace, $this->rest_base, $tax->tax_rate_id ) ),
 			),
 			'collection' => array(
@@ -578,38 +559,6 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 		);
 
 		return $links;
-	}
-
-	/**
-	 * Add tax rate locales to the response array.
-	 *
-	 * @param array    $data Response data.
-	 * @param stdClass $tax  Tax object.
-	 *
-	 * @return array
-	 */
-	protected function add_tax_rate_locales( $data, $tax ) {
-		global $wpdb;
-
-		// Get locales from a tax rate.
-		$locales = $wpdb->get_results(
-			$wpdb->prepare(
-				"
-				SELECT location_code, location_type
-				FROM {$wpdb->prefix}woocommerce_tax_rate_locations
-				WHERE tax_rate_id = %d
-				",
-				$tax->tax_rate_id
-			)
-		);
-
-		if ( ! is_wp_error( $tax ) && ! is_null( $tax ) ) {
-			foreach ( $locales as $locale ) {
-				$data[ $locale->location_type ] = $locale->location_code;
-			}
-		}
-
-		return $data;
 	}
 
 	/**
@@ -623,18 +572,18 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 			'title'      => 'tax',
 			'type'       => 'object',
 			'properties' => array(
-				'id'       => array(
+				'id' => array(
 					'description' => __( 'Unique identifier for the resource.', 'woocommerce' ),
 					'type'        => 'integer',
 					'context'     => array( 'view', 'edit' ),
 					'readonly'    => true,
 				),
-				'country'  => array(
+				'country' => array(
 					'description' => __( 'Country ISO 3166 code.', 'woocommerce' ),
 					'type'        => 'string',
 					'context'     => array( 'view', 'edit' ),
 				),
-				'state'    => array(
+				'state' => array(
 					'description' => __( 'State code.', 'woocommerce' ),
 					'type'        => 'string',
 					'context'     => array( 'view', 'edit' ),
@@ -644,17 +593,17 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 					'type'        => 'string',
 					'context'     => array( 'view', 'edit' ),
 				),
-				'city'     => array(
+				'city' => array(
 					'description' => __( 'City name.', 'woocommerce' ),
 					'type'        => 'string',
 					'context'     => array( 'view', 'edit' ),
 				),
-				'rate'     => array(
+				'rate' => array(
 					'description' => __( 'Tax rate.', 'woocommerce' ),
 					'type'        => 'string',
 					'context'     => array( 'view', 'edit' ),
 				),
-				'name'     => array(
+				'name' => array(
 					'description' => __( 'Tax rate name.', 'woocommerce' ),
 					'type'        => 'string',
 					'context'     => array( 'view', 'edit' ),
@@ -677,12 +626,12 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 					'default'     => true,
 					'context'     => array( 'view', 'edit' ),
 				),
-				'order'    => array(
+				'order' => array(
 					'description' => __( 'Indicates the order that will appear in queries.', 'woocommerce' ),
 					'type'        => 'integer',
 					'context'     => array( 'view', 'edit' ),
 				),
-				'class'    => array(
+				'class' => array(
 					'description' => __( 'Tax class.', 'woocommerce' ),
 					'type'        => 'string',
 					'default'     => 'standard',
@@ -705,55 +654,54 @@ class WC_REST_Taxes_V1_Controller extends WC_REST_Controller {
 		$params['context']            = $this->get_context_param();
 		$params['context']['default'] = 'view';
 
-		$params['page']     = array(
-			'description'       => __( 'Current page of the collection.', 'woocommerce' ),
-			'type'              => 'integer',
-			'default'           => 1,
-			'sanitize_callback' => 'absint',
-			'validate_callback' => 'rest_validate_request_arg',
-			'minimum'           => 1,
+		$params['page'] = array(
+			'description'        => __( 'Current page of the collection.', 'woocommerce' ),
+			'type'               => 'integer',
+			'default'            => 1,
+			'sanitize_callback'  => 'absint',
+			'validate_callback'  => 'rest_validate_request_arg',
+			'minimum'            => 1,
 		);
 		$params['per_page'] = array(
-			'description'       => __( 'Maximum number of items to be returned in result set.', 'woocommerce' ),
-			'type'              => 'integer',
-			'default'           => 10,
-			'minimum'           => 1,
-			'maximum'           => 100,
-			'sanitize_callback' => 'absint',
-			'validate_callback' => 'rest_validate_request_arg',
+			'description'        => __( 'Maximum number of items to be returned in result set.', 'woocommerce' ),
+			'type'               => 'integer',
+			'default'            => 10,
+			'minimum'            => 1,
+			'maximum'            => 100,
+			'sanitize_callback'  => 'absint',
+			'validate_callback'  => 'rest_validate_request_arg',
 		);
-		$params['offset']   = array(
-			'description'       => __( 'Offset the result set by a specific number of items.', 'woocommerce' ),
-			'type'              => 'integer',
-			'sanitize_callback' => 'absint',
-			'validate_callback' => 'rest_validate_request_arg',
+		$params['offset'] = array(
+			'description'        => __( 'Offset the result set by a specific number of items.', 'woocommerce' ),
+			'type'               => 'integer',
+			'sanitize_callback'  => 'absint',
+			'validate_callback'  => 'rest_validate_request_arg',
 		);
-		$params['order']    = array(
-			'default'           => 'asc',
-			'description'       => __( 'Order sort attribute ascending or descending.', 'woocommerce' ),
-			'enum'              => array( 'asc', 'desc' ),
-			'sanitize_callback' => 'sanitize_key',
-			'type'              => 'string',
-			'validate_callback' => 'rest_validate_request_arg',
+		$params['order'] = array(
+			'default'            => 'asc',
+			'description'        => __( 'Order sort attribute ascending or descending.', 'woocommerce' ),
+			'enum'               => array( 'asc', 'desc' ),
+			'sanitize_callback'  => 'sanitize_key',
+			'type'               => 'string',
+			'validate_callback'  => 'rest_validate_request_arg',
 		);
-		$params['orderby']  = array(
-			'default'           => 'order',
-			'description'       => __( 'Sort collection by object attribute.', 'woocommerce' ),
-			'enum'              => array(
+		$params['orderby'] = array(
+			'default'            => 'order',
+			'description'        => __( 'Sort collection by object attribute.', 'woocommerce' ),
+			'enum'               => array(
 				'id',
 				'order',
-				'priority',
 			),
-			'sanitize_callback' => 'sanitize_key',
-			'type'              => 'string',
-			'validate_callback' => 'rest_validate_request_arg',
+			'sanitize_callback'  => 'sanitize_key',
+			'type'               => 'string',
+			'validate_callback'  => 'rest_validate_request_arg',
 		);
-		$params['class']    = array(
-			'description'       => __( 'Sort by tax class.', 'woocommerce' ),
-			'enum'              => array_merge( array( 'standard' ), WC_Tax::get_tax_class_slugs() ),
-			'sanitize_callback' => 'sanitize_title',
-			'type'              => 'string',
-			'validate_callback' => 'rest_validate_request_arg',
+		$params['class'] = array(
+			'description'        => __( 'Sort by tax class.', 'woocommerce' ),
+			'enum'               => array_merge( array( 'standard' ), WC_Tax::get_tax_class_slugs() ),
+			'sanitize_callback'  => 'sanitize_title',
+			'type'               => 'string',
+			'validate_callback'  => 'rest_validate_request_arg',
 		);
 
 		return $params;

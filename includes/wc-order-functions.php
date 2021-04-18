@@ -366,10 +366,9 @@ function wc_orders_count( $status ) {
  * @param  int|WC_Product $product     Product instance or ID.
  * @param  WC_Order       $order       Order data.
  * @param  int            $qty         Quantity purchased.
- * @param  WC_Order_Item  $item        Item of the order.
  * @return int|bool insert id or false on failure.
  */
-function wc_downloadable_file_permission( $download_id, $product, $order, $qty = 1, $item = null ) {
+function wc_downloadable_file_permission( $download_id, $product, $order, $qty = 1 ) {
 	if ( is_numeric( $product ) ) {
 		$product = wc_get_product( $product );
 	}
@@ -391,7 +390,7 @@ function wc_downloadable_file_permission( $download_id, $product, $order, $qty =
 		$download->set_access_expires( strtotime( $from_date . ' + ' . $expiry . ' DAY' ) );
 	}
 
-	$download = apply_filters( 'woocommerce_downloadable_file_permission', $download, $product, $order, $qty, $item );
+	$download = apply_filters( 'woocommerce_downloadable_file_permission', $download, $product, $order, $qty );
 
 	return $download->save();
 }
@@ -421,7 +420,7 @@ function wc_downloadable_product_permissions( $order_id, $force = false ) {
 				$downloads = $product->get_downloads();
 
 				foreach ( array_keys( $downloads ) as $download_id ) {
-					wc_downloadable_file_permission( $download_id, $product, $order, $item->get_quantity(), $item );
+					wc_downloadable_file_permission( $download_id, $product, $order, $item->get_quantity() );
 				}
 			}
 		}
