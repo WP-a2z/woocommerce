@@ -7,7 +7,7 @@ import { CURRENT_USER_IS_ADMIN } from '@woocommerce/block-settings';
 /**
  * Internal dependencies
  */
-import { returnTrue } from '../';
+import { returnTrue } from '../utils';
 
 type CheckoutFilterFunction = < T >(
 	label: T,
@@ -73,7 +73,7 @@ export const __experimentalApplyCheckoutFilter = ( {
 	/** Object containing arguments for the filter function. */
 	arg: CheckoutFilterArguments;
 	/** Function that needs to return true when the filtered value is passed in order for the filter to be applied. */
-	validation: ( value: unknown ) => boolean;
+	validation: ( value: unknown ) => true | Error;
 } ): unknown => {
 	return useMemo( () => {
 		const filters = getCheckoutFilters( filterName );

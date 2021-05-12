@@ -9,6 +9,7 @@ import type {
 	CartBillingAddress,
 	CartShippingAddress,
 } from '@woocommerce/types';
+import { ReturnOrGeneratorYieldUnion } from '@automattic/data-stores';
 import { camelCase, mapKeys } from 'lodash';
 
 /**
@@ -18,7 +19,6 @@ import { ACTION_TYPES as types } from './action-types';
 import { STORE_KEY as CART_STORE_KEY } from './constants';
 import { apiFetchWithHeaders } from '../shared-controls';
 import type { ResponseError } from '../types';
-import { ReturnOrGeneratorYieldUnion } from '../../mapped-types';
 
 /**
  * Returns an action object used in updating the store with the provided items
@@ -121,6 +121,18 @@ export const itemIsPendingDelete = (
 		type: types.RECEIVE_REMOVED_ITEM,
 		cartItemKey,
 		isPendingDelete,
+	} as const );
+/**
+ * Returns an action object to mark the cart data in the store as stale.
+ *
+ * @param   {boolean} [isCartDataStale=true] Flag to mark cart data as stale; true if
+ * 											 lastCartUpdate timestamp is newer than the
+ * 											 one in wcSettings.
+ */
+export const setIsCartDataStale = ( isCartDataStale = true ) =>
+	( {
+		type: types.SET_IS_CART_DATA_STALE,
+		isCartDataStale,
 	} as const );
 
 /**
@@ -435,6 +447,7 @@ export type CartAction = ReturnOrGeneratorYieldUnion<
 	| typeof itemIsPendingDelete
 	| typeof updatingCustomerData
 	| typeof shippingRatesBeingSelected
+	| typeof setIsCartDataStale
 	| typeof updateCustomerData
 	| typeof removeItemFromCart
 	| typeof changeCartItemQuantity

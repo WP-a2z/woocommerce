@@ -16,8 +16,8 @@ import type { ResponseError } from '../data/types';
 export interface StoreCartItemQuantity {
 	isPendingDelete: boolean;
 	quantity: number;
-	changeQuantity: ( quantity: number ) => void;
-	removeItem: () => Promise< void > | false;
+	setItemQuantity: React.Dispatch< React.SetStateAction< number > >;
+	removeItem: () => Promise< boolean >;
 	cartItemQuantityErrors: Array< CartResponseErrorItem >;
 }
 

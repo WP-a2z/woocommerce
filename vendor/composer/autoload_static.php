@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInite7838abe751421865f42aa61338ab306
+class ComposerStaticInitfd0d177b2d8140b4b20d4474b07b8ed7
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -265,6 +265,7 @@ class ComposerStaticInite7838abe751421865f42aa61338ab306
         'Automattic\\WooCommerce\\Admin\\Notes\\MobileApp' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/MobileApp.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\NavigationFeedback' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/NavigationFeedback.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\NavigationFeedbackFollowUp' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/NavigationFeedbackFollowUp.php',
+        'Automattic\\WooCommerce\\Admin\\Notes\\NavigationNudge' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/NavigationNudge.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\NeedSomeInspiration' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/NeedSomeInspiration.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\NewSalesRecord' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/NewSalesRecord.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\Note' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/Note.php',
@@ -360,6 +361,7 @@ class ComposerStaticInite7838abe751421865f42aa61338ab306
         'Automattic\\WooCommerce\\Admin\\RemoteInboxNotifications\\StoredStateSetupForProducts' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/RemoteInboxNotifications/StoredStateSetupForProducts.php',
         'Automattic\\WooCommerce\\Admin\\RemoteInboxNotifications\\WCAdminActiveForProvider' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/RemoteInboxNotifications/WCAdminActiveForProvider.php',
         'Automattic\\WooCommerce\\Admin\\RemoteInboxNotifications\\WCAdminActiveForRuleProcessor' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/RemoteInboxNotifications/WCAdminActiveForRuleProcessor.php',
+        'Automattic\\WooCommerce\\Admin\\RemoteInboxNotifications\\WooCommerceAdminUpdatedRuleProcessor' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/RemoteInboxNotifications/WooCommerceAdminUpdatedRuleProcessor.php',
         'Automattic\\WooCommerce\\Admin\\ReportCSVEmail' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/ReportCSVEmail.php',
         'Automattic\\WooCommerce\\Admin\\ReportCSVExporter' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/ReportCSVExporter.php',
         'Automattic\\WooCommerce\\Admin\\ReportExporter' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/ReportExporter.php',
@@ -408,6 +410,7 @@ class ComposerStaticInite7838abe751421865f42aa61338ab306
         'Automattic\\WooCommerce\\Blocks\\Domain\\Services\\Email\\CustomerNewAccount' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Domain/Services/Email/CustomerNewAccount.php',
         'Automattic\\WooCommerce\\Blocks\\Domain\\Services\\ExtendRestApi' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Domain/Services/ExtendRestApi.php',
         'Automattic\\WooCommerce\\Blocks\\Domain\\Services\\FeatureGating' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Domain/Services/FeatureGating.php',
+        'Automattic\\WooCommerce\\Blocks\\Domain\\Services\\GoogleAnalytics' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Domain/Services/GoogleAnalytics.php',
         'Automattic\\WooCommerce\\Blocks\\Installer' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Installer.php',
         'Automattic\\WooCommerce\\Blocks\\Integrations\\IntegrationInterface' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Integrations/IntegrationInterface.php',
         'Automattic\\WooCommerce\\Blocks\\Integrations\\IntegrationRegistry' => __DIR__ . '/../..' . '/packages/woocommerce-blocks/src/Integrations/IntegrationRegistry.php',
@@ -630,6 +633,7 @@ class ComposerStaticInite7838abe751421865f42aa61338ab306
         'Composer\\Installers\\MauticInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MauticInstaller.php',
         'Composer\\Installers\\MayaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MayaInstaller.php',
         'Composer\\Installers\\MediaWikiInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MediaWikiInstaller.php',
+        'Composer\\Installers\\MiaoxingInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MiaoxingInstaller.php',
         'Composer\\Installers\\MicroweberInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MicroweberInstaller.php',
         'Composer\\Installers\\ModxInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/ModxInstaller.php',
         'Composer\\Installers\\MoodleInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/MoodleInstaller.php',
@@ -665,12 +669,14 @@ class ComposerStaticInite7838abe751421865f42aa61338ab306
         'Composer\\Installers\\TYPO3CmsInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TYPO3CmsInstaller.php',
         'Composer\\Installers\\TYPO3FlowInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TYPO3FlowInstaller.php',
         'Composer\\Installers\\TaoInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TaoInstaller.php',
+        'Composer\\Installers\\TastyIgniterInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TastyIgniterInstaller.php',
         'Composer\\Installers\\TheliaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TheliaInstaller.php',
         'Composer\\Installers\\TuskInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/TuskInstaller.php',
         'Composer\\Installers\\UserFrostingInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/UserFrostingInstaller.php',
         'Composer\\Installers\\VanillaInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/VanillaInstaller.php',
         'Composer\\Installers\\VgmcpInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/VgmcpInstaller.php',
         'Composer\\Installers\\WHMCSInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WHMCSInstaller.php',
+        'Composer\\Installers\\WinterInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WinterInstaller.php',
         'Composer\\Installers\\WolfCMSInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WolfCMSInstaller.php',
         'Composer\\Installers\\WordPressInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/WordPressInstaller.php',
         'Composer\\Installers\\YawikInstaller' => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers/YawikInstaller.php',
@@ -840,10 +846,10 @@ class ComposerStaticInite7838abe751421865f42aa61338ab306
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInite7838abe751421865f42aa61338ab306::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInite7838abe751421865f42aa61338ab306::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInite7838abe751421865f42aa61338ab306::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInite7838abe751421865f42aa61338ab306::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitfd0d177b2d8140b4b20d4474b07b8ed7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitfd0d177b2d8140b4b20d4474b07b8ed7::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitfd0d177b2d8140b4b20d4474b07b8ed7::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitfd0d177b2d8140b4b20d4474b07b8ed7::$classMap;
 
         }, null, ClassLoader::class);
     }

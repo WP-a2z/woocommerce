@@ -42,7 +42,7 @@ const templateItems = [
 	[
 		'core/heading',
 		{
-			align: 'center',
+			textAlign: 'center',
 			content: __(
 				'Your cart is currently empty!',
 				'woocommerce'
@@ -61,7 +61,7 @@ const templateItems = [
 	[
 		'core/heading',
 		{
-			align: 'center',
+			textAlign: 'center',
 			content: __( 'New in store', 'woocommerce' ),
 			level: 2,
 		},
