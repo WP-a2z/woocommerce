@@ -29,7 +29,6 @@ const TotalsCoupon = ( {
 	const [ couponValue, setCouponValue ] = useState( '' );
 	const currentIsLoading = useRef( false );
 	const { getValidationError, getValidationErrorId } = useValidationContext();
-
 	const validationError = getValidationError( 'coupon' );
 
 	useEffect( () => {
@@ -46,7 +45,7 @@ const TotalsCoupon = ( {
 	return (
 		<Panel
 			className="wc-block-components-totals-coupon"
-			hasBorder={ true }
+			hasBorder={ false }
 			initialOpen={ initialOpen }
 			title={
 				<Label

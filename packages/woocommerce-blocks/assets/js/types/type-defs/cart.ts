@@ -25,6 +25,7 @@ export interface CartTotalsItem extends CurrencyInfo {
 
 export interface CartCouponItem {
 	code: string;
+	label: string;
 	discount_type: string;
 	totals: CartTotalsItem;
 }
@@ -193,4 +194,8 @@ export interface CartMeta {
 	isCartDataStale: boolean;
 	applyingCoupon: string;
 	removingCoupon: string;
+}
+export interface ExtensionCartUpdateArgs {
+	data: Record< string, unknown >;
+	namespace: string;
 }
