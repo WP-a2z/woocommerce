@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit483e3a36ded86d9d95aa53bad20d8acf
+class ComposerStaticInit75e44bb1769a41d7ab3f080ddf78bcc8
 {
     public static $prefixLengthsPsr4 = array (
         'S' => 
@@ -130,6 +130,7 @@ class ComposerStaticInit483e3a36ded86d9d95aa53bad20d8acf
         'Automattic\\WooCommerce\\Admin\\API\\ProductReviews' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/API/ProductReviews.php',
         'Automattic\\WooCommerce\\Admin\\API\\ProductVariations' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/API/ProductVariations.php',
         'Automattic\\WooCommerce\\Admin\\API\\Products' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/API/Products.php',
+        'Automattic\\WooCommerce\\Admin\\API\\ProductsLowInStock' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/API/ProductsLowInStock.php',
         'Automattic\\WooCommerce\\Admin\\API\\Reports\\Cache' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/API/Reports/Cache.php',
         'Automattic\\WooCommerce\\Admin\\API\\Reports\\Categories\\Controller' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/API/Reports/Categories/Controller.php',
         'Automattic\\WooCommerce\\Admin\\API\\Reports\\Categories\\DataStore' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/API/Reports/Categories/DataStore.php',
@@ -885,10 +886,10 @@ class ComposerStaticInit483e3a36ded86d9d95aa53bad20d8acf
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit483e3a36ded86d9d95aa53bad20d8acf::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit483e3a36ded86d9d95aa53bad20d8acf::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit483e3a36ded86d9d95aa53bad20d8acf::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit483e3a36ded86d9d95aa53bad20d8acf::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit75e44bb1769a41d7ab3f080ddf78bcc8::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit75e44bb1769a41d7ab3f080ddf78bcc8::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit75e44bb1769a41d7ab3f080ddf78bcc8::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit75e44bb1769a41d7ab3f080ddf78bcc8::$classMap;
 
         }, null, ClassLoader::class);
     }

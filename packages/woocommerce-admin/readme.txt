@@ -4,7 +4,7 @@ Tags: ecommerce, e-commerce, store, sales, reports, analytics, dashboard, activi
 Requires at least: 5.4.0
 Tested up to: 5.7.0
 Requires PHP: 7.0
-Stable tag: 2.4.1
+Stable tag: 2.4.4
 License: GPLv3
 License URI: https://github.com/woocommerce/woocommerce-admin/blob/main/license.txt
 
@@ -74,6 +74,16 @@ Release and roadmap notes are available on the [WooCommerce Developers Blog](htt
 == Changelog ==
 
 == Unreleased ==
+
+== 2.4.4 7/21/2021 ==
+- Fix: Fix homepage stock panel regression in 2.4.3. #7389
+
+== 2.4.3 7/21/2021 ==
+- Fix: Add a new low stock products endpoint to improve the performance. #7377
+
+== 2.4.2 7/19/2021 ==
+- Fix: Add lazy loading by checking panel open status #7376
+- Fix: Add cache-control header to low stock REST API response #7364
 
 == 2.4.1 7/1/2021 ==
 - Fix: Fix and refactor explat polling to use setTimeout #7274

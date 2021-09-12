@@ -38,6 +38,7 @@ return array(
     'Automattic\\WooCommerce\\Admin\\API\\ProductReviews' => $baseDir . '/packages/woocommerce-admin/src/API/ProductReviews.php',
     'Automattic\\WooCommerce\\Admin\\API\\ProductVariations' => $baseDir . '/packages/woocommerce-admin/src/API/ProductVariations.php',
     'Automattic\\WooCommerce\\Admin\\API\\Products' => $baseDir . '/packages/woocommerce-admin/src/API/Products.php',
+    'Automattic\\WooCommerce\\Admin\\API\\ProductsLowInStock' => $baseDir . '/packages/woocommerce-admin/src/API/ProductsLowInStock.php',
     'Automattic\\WooCommerce\\Admin\\API\\Reports\\Cache' => $baseDir . '/packages/woocommerce-admin/src/API/Reports/Cache.php',
     'Automattic\\WooCommerce\\Admin\\API\\Reports\\Categories\\Controller' => $baseDir . '/packages/woocommerce-admin/src/API/Reports/Categories/Controller.php',
     'Automattic\\WooCommerce\\Admin\\API\\Reports\\Categories\\DataStore' => $baseDir . '/packages/woocommerce-admin/src/API/Reports/Categories/DataStore.php',

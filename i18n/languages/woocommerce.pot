@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 5.5.0\n"
+"Project-Id-Version: WooCommerce 5.5.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2021-07-12T10:31:19+00:00\n"
+"POT-Creation-Date: 2021-07-22T16:58:57+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -15926,35 +15926,44 @@ msgid "Redirect only (Insecure)"
 msgstr ""
 
 #: includes/admin/settings/class-wc-settings-products.php:390
+msgid "Allow using redirect mode (insecure) as a last resort"
+msgstr ""
+
+#. translators: %1$s is a link to the WooCommerce documentation.
+#: includes/admin/settings/class-wc-settings-products.php:396
+msgid "If the \"Force Downloads\" or \"X-Accel-Redirect/X-Sendfile\" download method is selected but does not work, the system will use the \"Redirect\" method as a last resort. <a href=\"%1$s\">See this guide</a> for more details."
+msgstr ""
+
+#: includes/admin/settings/class-wc-settings-products.php:404
 msgid "Access restriction"
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-products.php:391
+#: includes/admin/settings/class-wc-settings-products.php:405
 msgid "Downloads require login"
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-products.php:395
+#: includes/admin/settings/class-wc-settings-products.php:409
 msgid "This setting does not apply to guest purchases."
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-products.php:401
+#: includes/admin/settings/class-wc-settings-products.php:415
 msgid "Grant access to downloadable products after payment"
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-products.php:405
+#: includes/admin/settings/class-wc-settings-products.php:419
 msgid "Enable this option to grant access to downloads when orders are \"processing\", rather than \"completed\"."
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-products.php:411
+#: includes/admin/settings/class-wc-settings-products.php:425
 msgid "Filename"
 msgstr ""
 
-#: includes/admin/settings/class-wc-settings-products.php:412
+#: includes/admin/settings/class-wc-settings-products.php:426
 msgid "Append a unique string to filename for security"
 msgstr ""
 
 #. translators: Link to WooCommerce Docs.
-#: includes/admin/settings/class-wc-settings-products.php:418
+#: includes/admin/settings/class-wc-settings-products.php:432
 msgid "Not required if your download directory is protected. <a href='%s'>See this guide</a> for more details. Files already uploaded will not be affected."
 msgstr ""
 
@@ -17714,7 +17723,7 @@ msgstr ""
 
 #. translators: %s: Link to settings page.
 #: includes/admin/views/html-notice-redirect-only-download.php:18
-msgid "Your store is configured to serve digital products using \"Redirect only\" method. This method is deprecated, <a href=\"%s\">please switch to  a different method instead.</a><br><em>If you use a remote server for downloadable files (such as Google Drive, Dropbox, Amazon S3), the right method will automatically be used, so select any of the other options to make this notice go away.</em>"
+msgid "Your store is configured to serve digital products using \"Redirect only\" method. This method is deprecated, <a href=\"%s\">please switch to a different method instead.</a><br><em>If you use a remote server for downloadable files (such as Google Drive, Dropbox, Amazon S3), you may optionally wish to \"allow using redirects as a last resort\". Enabling that and/or selecting any of the other options will make this notice go away.</em>"
 msgstr ""
 
 #: includes/admin/views/html-notice-regenerating-lookup-table.php:14
@@ -18705,11 +18714,21 @@ msgstr ""
 msgid "No file defined"
 msgstr ""
 
-#: includes/class-wc-download-handler.php:438
+#. translators: %1$s contains the filepath of the digital asset.
+#: includes/class-wc-download-handler.php:346
+msgid "%1$s could not be served using the X-Accel-Redirect/X-Sendfile method. A Force Download will be used instead."
+msgstr ""
+
+#. translators: %1$s contains the filepath of the digital asset.
+#: includes/class-wc-download-handler.php:449
+msgid "%1$s could not be served using the Force Download method. A redirect will be used instead."
+msgstr ""
+
+#: includes/class-wc-download-handler.php:455
 msgid "File not found"
 msgstr ""
 
-#: includes/class-wc-download-handler.php:629
+#: includes/class-wc-download-handler.php:647
 msgid "Go to shop"
 msgstr ""
 
@@ -25256,6 +25275,7 @@ msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2589
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2292
+#: packages/woocommerce-admin/src/API/ProductsLowInStock.php:308
 msgid "Limit result set to products assigned a specific status."
 msgstr ""
 
@@ -25438,6 +25458,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:538
 #: packages/woocommerce-admin/src/API/Leaderboards.php:447
 #: packages/woocommerce-admin/src/API/Notes.php:539
+#: packages/woocommerce-admin/src/API/ProductsLowInStock.php:289
 #: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:219
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php:225
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:272
@@ -25464,6 +25485,7 @@ msgstr ""
 #: includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php:546
 #: packages/woocommerce-admin/src/API/Leaderboards.php:455
 #: packages/woocommerce-admin/src/API/Notes.php:547
+#: packages/woocommerce-admin/src/API/ProductsLowInStock.php:297
 #: packages/woocommerce-admin/src/API/Reports/Categories/Controller.php:227
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Controller.php:233
 #: packages/woocommerce-admin/src/API/Reports/Coupons/Stats/Controller.php:280
@@ -30337,7 +30359,7 @@ msgid "The date the last order for this product was placed, in the site's timezo
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Products.php:73
-msgid "Limit result set to products that are low or out of stock."
+msgid "Limit result set to products that are low or out of stock. (Deprecated)"
 msgstr ""
 
 #: packages/woocommerce-admin/src/API/Products.php:79

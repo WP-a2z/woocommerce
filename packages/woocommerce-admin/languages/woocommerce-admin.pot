@@ -2,10 +2,10 @@
 # This file is distributed under the same license as the WooCommerce Admin package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Admin 2.4.1\n"
+"Project-Id-Version: WooCommerce Admin 2.4.4\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/woocommerce-admin\n"
-"POT-Creation-Date: 2021-07-01 06:09:46+00:00\n"
+"POT-Creation-Date: 2021-07-21 03:49:38+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -315,6 +315,7 @@ msgid "Product"
 msgstr ""
 
 #: src/API/Leaderboards.php:447 src/API/Notes.php:539
+#: src/API/ProductsLowInStock.php:289
 #: src/API/Reports/Categories/Controller.php:219
 #: src/API/Reports/Coupons/Controller.php:225
 #: src/API/Reports/Coupons/Stats/Controller.php:272
@@ -335,6 +336,7 @@ msgid "Current page of the collection."
 msgstr ""
 
 #: src/API/Leaderboards.php:455 src/API/Notes.php:547
+#: src/API/ProductsLowInStock.php:297
 #: src/API/Reports/Categories/Controller.php:227
 #: src/API/Reports/Coupons/Controller.php:233
 #: src/API/Reports/Coupons/Stats/Controller.php:280
@@ -963,11 +965,15 @@ msgid "The date the last order for this product was placed, in the site's timezo
 msgstr ""
 
 #: src/API/Products.php:73
-msgid "Limit result set to products that are low or out of stock."
+msgid "Limit result set to products that are low or out of stock. (Deprecated)"
 msgstr ""
 
 #: src/API/Products.php:79
 msgid "Search by similar product name or sku."
+msgstr ""
+
+#: src/API/ProductsLowInStock.php:308
+msgid "Limit result set to products assigned a specific status."
 msgstr ""
 
 #: src/API/Reports/Categories/Controller.php:75
@@ -3999,7 +4005,7 @@ msgstr ""
 #: client/analytics/components/report-error/index.js:20
 #: client/homescreen/activity-panel/orders/index.js:247
 #: client/homescreen/activity-panel/reviews/index.js:331
-#: client/homescreen/activity-panel/stock/index.js:93
+#: client/homescreen/activity-panel/stock/index.js:95
 #: client/inbox-panel/index.js:257
 msgid "Reload"
 msgstr ""
@@ -5320,41 +5326,41 @@ msgstr ""
 msgid "Close"
 msgstr ""
 
-#: client/header/activity-panel/index.js:224
+#: client/header/activity-panel/index.js:235
 #: client/header/activity-panel/panels/help.js:42
 msgid "Inbox"
 msgstr ""
 
-#: client/header/activity-panel/index.js:233
+#: client/header/activity-panel/index.js:244
 #: client/marketing/overview/installed-extensions/row.js:112
 #: client/task-list/tasks.js:222
 #: client/task-list/tasks/payments/components/PaymentAction.js:107
 msgid "Finish setup"
 msgstr ""
 
-#: client/header/activity-panel/index.js:266
+#: client/header/activity-panel/index.js:277
 msgid "Help"
 msgstr ""
 
-#: client/header/activity-panel/index.js:280
+#: client/header/activity-panel/index.js:291
 msgid "Preview site"
 msgstr ""
 
-#: client/header/activity-panel/index.js:365
+#: client/header/activity-panel/index.js:368
 msgid "Store Activity"
 msgstr ""
 
-#: client/header/activity-panel/index.js:400
+#: client/header/activity-panel/index.js:403
 msgid "We're here for help"
 msgstr ""
 
-#: client/header/activity-panel/index.js:401
+#: client/header/activity-panel/index.js:404
 msgid ""
 "If you have any questions, feel free to explore the WooCommerce docs listed "
 "here."
 msgstr ""
 
-#: client/header/activity-panel/index.js:405
+#: client/header/activity-panel/index.js:408
 #: client/navigation/components/favorites-tooltip/index.js:51
 msgid "Got it"
 msgstr ""
@@ -5671,7 +5677,7 @@ msgstr ""
 msgid "%s stock updated"
 msgstr ""
 
-#: client/homescreen/activity-panel/stock/index.js:89
+#: client/homescreen/activity-panel/stock/index.js:91
 msgid "There was an error getting your low stock products. Please try again."
 msgstr ""
 
