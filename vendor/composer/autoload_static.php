@@ -284,6 +284,7 @@ class ComposerStaticInit35ca907b2e70db60b0c2c7d0ef0fe4bd
         'Automattic\\WooCommerce\\Admin\\Notes\\NewSalesRecord' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/NewSalesRecord.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\Note' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/Note.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\NoteTraits' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/NoteTraits.php',
+		'Automattic\\WooCommerce\\Admin\\Notes\\UnsecuredReportFiles' =>  __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/UnsecuredReportFiles.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\Notes' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/Notes.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\NotesUnavailableException' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/NotesUnavailableException.php',
         'Automattic\\WooCommerce\\Admin\\Notes\\OnboardingEmailMarketing' => __DIR__ . '/../..' . '/packages/woocommerce-admin/src/Notes/OnboardingEmailMarketing.php',

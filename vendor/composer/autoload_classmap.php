@@ -192,6 +192,7 @@ return array(
     'Automattic\\WooCommerce\\Admin\\Notes\\NewSalesRecord' => $baseDir . '/packages/woocommerce-admin/src/Notes/NewSalesRecord.php',
     'Automattic\\WooCommerce\\Admin\\Notes\\Note' => $baseDir . '/packages/woocommerce-admin/src/Notes/Note.php',
     'Automattic\\WooCommerce\\Admin\\Notes\\NoteTraits' => $baseDir . '/packages/woocommerce-admin/src/Notes/NoteTraits.php',
+	'Automattic\\WooCommerce\\Admin\\Notes\\UnsecuredReportFiles' =>  $baseDir . '/packages/woocommerce-admin/src/Notes/UnsecuredReportFiles.php',
     'Automattic\\WooCommerce\\Admin\\Notes\\Notes' => $baseDir . '/packages/woocommerce-admin/src/Notes/Notes.php',
     'Automattic\\WooCommerce\\Admin\\Notes\\NotesUnavailableException' => $baseDir . '/packages/woocommerce-admin/src/Notes/NotesUnavailableException.php',
     'Automattic\\WooCommerce\\Admin\\Notes\\OnboardingEmailMarketing' => $baseDir . '/packages/woocommerce-admin/src/Notes/OnboardingEmailMarketing.php',
