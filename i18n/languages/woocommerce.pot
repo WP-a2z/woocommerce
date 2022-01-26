@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 6.1.0\n"
+"Project-Id-Version: WooCommerce 6.1.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-01-07T18:45:19+00:00\n"
+"POT-Creation-Date: 2022-01-18T19:57:15+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.5.0\n"
 "X-Domain: woocommerce\n"
@@ -21415,12 +21415,12 @@ msgstr ""
 msgid "%1$s in %2$s on line %3$s"
 msgstr ""
 
-#: includes/class-woocommerce.php:935
+#: includes/class-woocommerce.php:938
 msgid "You have installed a development version of WooCommerce which requires files to be built and minified. From the plugin directory, run <code>pnpm install</code> and then <code>pnpm nx build woocommerce-legacy-assets</code> to build and minify assets."
 msgstr ""
 
 #. translators: 1: URL of WordPress.org Repository 2: URL of the GitHub Repository release page
-#: includes/class-woocommerce.php:938
+#: includes/class-woocommerce.php:941
 msgid "Or you can download a pre-built version of the plugin from the <a href=\"%1$s\">WordPress.org repository</a> or by visiting <a href=\"%2$s\">the releases page in the GitHub repository</a>."
 msgstr ""
 
@@ -29514,7 +29514,7 @@ msgid "The class %1$s provided by %2$s filter must implement %3$s."
 msgstr ""
 
 #. translators: 1: wc_load_cart 2: woocommerce_init
-#: includes/wc-core-functions.php:2509
+#: includes/wc-core-functions.php:2510
 msgid "%1$s should not be called before the %2$s action."
 msgstr ""
 
@@ -34077,12 +34077,12 @@ msgstr ""
 msgid "Script with handle %s had a dependency on itself which has been removed. This is an indicator that your JS code has a circular dependency that can cause bugs."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/BlockTemplatesController.php:467
+#: packages/woocommerce-blocks/src/BlockTemplatesController.php:474
 #: packages/woocommerce-blocks/build/mini-cart.js:1
 msgid "Mini Cart"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/BlockTemplatesController.php:468
+#: packages/woocommerce-blocks/src/BlockTemplatesController.php:475
 msgid "The Mini Cart template defines a page area that contains the content of the Mini Cart block."
 msgstr ""
 
@@ -35424,23 +35424,23 @@ msgstr ""
 msgid "%1$s and %2$s"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:92
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:122
 msgid "No theme is defined for this template."
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:221
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:258
 msgid "Single Product Page"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:223
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:260
 msgid "Product Archive Page"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:225
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:262
 msgid "Product Category Page"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:227
+#: packages/woocommerce-blocks/src/Utils/BlockTemplateUtils.php:264
 msgid "Product Tag Page"
 msgstr ""
 
