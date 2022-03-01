@@ -54,21 +54,20 @@
 	font-size: 1rem;
 
 	.components-modal__content {
-		box-sizing: border-box;
-		display: flex;
-		flex-direction: column;
-		height: 100%;
+		padding: 0;
+		position: relative;
 	}
 
 	.components-modal__header {
-		margin: $gap 0;
+		position: absolute;
+		top: $gap-largest;
+		right: $gap;
 	}
 
 	.wc-block-mini-cart__items {
 		flex-grow: 1;
-		margin-right: -$gap;
 		overflow-y: auto;
-		padding-right: $gap;
+		padding: 0 $gap;
 
 		.wc-block-cart-items__row:last-child::after {
 			content: none;
@@ -76,13 +75,25 @@
 	}
 }
 
+// @todo Review the class naming convention for Mini Cart inner blocks.
+.wp-block-woocommerce-mini-cart-contents {
+	background: #fff;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	padding: 0;
+	justify-content: center;
+}
+
+.wc-block-mini-cart__title {
+	@include font-size(large);
+	margin: $gap-largest $gap 0;
+}
+
 .wc-block-mini-cart__footer {
 	border-top: 1px solid $gray-300;
-	margin-bottom: -$gap-largest;
-	margin-left: -$gap;
-	margin-right: -$gap;
-	padding: $gap-large;
-
+	padding: $gap-large $gap;
 }
 
 .wc-block-components-totals-item.wc-block-mini-cart__footer-subtotal {

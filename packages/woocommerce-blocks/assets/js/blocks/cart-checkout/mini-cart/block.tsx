@@ -1,34 +1,33 @@
 /**
  * External dependencies
  */
-import classnames from 'classnames';
-import { __, _n, sprintf } from '@wordpress/i18n';
-import {
-	RawHTML,
-	useState,
-	useEffect,
-	useCallback,
-	unmountComponentAtNode,
-} from '@wordpress/element';
-import {
-	renderBlock,
-	translateJQueryEventToNative,
-} from '@woocommerce/base-utils';
-import { useStoreCart } from '@woocommerce/base-context/hooks';
+import { renderParentBlock } from '@woocommerce/atomic-utils';
 import Drawer from '@woocommerce/base-components/drawer';
+import { useStoreCart } from '@woocommerce/base-context/hooks';
+import { translateJQueryEventToNative } from '@woocommerce/base-utils';
+import { getRegisteredBlockComponents } from '@woocommerce/blocks-registry';
 import {
 	formatPrice,
 	getCurrencyFromPriceResponse,
 } from '@woocommerce/price-format';
 import { getSettingWithCoercion } from '@woocommerce/settings';
-import { isString, isBoolean } from '@woocommerce/types';
-
+import { isBoolean, isString } from '@woocommerce/types';
+import {
+	RawHTML,
+	unmountComponentAtNode,
+	useCallback,
+	useEffect,
+	useState,
+} from '@wordpress/element';
+import { sprintf, _n } from '@wordpress/i18n';
+import classnames from 'classnames';
 /**
  * Internal dependencies
  */
 import QuantityBadge from './quantity-badge';
-import MiniCartContentsBlock from '../mini-cart-contents/block';
+import { MiniCartContentsBlock } from '../mini-cart-contents/block';
 import './style.scss';
+import { blockName } from '../mini-cart-contents/attributes';
 
 interface Props {
 	isInitiallyOpen?: boolean;
@@ -62,15 +61,17 @@ const MiniCartBlock = ( {
 	useEffect( () => {
 		if ( contentsNode instanceof Element ) {
 			const container = contentsNode.querySelector(
-				'.wc-block-mini-cart-contents'
+				'.wp-block-woocommerce-mini-cart-contents'
 			);
 			if ( ! container ) {
 				return;
 			}
 			if ( isOpen ) {
-				renderBlock( {
+				renderParentBlock( {
 					Block: MiniCartContentsBlock,
-					container,
+					blockName,
+					selector: '.wp-block-woocommerce-mini-cart-contents',
+					blockMap: getRegisteredBlockComponents( blockName ),
 				} );
 			}
 		}
@@ -78,7 +79,7 @@ const MiniCartBlock = ( {
 		return () => {
 			if ( contentsNode instanceof Element && isOpen ) {
 				const container = contentsNode.querySelector(
-					'.wc-block-mini-cart-contents'
+					'.wp-block-woocommerce-mini-cart-contents'
 				);
 				if ( container ) {
 					unmountComponentAtNode( container );
@@ -182,27 +183,18 @@ const MiniCartBlock = ( {
 						'is-loading': cartIsLoading,
 					}
 				) }
-				title={
-					cartIsLoading
-						? __( 'Your cart', 'woo-gutenberg-products-block' )
-						: sprintf(
-								/* translators: %d is the count of items in the cart. */
-								_n(
-									'Your cart (%d item)',
-									'Your cart (%d items)',
-									cartItemsCount,
-									'woo-gutenberg-products-block'
-								),
-								cartItemsCount
-						  )
-				}
+				title=""
 				isOpen={ isOpen }
 				onClose={ () => {
 					setIsOpen( false );
 				} }
 				slideIn={ ! skipSlideIn }
 			>
-				<div ref={ contentsRef }>
+				<div
+					className="wc-block-mini-cart__template-part"
+					ref={ contentsRef }
+				>
+					{ /* @todo The `div` wrapper of RawHTML isn't removed on the front end. */ }
 					<RawHTML>{ contents }</RawHTML>
 				</div>
 			</Drawer>

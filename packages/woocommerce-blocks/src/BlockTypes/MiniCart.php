@@ -7,7 +7,8 @@ use Automattic\WooCommerce\Blocks\Payments\PaymentMethodRegistry;
 use Automattic\WooCommerce\Blocks\Assets\AssetDataRegistry;
 use Automattic\WooCommerce\Blocks\Assets\Api as AssetApi;
 use Automattic\WooCommerce\Blocks\Integrations\IntegrationRegistry;
-use Automattic\WooCommerce\Blocks\RestApi;
+use Automattic\WooCommerce\Blocks\Utils\StyleAttributesUtils;
+use Automattic\WooCommerce\Blocks\Utils\BlockTemplateUtils;
 
 /**
  * Mini Cart class.
@@ -170,25 +171,37 @@ class MiniCart extends AbstractBlock {
 			true
 		);
 
-		$this->asset_data_registry->add(
-			'themeSlug',
-			wp_get_theme()->get_stylesheet(),
-			''
-		);
+		$template_part_edit_uri = '';
 
-		if ( function_exists( 'gutenberg_experimental_is_site_editor_available' ) ) {
-			$this->asset_data_registry->add(
-				'isSiteEditorAvailable',
-				gutenberg_experimental_is_site_editor_available(),
-				false
-			);
-		} else {
-			$this->asset_data_registry->add(
-				'isSiteEditorAvailable',
-				false,
-				false
+		if (
+			current_user_can( 'edit_theme_options' ) &&
+			function_exists( 'wp_is_block_theme' ) &&
+			wp_is_block_theme()
+		) {
+			$theme_slug      = BlockTemplateUtils::theme_has_template_part( 'mini-cart' ) ? wp_get_theme()->get_stylesheet() : 'woocommerce';
+			$site_editor_uri = admin_url( 'site-editor.php' );
+
+			if ( version_compare( get_bloginfo( 'version' ), '5.9', '<' ) ) {
+				$site_editor_uri = add_query_arg(
+					array( 'page' => 'gutenberg-edit-site' ),
+					admin_url( 'themes.php' )
+				);
+			}
+
+			$template_part_edit_uri = add_query_arg(
+				array(
+					'postId'   => sprintf( '%s//%s', $theme_slug, 'mini-cart' ),
+					'postType' => 'wp_template_part',
+				),
+				$site_editor_uri
 			);
 		}
+
+		$this->asset_data_registry->add(
+			'templatePartEditUri',
+			$template_part_edit_uri,
+			''
+		);
 
 		/**
 		 * Fires after cart block data is registered.
@@ -306,8 +319,9 @@ class MiniCart extends AbstractBlock {
 		}
 
 		$wrapper_classes = 'wc-block-mini-cart  wp-block-woocommerce-mini-cart';
-		$classes         = '';
-		$style           = '';
+		$classes_styles  = StyleAttributesUtils::get_classes_and_styles_by_attributes( $attributes, array( 'text_color', 'background_color' ) );
+		$classes         = $classes_styles['classes'];
+		$style           = $classes_styles['styles'];
 
 		if ( ! empty( $attributes['align'] ) ) {
 			$wrapper_classes .= ' align-' . $attributes['align'];
@@ -315,31 +329,6 @@ class MiniCart extends AbstractBlock {
 
 		if ( ! isset( $attributes['transparentButton'] ) || $attributes['transparentButton'] ) {
 			$wrapper_classes .= ' is-transparent';
-		}
-
-		/**
-		 * Get the color class and inline style.
-		 *
-		 * @todo refactor the logic of color class and style using StyleAttributesUtils.
-		 */
-		if ( ! empty( $attributes['textColor'] ) ) {
-			$classes .= sprintf(
-				' has-%s-color has-text-color',
-				esc_attr( $attributes['textColor'] )
-			);
-		} elseif ( ! empty( $attributes['style']['color']['text'] ) ) {
-			$style   .= 'color: ' . esc_attr( $attributes['style']['color']['text'] ) . ';';
-			$classes .= ' has-text-color';
-		}
-
-		if ( ! empty( $attributes['backgroundColor'] ) ) {
-			$classes .= sprintf(
-				' has-%s-background-color has-background',
-				esc_attr( $attributes['backgroundColor'] )
-			);
-		} elseif ( ! empty( $attributes['style']['color']['background'] ) ) {
-			$style   .= 'background-color: ' . esc_attr( $attributes['style']['color']['background'] ) . ';';
-			$classes .= ' has-background';
 		}
 
 		$aria_label = sprintf(
@@ -408,9 +397,7 @@ class MiniCart extends AbstractBlock {
 				<div class="components-modal__frame wc-block-components-drawer">
 					<div class="components-modal__content">
 						<div class="components-modal__header">
-							<div class="components-modal__header-heading-container">
-								<h1 id="components-modal-header-1" class="components-modal__header-heading">' . wp_kses_post( $title ) . '</h1>
-							</div>
+							<div class="components-modal__header-heading-container"></div>
 						</div>
 						<div class="wc-block-mini-cart__template-part">'
 						. wp_kses_post( $template_part_contents ) .

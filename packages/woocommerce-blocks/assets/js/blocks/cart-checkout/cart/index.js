@@ -21,14 +21,18 @@ import './inner-blocks';
 const settings = {
 	title: __( 'Cart', 'woocommerce' ),
 	icon: {
-		src: <Icon srcElement={ cart } />,
-		foreground: '#7f54b3',
+		src: (
+			<Icon
+				srcElement={ cart }
+				className="wc-block-editor-components-block-icon"
+			/>
+		),
 	},
 	category: 'woocommerce',
 	keywords: [ __( 'WooCommerce', 'woocommerce' ) ],
 	description: __( 'Shopping cart.', 'woocommerce' ),
 	supports: {
-		align: [ 'wide', 'full' ],
+		align: [ 'wide' ],
 		html: false,
 		multiple: false,
 		__experimentalExposeControlsToChildren: true,
