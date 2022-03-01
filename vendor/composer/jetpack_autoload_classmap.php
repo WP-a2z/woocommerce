@@ -779,223 +779,223 @@ return array(
 		'path'    => $vendorDir . '/composer/installers/src/Composer/Installers/Redaxo5Installer.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\ContainerAwareTrait' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/ContainerAwareTrait.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Inflector\\InflectorAggregate' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Inflector/InflectorAggregate.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Inflector\\InflectorAggregateInterface' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Inflector/InflectorAggregateInterface.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Inflector\\InflectorInterface' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Inflector/InflectorInterface.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Inflector\\Inflector' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Inflector/Inflector.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Exception\\ContainerException' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Exception/ContainerException.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Exception\\NotFoundException' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Exception/NotFoundException.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\ContainerAwareInterface' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/ContainerAwareInterface.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\ReflectionContainer' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/ReflectionContainer.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Container' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Container.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Definition\\DefinitionAggregate' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Definition/DefinitionAggregate.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Definition\\Definition' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Definition/Definition.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Definition\\DefinitionAggregateInterface' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Definition/DefinitionAggregateInterface.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Definition\\DefinitionInterface' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Definition/DefinitionInterface.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Argument\\RawArgument' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Argument/RawArgument.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Argument\\RawArgumentInterface' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Argument/RawArgumentInterface.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Argument\\ArgumentResolverInterface' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Argument/ArgumentResolverInterface.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Argument\\ClassNameWithOptionalValue' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Argument/ClassNameWithOptionalValue.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Argument\\ClassNameInterface' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Argument/ClassNameInterface.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Argument\\ClassName' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Argument/ClassName.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\Argument\\ArgumentResolverTrait' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/Argument/ArgumentResolverTrait.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\ServiceProvider\\AbstractServiceProvider' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/ServiceProvider/AbstractServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\ServiceProvider\\ServiceProviderAggregateInterface' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/ServiceProvider/ServiceProviderAggregateInterface.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\ServiceProvider\\ServiceProviderInterface' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/ServiceProvider/ServiceProviderInterface.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\ServiceProvider\\BootableServiceProviderInterface' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/ServiceProvider/BootableServiceProviderInterface.php'
 	),
 	'Automattic\\WooCommerce\\Vendor\\League\\Container\\ServiceProvider\\ServiceProviderAggregate' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/lib/packages/League/Container/ServiceProvider/ServiceProviderAggregate.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\AbstractServiceProviderTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/AbstractServiceProviderTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExtendedContainerTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExtendedContainerTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\ClassWithNonFinalInjectionMethod' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/ClassWithNonFinalInjectionMethod.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\DependencyClass' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/DependencyClass.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\ClassWithDependencies' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/ClassWithDependencies.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\ClassWithPrivateInjectionMethod' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/ClassWithPrivateInjectionMethod.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\ClassWithInjectionMethodArgumentWithoutTypeHint' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/ClassWithInjectionMethodArgumentWithoutTypeHint.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\DependencyManagement\\ExampleClasses\\ClassWithScalarInjectionMethodArgument' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/DependencyManagement/ExampleClasses/ClassWithScalarInjectionMethodArgument.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\RestApiUtilTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/RestApiUtilTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\AssignDefaultCategoryTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/AssignDefaultCategoryTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\WCCom\\ConnectionHelperTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/WCCom/ConnectionHelperTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\DownloadPermissionsAdjusterTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/DownloadPermissionsAdjusterTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\ProductAttributesLookup\\FiltererTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/ProductAttributesLookup/FiltererTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\ProductAttributesLookup\\DataRegeneratorTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/ProductAttributesLookup/DataRegeneratorTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Internal\\ProductAttributesLookup\\LookupDataStoreTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Internal/ProductAttributesLookup/LookupDataStoreTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Utilities\\StringUtilTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Utilities/StringUtilTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Utilities\\ArrayUtilTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Utilities/ArrayUtilTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Utilities\\NumberUtilTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Utilities/NumberUtilTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Proxies\\LegacyProxyTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Proxies/LegacyProxyTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Proxies\\MockableLegacyProxyTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Proxies/MockableLegacyProxyTest.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Proxies\\ExampleClasses\\ClassThatDependsOnLegacyCode' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Proxies/ExampleClasses/ClassThatDependsOnLegacyCode.php'
 	),
 	'Automattic\\WooCommerce\\Tests\\Proxies\\ClassThatDependsOnLegacyCodeTest' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/php/src/Proxies/ClassThatDependsOnLegacyCodeTest.php'
 	),
 	'Automattic\\WooCommerce\\Testing\\Tools\\DependencyManagement\\MockableLegacyProxy' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/Tools/DependencyManagement/MockableLegacyProxy.php'
 	),
 	'Automattic\\WooCommerce\\Testing\\Tools\\CodeHacking\\Hacks\\CodeHack' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/Tools/CodeHacking/Hacks/CodeHack.php'
 	),
 	'Automattic\\WooCommerce\\Testing\\Tools\\CodeHacking\\Hacks\\StaticMockerHack' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/Tools/CodeHacking/Hacks/StaticMockerHack.php'
 	),
 	'Automattic\\WooCommerce\\Testing\\Tools\\CodeHacking\\Hacks\\FunctionsMockerHack' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/Tools/CodeHacking/Hacks/FunctionsMockerHack.php'
 	),
 	'Automattic\\WooCommerce\\Testing\\Tools\\CodeHacking\\Hacks\\BypassFinalsHack' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/Tools/CodeHacking/Hacks/BypassFinalsHack.php'
 	),
 	'Automattic\\WooCommerce\\Testing\\Tools\\CodeHacking\\CodeHacker' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/Tools/CodeHacking/CodeHacker.php'
 	),
 	'Automattic\\WooCommerce\\Testing\\Tools\\FakeQueue' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/Tools/FakeQueue.php'
 	),
 	'Automattic\\WooCommerce\\Blocks\\Utils\\BlockTemplateUtils' => array(
@@ -2791,111 +2791,111 @@ return array(
 		'path'    => $baseDir . '/packages/woocommerce-admin/src/DateTimeProvider/DateTimeProviderInterface.php'
 	),
 	'Automattic\\WooCommerce\\Packages' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Packages.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\AssignDefaultCategoryServiceProvider' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/AssignDefaultCategoryServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\RestockRefundedItemsAdjusterServiceProvider' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/RestockRefundedItemsAdjusterServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\DownloadPermissionsAdjusterServiceProvider' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/DownloadPermissionsAdjusterServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\ProductAttributesLookupServiceProvider' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/ProductAttributesLookupServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ServiceProviders\\ProxiesServiceProvider' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ServiceProviders/ProxiesServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\AbstractServiceProvider' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/AbstractServiceProvider.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ContainerException' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ContainerException.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\Definition' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/Definition.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\DependencyManagement\\ExtendedContainer' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/DependencyManagement/ExtendedContainer.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\AssignDefaultCategory' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/AssignDefaultCategory.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\RestockRefundedItemsAdjuster' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/RestockRefundedItemsAdjuster.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\WCCom\\ConnectionHelper' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/WCCom/ConnectionHelper.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\DownloadPermissionsAdjuster' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/DownloadPermissionsAdjuster.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\RestApiUtil' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/RestApiUtil.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\ProductAttributesLookup\\LookupDataStore' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/ProductAttributesLookup/LookupDataStore.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\ProductAttributesLookup\\Filterer' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/ProductAttributesLookup/Filterer.php'
 	),
 	'Automattic\\WooCommerce\\Internal\\ProductAttributesLookup\\DataRegenerator' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Internal/ProductAttributesLookup/DataRegenerator.php'
 	),
 	'Automattic\\WooCommerce\\Utilities\\StringUtil' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Utilities/StringUtil.php'
 	),
 	'Automattic\\WooCommerce\\Utilities\\NumberUtil' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Utilities/NumberUtil.php'
 	),
 	'Automattic\\WooCommerce\\Utilities\\ArrayUtil' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Utilities/ArrayUtil.php'
 	),
 	'Automattic\\WooCommerce\\Autoloader' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Autoloader.php'
 	),
 	'Automattic\\WooCommerce\\Container' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Container.php'
 	),
 	'Automattic\\WooCommerce\\Checkout\\Helpers\\ReserveStock' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Checkout/Helpers/ReserveStock.php'
 	),
 	'Automattic\\WooCommerce\\Checkout\\Helpers\\ReserveStockException' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Checkout/Helpers/ReserveStockException.php'
 	),
 	'Automattic\\WooCommerce\\Proxies\\LegacyProxy' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Proxies/LegacyProxy.php'
 	),
 	'Automattic\\WooCommerce\\Proxies\\ActionsProxy' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/src/Proxies/ActionsProxy.php'
 	),
 	'Automattic\\Jetpack\\Autoloader\\AutoloadProcessor' => array(
@@ -2919,435 +2919,435 @@ return array(
 		'path'    => $vendorDir . '/automattic/jetpack-autoloader/src/ManifestGenerator.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\Utilities\\ImageAttachment' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Utilities/ImageAttachment.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\Utilities\\SingletonTrait' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Utilities/SingletonTrait.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\Server' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Server.php'
 	),
 	'WC_REST_Report_Customers_Totals_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-report-customers-totals-controller.php'
 	),
 	'WC_REST_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-controller.php'
 	),
 	'WC_REST_Shipping_Zones_Controller_Base' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-shipping-zones-controller-base.php'
 	),
 	'WC_REST_Report_Coupons_Totals_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-report-coupons-totals-controller.php'
 	),
 	'WC_REST_Report_Products_Totals_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-report-products-totals-controller.php'
 	),
 	'WC_REST_Data_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-data-controller.php'
 	),
 	'WC_REST_Settings_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-settings-controller.php'
 	),
 	'WC_REST_Order_Notes_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-order-notes-controller.php'
 	),
 	'WC_REST_Report_Sales_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-report-sales-controller.php'
 	),
 	'WC_REST_Customer_Downloads_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-customer-downloads-controller.php'
 	),
 	'WC_REST_Product_Tags_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-product-tags-controller.php'
 	),
 	'WC_REST_Shipping_Methods_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-shipping-methods-controller.php'
 	),
 	'WC_REST_Data_Continents_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-data-continents-controller.php'
 	),
 	'WC_REST_Coupons_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-coupons-controller.php'
 	),
 	'WC_REST_Order_Refunds_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-order-refunds-controller.php'
 	),
 	'WC_REST_System_Status_Tools_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-system-status-tools-controller.php'
 	),
 	'WC_REST_Setting_Options_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-setting-options-controller.php'
 	),
 	'WC_REST_Taxes_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-taxes-controller.php'
 	),
 	'WC_REST_Shipping_Zone_Locations_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-shipping-zone-locations-controller.php'
 	),
 	'WC_REST_Terms_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-terms-controller.php'
 	),
 	'WC_REST_Data_Countries_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-data-countries-controller.php'
 	),
 	'WC_REST_System_Status_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-system-status-controller.php'
 	),
 	'WC_REST_Orders_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-orders-controller.php'
 	),
 	'WC_REST_Reports_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-reports-controller.php'
 	),
 	'WC_REST_Shipping_Zone_Methods_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-shipping-zone-methods-controller.php'
 	),
 	'WC_REST_Tax_Classes_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-tax-classes-controller.php'
 	),
 	'WC_REST_Product_Variations_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php'
 	),
 	'WC_REST_Payment_Gateways_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-payment-gateways-controller.php'
 	),
 	'WC_REST_Posts_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-posts-controller.php'
 	),
 	'WC_REST_Product_Shipping_Classes_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-product-shipping-classes-controller.php'
 	),
 	'WC_REST_Product_Categories_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-product-categories-controller.php'
 	),
 	'WC_REST_Report_Orders_Totals_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-report-orders-totals-controller.php'
 	),
 	'WC_REST_Product_Attributes_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-product-attributes-controller.php'
 	),
 	'WC_REST_Products_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php'
 	),
 	'WC_REST_Report_Top_Sellers_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-report-top-sellers-controller.php'
 	),
 	'WC_REST_Customers_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-customers-controller.php'
 	),
 	'WC_REST_Data_Currencies_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-data-currencies-controller.php'
 	),
 	'WC_REST_Webhooks_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-webhooks-controller.php'
 	),
 	'WC_REST_Product_Attribute_Terms_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-product-attribute-terms-controller.php'
 	),
 	'WC_REST_Network_Orders_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-network-orders-controller.php'
 	),
 	'WC_REST_Product_Reviews_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-product-reviews-controller.php'
 	),
 	'WC_REST_CRUD_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-crud-controller.php'
 	),
 	'WC_REST_Report_Reviews_Totals_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-report-reviews-totals-controller.php'
 	),
 	'WC_REST_Shipping_Zones_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version3/class-wc-rest-shipping-zones-controller.php'
 	),
 	'WC_REST_Tax_Classes_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-tax-classes-v1-controller.php'
 	),
 	'WC_REST_Order_Notes_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-order-notes-v1-controller.php'
 	),
 	'WC_REST_Customer_Downloads_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-customer-downloads-v1-controller.php'
 	),
 	'WC_REST_Report_Top_Sellers_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-report-top-sellers-v1-controller.php'
 	),
 	'WC_REST_Taxes_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-taxes-v1-controller.php'
 	),
 	'WC_REST_Reports_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-reports-v1-controller.php'
 	),
 	'WC_REST_Products_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php'
 	),
 	'WC_REST_Report_Sales_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-report-sales-v1-controller.php'
 	),
 	'WC_REST_Product_Tags_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-product-tags-v1-controller.php'
 	),
 	'WC_REST_Webhook_Deliveries_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-webhook-deliveries-v1-controller.php'
 	),
 	'WC_REST_Webhooks_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-webhooks-v1-controller.php'
 	),
 	'WC_REST_Product_Reviews_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-product-reviews-v1-controller.php'
 	),
 	'WC_REST_Coupons_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-coupons-v1-controller.php'
 	),
 	'WC_REST_Product_Attributes_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-product-attributes-v1-controller.php'
 	),
 	'WC_REST_Orders_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-orders-v1-controller.php'
 	),
 	'WC_REST_Customers_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-customers-v1-controller.php'
 	),
 	'WC_REST_Product_Categories_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-product-categories-v1-controller.php'
 	),
 	'WC_REST_Order_Refunds_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-order-refunds-v1-controller.php'
 	),
 	'WC_REST_Product_Attribute_Terms_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-product-attribute-terms-v1-controller.php'
 	),
 	'WC_REST_Product_Shipping_Classes_V1_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version1/class-wc-rest-product-shipping-classes-v1-controller.php'
 	),
 	'WC_REST_Telemetry_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Telemetry/class-wc-rest-telemetry-controller.php'
 	),
 	'WC_REST_Shipping_Zone_Methods_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-methods-v2-controller.php'
 	),
 	'WC_REST_Product_Tags_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-product-tags-v2-controller.php'
 	),
 	'WC_REST_Network_Orders_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-network-orders-v2-controller.php'
 	),
 	'WC_REST_Shipping_Methods_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-shipping-methods-v2-controller.php'
 	),
 	'WC_REST_Setting_Options_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-setting-options-v2-controller.php'
 	),
 	'WC_REST_Webhook_Deliveries_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-webhook-deliveries-v2-controller.php'
 	),
 	'WC_REST_Product_Categories_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-product-categories-v2-controller.php'
 	),
 	'WC_REST_Orders_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-orders-v2-controller.php'
 	),
 	'WC_REST_Taxes_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-taxes-v2-controller.php'
 	),
 	'WC_REST_Report_Top_Sellers_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-report-top-sellers-v2-controller.php'
 	),
 	'WC_REST_Product_Attributes_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-product-attributes-v2-controller.php'
 	),
 	'WC_REST_Reports_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-reports-v2-controller.php'
 	),
 	'WC_REST_Tax_Classes_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-tax-classes-v2-controller.php'
 	),
 	'WC_REST_Order_Refunds_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-order-refunds-v2-controller.php'
 	),
 	'WC_REST_Order_Notes_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-order-notes-v2-controller.php'
 	),
 	'WC_REST_Webhooks_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-webhooks-v2-controller.php'
 	),
 	'WC_REST_System_Status_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-system-status-v2-controller.php'
 	),
 	'WC_REST_Payment_Gateways_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-payment-gateways-v2-controller.php'
 	),
 	'WC_REST_System_Status_Tools_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-system-status-tools-v2-controller.php'
 	),
 	'WC_REST_Shipping_Zones_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zones-v2-controller.php'
 	),
 	'WC_REST_Coupons_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-coupons-v2-controller.php'
 	),
 	'WC_REST_Customer_Downloads_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-customer-downloads-v2-controller.php'
 	),
 	'WC_REST_Shipping_Zone_Locations_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-shipping-zone-locations-v2-controller.php'
 	),
 	'WC_REST_Product_Variations_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-product-variations-v2-controller.php'
 	),
 	'WC_REST_Product_Shipping_Classes_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-product-shipping-classes-v2-controller.php'
 	),
 	'WC_REST_Products_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php'
 	),
 	'WC_REST_Product_Attribute_Terms_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-product-attribute-terms-v2-controller.php'
 	),
 	'WC_REST_Customers_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-customers-v2-controller.php'
 	),
 	'WC_REST_Product_Reviews_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-product-reviews-v2-controller.php'
 	),
 	'WC_REST_Settings_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-settings-v2-controller.php'
 	),
 	'WC_REST_Report_Sales_V2_Controller' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Controllers/Version2/class-wc-rest-report-sales-v2-controller.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\Package' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/includes/rest-api/Package.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\UnitTests\\Helpers\\ShippingHelper' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/legacy/unit-tests/rest-api/Helpers/ShippingHelper.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\UnitTests\\Helpers\\QueueHelper' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/legacy/unit-tests/rest-api/Helpers/QueueHelper.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\UnitTests\\Helpers\\OrderHelper' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/legacy/unit-tests/rest-api/Helpers/OrderHelper.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\UnitTests\\Helpers\\CustomerHelper' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/legacy/unit-tests/rest-api/Helpers/CustomerHelper.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\UnitTests\\Helpers\\AdminNotesHelper' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/legacy/unit-tests/rest-api/Helpers/AdminNotesHelper.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\UnitTests\\Helpers\\SettingsHelper' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/legacy/unit-tests/rest-api/Helpers/SettingsHelper.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\UnitTests\\Helpers\\CouponHelper' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/legacy/unit-tests/rest-api/Helpers/CouponHelper.php'
 	),
 	'Automattic\\WooCommerce\\RestApi\\UnitTests\\Helpers\\ProductHelper' => array(
-		'version' => '6.2.0.0',
+		'version' => '6.2.1.0',
 		'path'    => $baseDir . '/tests/legacy/unit-tests/rest-api/Helpers/ProductHelper.php'
 	),
 	'Automattic\\Jetpack\\Constants' => array(
