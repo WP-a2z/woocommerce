@@ -11,11 +11,11 @@ return array(
 		'path'    => array( $vendorDir . '/composer/installers/src/Composer/Installers' )
 	),
 	'Automattic\\WooCommerce\\Blocks\\Tests\\' => array(
-		'version' => '6.7.3.0',
+		'version' => '6.9.0.0',
 		'path'    => array( $baseDir . '/tests/php' )
 	),
 	'Automattic\\WooCommerce\\Blocks\\' => array(
-		'version' => '6.7.3.0',
+		'version' => '6.9.0.0',
 		'path'    => array( $baseDir . '/src' )
 	),
 	'Automattic\\Jetpack\\Autoloader\\' => array(

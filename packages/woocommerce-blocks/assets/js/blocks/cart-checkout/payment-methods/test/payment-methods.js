@@ -1,7 +1,7 @@
 /**
  * External dependencies
  */
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { render, screen, waitFor } from '@testing-library/react';
 import { previewCart } from '@woocommerce/resource-previews';
 import { dispatch } from '@wordpress/data';
 import { CART_STORE_KEY as storeKey } from '@woocommerce/block-data';
@@ -14,7 +14,7 @@ import {
 	PaymentMethodDataProvider,
 	usePaymentMethodDataContext,
 } from '@woocommerce/base-context';
-
+import userEvent from '@testing-library/user-event';
 /**
  * Internal dependencies
  */
@@ -35,7 +35,7 @@ jest.mock(
 	() => ( { onChange } ) => (
 		<>
 			<span>Payment method options</span>
-			<button onClick={ () => onChange( 'stripe' ) }>
+			<button onClick={ () => onChange( 'credit-card' ) }>
 				Select new payment
 			</button>
 		</>
@@ -43,7 +43,7 @@ jest.mock(
 );
 
 const registerMockPaymentMethods = () => {
-	[ 'stripe' ].forEach( ( name ) => {
+	[ 'credit-card' ].forEach( ( name ) => {
 		registerPaymentMethod( {
 			name,
 			label: name,
@@ -62,7 +62,7 @@ const registerMockPaymentMethods = () => {
 };
 
 const resetMockPaymentMethods = () => {
-	[ 'stripe' ].forEach( ( name ) => {
+	[ 'credit-card' ].forEach( ( name ) => {
 		__experimentalDeRegisterPaymentMethod( name );
 	} );
 };
@@ -137,16 +137,16 @@ describe( 'PaymentMethods', () => {
 			expect( savedPaymentMethodOptions ).not.toBeNull();
 			expect( paymentMethodOptions ).not.toBeNull();
 			const savedToken = screen.queryByText(
-				/Active Payment Method: stripe/
+				/Active Payment Method: credit-card/
 			);
 			expect( savedToken ).toBeNull();
 		} );
 
-		fireEvent.click( screen.getByText( 'Select new payment' ) );
+		userEvent.click( screen.getByText( 'Select new payment' ) );
 
 		await waitFor( () => {
 			const activePaymentMethod = screen.queryByText(
-				/Active Payment Method: stripe/
+				/Active Payment Method: credit-card/
 			);
 			expect( activePaymentMethod ).not.toBeNull();
 		} );

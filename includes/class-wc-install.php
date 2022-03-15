@@ -7,6 +7,8 @@
  */
 
 use Automattic\Jetpack\Constants;
+use Automattic\WooCommerce\Internal\ProductAttributesLookup\DataRegenerator;
+use Automattic\WooCommerce\Internal\Utilities\DatabaseUtil;
 use Automattic\WooCommerce\Internal\WCCom\ConnectionHelper as WCConnectionHelper;
 
 defined( 'ABSPATH' ) || exit;
@@ -168,6 +170,10 @@ class WC_Install {
 		'6.0.0' => array(
 			'wc_update_600_migrate_rate_limit_options',
 			'wc_update_600_db_version',
+		),
+		'6.3.0' => array(
+			'wc_update_630_create_product_attributes_lookup_table',
+			'wc_update_630_db_version',
 		),
 	);
 
@@ -586,22 +592,22 @@ class WC_Install {
 		$pages = apply_filters(
 			'woocommerce_create_pages',
 			array(
-				'shop'          => array(
+				'shop'           => array(
 					'name'    => _x( 'shop', 'Page slug', 'woocommerce' ),
 					'title'   => _x( 'Shop', 'Page title', 'woocommerce' ),
 					'content' => '',
 				),
-				'cart'          => array(
+				'cart'           => array(
 					'name'    => _x( 'cart', 'Page slug', 'woocommerce' ),
 					'title'   => _x( 'Cart', 'Page title', 'woocommerce' ),
 					'content' => '<!-- wp:shortcode -->[' . apply_filters( 'woocommerce_cart_shortcode_tag', 'woocommerce_cart' ) . ']<!-- /wp:shortcode -->',
 				),
-				'checkout'      => array(
+				'checkout'       => array(
 					'name'    => _x( 'checkout', 'Page slug', 'woocommerce' ),
 					'title'   => _x( 'Checkout', 'Page title', 'woocommerce' ),
 					'content' => '<!-- wp:shortcode -->[' . apply_filters( 'woocommerce_checkout_shortcode_tag', 'woocommerce_checkout' ) . ']<!-- /wp:shortcode -->',
 				),
-				'myaccount'     => array(
+				'myaccount'      => array(
 					'name'    => _x( 'my-account', 'Page slug', 'woocommerce' ),
 					'title'   => _x( 'My account', 'Page title', 'woocommerce' ),
 					'content' => '<!-- wp:shortcode -->[' . apply_filters( 'woocommerce_my_account_shortcode_tag', 'woocommerce_my_account' ) . ']<!-- /wp:shortcode -->',
@@ -849,6 +855,8 @@ class WC_Install {
 		 */
 		$max_index_length = 191;
 
+		$product_attributes_lookup_table_creation_sql = wc_get_container()->get( DataRegenerator::class )->get_table_creation_sql();
+
 		$tables = "
 CREATE TABLE {$wpdb->prefix}woocommerce_sessions (
   session_id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
@@ -1068,6 +1076,7 @@ CREATE TABLE {$wpdb->prefix}wc_rate_limits (
   PRIMARY KEY  (rate_limit_id),
   UNIQUE KEY rate_limit_key (rate_limit_key($max_index_length))
 ) $collate;
+$product_attributes_lookup_table_creation_sql
 		";
 
 		return $tables;
@@ -1103,6 +1112,7 @@ CREATE TABLE {$wpdb->prefix}wc_rate_limits (
 			"{$wpdb->prefix}woocommerce_tax_rates",
 			"{$wpdb->prefix}wc_reserved_stock",
 			"{$wpdb->prefix}wc_rate_limits",
+			wc_get_container()->get( DataRegenerator::class )->get_lookup_table_name(),
 		);
 
 		/**

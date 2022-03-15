@@ -14,12 +14,12 @@ import { useForcedLayout, getAllowedBlocks } from '../../../shared';
 
 export const Edit = ( { clientId }: { clientId: string } ): JSX.Element => {
 	const blockProps = useBlockProps();
-	const allowedBlocks = getAllowedBlocks( innerBlockAreas.EMPTY_MINI_CART );
+	const allowedBlocks = getAllowedBlocks( innerBlockAreas.FILLED_MINI_CART );
 	const { currentView } = useEditorContext();
 
 	const defaultTemplate = ( [
 		[ 'woocommerce/mini-cart-title-block', {} ],
-		[ 'woocommerce/mini-cart-products-table-block', {} ],
+		[ 'woocommerce/mini-cart-items-block', {} ],
 		[ 'woocommerce/mini-cart-footer-block', {} ],
 	].filter( Boolean ) as unknown ) as TemplateArray;
 
