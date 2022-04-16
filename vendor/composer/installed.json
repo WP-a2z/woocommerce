@@ -626,17 +626,17 @@
     },
     {
         "name": "woocommerce/woocommerce-blocks",
-        "version": "v7.2.1",
-        "version_normalized": "7.2.1.0",
+        "version": "v7.2.2",
+        "version_normalized": "7.2.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/woocommerce/woocommerce-gutenberg-products-block.git",
-            "reference": "4ae932b9abc41c161c7b67a4c1a6e0ba57592f53"
+            "reference": "3fc9d72c305d078713f0f2dda1604b679bc002e3"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/woocommerce/woocommerce-gutenberg-products-block/zipball/4ae932b9abc41c161c7b67a4c1a6e0ba57592f53",
-            "reference": "4ae932b9abc41c161c7b67a4c1a6e0ba57592f53",
+            "url": "https://api.github.com/repos/woocommerce/woocommerce-gutenberg-products-block/zipball/3fc9d72c305d078713f0f2dda1604b679bc002e3",
+            "reference": "3fc9d72c305d078713f0f2dda1604b679bc002e3",
             "shasum": ""
         },
         "require": {
@@ -650,7 +650,7 @@
             "wp-phpunit/wp-phpunit": "^5.4",
             "yoast/phpunit-polyfills": "^1.0"
         },
-        "time": "2022-03-23T13:42:59+00:00",
+        "time": "2022-04-15T12:32:12+00:00",
         "type": "wordpress-plugin",
         "extra": {
             "scripts-description": {
@@ -682,7 +682,7 @@
         ],
         "support": {
             "issues": "https://github.com/woocommerce/woocommerce-gutenberg-products-block/issues",
-            "source": "https://github.com/woocommerce/woocommerce-gutenberg-products-block/tree/v7.2.1"
+            "source": "https://github.com/woocommerce/woocommerce-gutenberg-products-block/tree/v7.2.2"
         }
     }
 ]
