@@ -123,6 +123,7 @@ return array(
     'Automattic\\WooCommerce\\Admin\\DateTimeProvider\\CurrentDateTimeProvider' => $baseDir . '/src/Admin/DateTimeProvider/CurrentDateTimeProvider.php',
     'Automattic\\WooCommerce\\Admin\\DateTimeProvider\\DateTimeProviderInterface' => $baseDir . '/src/Admin/DateTimeProvider/DateTimeProviderInterface.php',
     'Automattic\\WooCommerce\\Admin\\DeprecatedClassFacade' => $baseDir . '/src/Admin/DeprecatedClassFacade.php',
+    'Automattic\\WooCommerce\\Admin\\FeaturePlugin' => $baseDir . '/src/Admin/FeaturePlugin.php',
     'Automattic\\WooCommerce\\Admin\\Features\\Features' => $baseDir . '/src/Admin/Features/Features.php',
     'Automattic\\WooCommerce\\Admin\\Features\\Navigation\\CoreMenu' => $baseDir . '/src/Admin/Features/Navigation/CoreMenu.php',
     'Automattic\\WooCommerce\\Admin\\Features\\Navigation\\Favorites' => $baseDir . '/src/Admin/Features/Navigation/Favorites.php',

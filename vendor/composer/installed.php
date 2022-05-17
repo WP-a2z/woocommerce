@@ -1,7 +1,7 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '6.5.0',
-        'version' => '6.5.0.0',
+        'pretty_version' => '6.5.1',
+        'version' => '6.5.1.0',
         'type' => 'wordpress-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -113,8 +113,8 @@
             'dev_requirement' => false,
         ),
         'woocommerce/woocommerce' => array(
-            'pretty_version' => '6.5.0',
-            'version' => '6.5.0.0',
+            'pretty_version' => '6.5.1',
+            'version' => '6.5.1.0',
             'type' => 'wordpress-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),

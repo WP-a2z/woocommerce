@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit88dc87d160933cedd2b1fd7b5dfa0bb9
+class ComposerStaticInit872cc82d5ddc65b3d62c985ce301e829
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -221,6 +221,7 @@ class ComposerStaticInit88dc87d160933cedd2b1fd7b5dfa0bb9
         'Automattic\\WooCommerce\\Admin\\DateTimeProvider\\CurrentDateTimeProvider' => __DIR__ . '/../..' . '/src/Admin/DateTimeProvider/CurrentDateTimeProvider.php',
         'Automattic\\WooCommerce\\Admin\\DateTimeProvider\\DateTimeProviderInterface' => __DIR__ . '/../..' . '/src/Admin/DateTimeProvider/DateTimeProviderInterface.php',
         'Automattic\\WooCommerce\\Admin\\DeprecatedClassFacade' => __DIR__ . '/../..' . '/src/Admin/DeprecatedClassFacade.php',
+        'Automattic\\WooCommerce\\Admin\\FeaturePlugin' => __DIR__ . '/../..' . '/src/Admin/FeaturePlugin.php',
         'Automattic\\WooCommerce\\Admin\\Features\\Features' => __DIR__ . '/../..' . '/src/Admin/Features/Features.php',
         'Automattic\\WooCommerce\\Admin\\Features\\Navigation\\CoreMenu' => __DIR__ . '/../..' . '/src/Admin/Features/Navigation/CoreMenu.php',
         'Automattic\\WooCommerce\\Admin\\Features\\Navigation\\Favorites' => __DIR__ . '/../..' . '/src/Admin/Features/Navigation/Favorites.php',
@@ -957,10 +958,10 @@ class ComposerStaticInit88dc87d160933cedd2b1fd7b5dfa0bb9
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit88dc87d160933cedd2b1fd7b5dfa0bb9::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit88dc87d160933cedd2b1fd7b5dfa0bb9::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit88dc87d160933cedd2b1fd7b5dfa0bb9::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit88dc87d160933cedd2b1fd7b5dfa0bb9::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit872cc82d5ddc65b3d62c985ce301e829::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit872cc82d5ddc65b3d62c985ce301e829::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit872cc82d5ddc65b3d62c985ce301e829::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit872cc82d5ddc65b3d62c985ce301e829::$classMap;
 
         }, null, ClassLoader::class);
     }
