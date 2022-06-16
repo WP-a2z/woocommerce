@@ -6,16 +6,18 @@
 namespace Automattic\WooCommerce\Database\Migrations\CustomOrderTable;
 
 /**
- * Class WPPostToOrderTableMigrator.
+ * Helper class to migrate records from the WordPress post table
+ * to the custom order table (and only that table - PostsToOrdersMigrationController
+ * is used for fully migrating orders).
  */
-class WPPostToOrderTableMigrator extends MetaToCustomTableMigrator {
+class PostToOrderTableMigrator extends MetaToCustomTableMigrator {
 
 	/**
 	 * Get schema config for wp_posts and wc_order table.
 	 *
 	 * @return array Config.
 	 */
-	public function get_schema_config() {
+	public function get_schema_config(): array {
 		global $wpdb;
 
 		// TODO: Remove hardcoding.
@@ -43,7 +45,7 @@ class WPPostToOrderTableMigrator extends MetaToCustomTableMigrator {
 			),
 			'destination' => array(
 				'table_name'        => $this->table_names['orders'],
-				'source_rel_column' => 'post_id',
+				'source_rel_column' => 'id',
 				'primary_key'       => 'id',
 				'primary_key_type'  => 'int',
 			),
@@ -55,11 +57,11 @@ class WPPostToOrderTableMigrator extends MetaToCustomTableMigrator {
 	 *
 	 * @return \string[][] Config.
 	 */
-	public function get_core_column_mapping() {
+	public function get_core_column_mapping(): array {
 		return array(
 			'ID'                => array(
 				'type'        => 'int',
-				'destination' => 'post_id',
+				'destination' => 'id',
 			),
 			'post_status'       => array(
 				'type'        => 'string',
@@ -85,7 +87,7 @@ class WPPostToOrderTableMigrator extends MetaToCustomTableMigrator {
 	 *
 	 * @return \string[][] Config.
 	 */
-	public function get_meta_column_config() {
+	public function get_meta_column_config(): array {
 		return array(
 			'_order_currency'       => array(
 				'type'        => 'string',

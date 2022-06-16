@@ -13,9 +13,25 @@ import { ToggleControl } from '@wordpress/components';
  * @param {Object}            props.settings
  */
 const GridContentControl = ( { onChange, settings } ) => {
-	const { button, price, rating, title } = settings;
+	const { image, button, price, rating, title } = settings;
 	return (
 		<>
+			<ToggleControl
+				label={ __( 'Product image', 'woocommerce' ) }
+				help={
+					image
+						? __(
+								'Product image is visible.',
+								'woocommerce'
+						  )
+						: __(
+								'Product image is hidden.',
+								'woocommerce'
+						  )
+				}
+				checked={ image }
+				onChange={ () => onChange( { ...settings, image: ! image } ) }
+			/>
 			<ToggleControl
 				label={ __( 'Product title', 'woocommerce' ) }
 				help={
@@ -92,6 +108,7 @@ GridContentControl.propTypes = {
 	 * The current title visibility.
 	 */
 	settings: PropTypes.shape( {
+		image: PropTypes.bool.isRequired,
 		button: PropTypes.bool.isRequired,
 		price: PropTypes.bool.isRequired,
 		rating: PropTypes.bool.isRequired,

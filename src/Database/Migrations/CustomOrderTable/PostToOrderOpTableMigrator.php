@@ -6,18 +6,19 @@
 namespace Automattic\WooCommerce\Database\Migrations\CustomOrderTable;
 
 /**
- * Class WPPostToOrderOpTableMigrator
+ * Helper class to migrate records from the WordPress post table
+ * to the custom order operations table.
  *
  * @package Automattic\WooCommerce\Database\Migrations\CustomOrderTable
  */
-class WPPostToOrderOpTableMigrator extends MetaToCustomTableMigrator {
+class PostToOrderOpTableMigrator extends MetaToCustomTableMigrator {
 
 	/**
 	 * Get schema config for wp_posts and wc_order_operational_detail table.
 	 *
 	 * @return array Config.
 	 */
-	public function get_schema_config() {
+	public function get_schema_config(): array {
 		global $wpdb;
 		// TODO: Remove hardcoding.
 		$this->table_names = array(
@@ -31,9 +32,9 @@ class WPPostToOrderOpTableMigrator extends MetaToCustomTableMigrator {
 			'source'      => array(
 				'entity' => array(
 					'table_name'             => $this->table_names['orders'],
-					'meta_rel_column'        => 'post_id',
+					'meta_rel_column'        => 'id',
 					'destination_rel_column' => 'id',
-					'primary_key'            => 'post_id',
+					'primary_key'            => 'id',
 				),
 				'meta'   => array(
 					'table_name'        => $wpdb->postmeta,
@@ -57,7 +58,7 @@ class WPPostToOrderOpTableMigrator extends MetaToCustomTableMigrator {
 	 *
 	 * @return \string[][] Config.
 	 */
-	public function get_core_column_mapping() {
+	public function get_core_column_mapping(): array {
 		return array(
 			'id' => array(
 				'type'        => 'int',
@@ -72,7 +73,7 @@ class WPPostToOrderOpTableMigrator extends MetaToCustomTableMigrator {
 	 *
 	 * @return \string[][] Config.
 	 */
-	public function get_meta_column_config() {
+	public function get_meta_column_config(): array {
 		return array(
 			'_created_via'                  => array(
 				'type'        => 'string',
@@ -114,8 +115,16 @@ class WPPostToOrderOpTableMigrator extends MetaToCustomTableMigrator {
 				'type'        => 'date_epoch',
 				'destination' => 'date_paid_gmt',
 			),
+			'_paid_date'                    => array( // For compatibility with WC < 2.6.
+				'type'        => 'date',
+				'destination' => 'date_paid_gmt',
+			),
 			'_date_completed'               => array(
 				'type'        => 'date_epoch',
+				'destination' => 'date_completed_gmt',
+			),
+			'_completed_date'               => array( // For compatibility with WC < 2.6.
+				'type'        => 'date',
 				'destination' => 'date_completed_gmt',
 			),
 			'_order_shipping_tax'           => array(
@@ -133,6 +142,10 @@ class WPPostToOrderOpTableMigrator extends MetaToCustomTableMigrator {
 			'_cart_discount'                => array(
 				'type'        => 'decimal',
 				'destination' => 'discount_total_amount',
+			),
+			'_recorded_sales'               => array(
+				'type'        => 'bool',
+				'destination' => 'recorded_sales',
 			),
 		);
 	}
