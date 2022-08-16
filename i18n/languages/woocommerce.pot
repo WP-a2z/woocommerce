@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 6.6.0\n"
+"Project-Id-Version: WooCommerce 6.6.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-06-10T17:25:53+00:00\n"
+"POT-Creation-Date: 2022-06-20T15:03:26+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -20529,7 +20529,7 @@ msgid "Parent product"
 msgstr ""
 
 #: includes/class-wc-post-types.php:335
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:20
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:23
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -30974,18 +30974,18 @@ msgid "Locations outside all other zones"
 msgstr ""
 
 #. translators: %1$d is the number of products in the cart. %2$s is the cart total
-#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:358
+#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:357
 #: packages/woocommerce-blocks/build/mini-cart-component-frontend.js:5
 msgid "%1$d item in cart, total price of %2$s"
 msgid_plural "%1$d items in cart, total price of %2$s"
 msgstr[0] ""
 msgstr[1] ""
 
-#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:515
+#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:514
 msgid "Mini Cart Empty Cart Message"
 msgstr ""
 
-#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:517
+#: packages/woocommerce-blocks/src/BlockTypes/MiniCart.php:516
 #: packages/woocommerce-blocks/build/cart.js:42
 msgid "Your cart is currently empty!"
 msgstr ""
@@ -33704,7 +33704,7 @@ msgstr ""
 #: assets/client/admin/chunks/analytics-report-categories.js:1
 #: assets/client/admin/chunks/analytics-report-downloads.js:1
 #: assets/client/admin/chunks/analytics-report-products.js:1
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:36
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:41
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43453,7 +43453,7 @@ msgid "This block shows a list of all product reviews. Your store does not have 
 msgstr ""
 
 #: packages/woocommerce-blocks/assets/js/blocks/reviews/edit-utils.js:41
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:68
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:73
 #: packages/woocommerce-blocks/build/all-reviews.js:1
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
@@ -43732,7 +43732,7 @@ msgstr ""
 msgid "We are working on a better editing experience that will replace classic blocks. Keep an eye out for updates!"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:23
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:26
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43744,7 +43744,7 @@ msgstr ""
 msgid "Product image is visible."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:27
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:30
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43756,7 +43756,7 @@ msgstr ""
 msgid "Product image is hidden."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:39
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:44
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43768,7 +43768,7 @@ msgstr ""
 msgid "Product title is visible."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:43
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:48
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43780,7 +43780,7 @@ msgstr ""
 msgid "Product title is hidden."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:52
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:57
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43792,7 +43792,7 @@ msgstr ""
 msgid "Product price"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:55
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:60
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43804,7 +43804,7 @@ msgstr ""
 msgid "Product price is visible."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:59
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:64
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43816,7 +43816,7 @@ msgstr ""
 msgid "Product price is hidden."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:71
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:76
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43828,7 +43828,7 @@ msgstr ""
 msgid "Product rating is visible."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:75
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:80
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43840,7 +43840,7 @@ msgstr ""
 msgid "Product rating is hidden."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:84
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:89
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43852,7 +43852,7 @@ msgstr ""
 msgid "Add to Cart button"
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:90
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:95
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
@@ -43864,7 +43864,7 @@ msgstr ""
 msgid "Add to Cart button is visible."
 msgstr ""
 
-#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:94
+#: packages/woocommerce-blocks/assets/js/editor-components/grid-content-control/index.js:99
 #: packages/woocommerce-blocks/build/handpicked-products.js:7
 #: packages/woocommerce-blocks/build/product-best-sellers.js:5
 #: packages/woocommerce-blocks/build/product-category.js:5
