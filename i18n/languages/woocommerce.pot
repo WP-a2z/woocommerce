@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 6.9.0\n"
+"Project-Id-Version: WooCommerce 6.9.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2022-09-13T22:45:06+00:00\n"
+"POT-Creation-Date: 2022-09-14T13:23:58+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.6.0\n"
 "X-Domain: woocommerce\n"
@@ -9144,7 +9144,7 @@ msgid "You do not have permission to revoke API Keys"
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:138
-#: includes/class-wc-frontend-scripts.php:593
+#: includes/class-wc-frontend-scripts.php:599
 #: includes/widgets/class-wc-widget-layered-nav.php:322
 #: includes/widgets/class-wc-widget-product-categories.php:272
 msgctxt "enhanced select"
@@ -9152,55 +9152,55 @@ msgid "No matches found"
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:139
-#: includes/class-wc-frontend-scripts.php:594
+#: includes/class-wc-frontend-scripts.php:600
 msgctxt "enhanced select"
 msgid "Loading failed"
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:140
-#: includes/class-wc-frontend-scripts.php:595
+#: includes/class-wc-frontend-scripts.php:601
 msgctxt "enhanced select"
 msgid "Please enter 1 or more characters"
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:141
-#: includes/class-wc-frontend-scripts.php:596
+#: includes/class-wc-frontend-scripts.php:602
 msgctxt "enhanced select"
 msgid "Please enter %qty% or more characters"
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:142
-#: includes/class-wc-frontend-scripts.php:597
+#: includes/class-wc-frontend-scripts.php:603
 msgctxt "enhanced select"
 msgid "Please delete 1 character"
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:143
-#: includes/class-wc-frontend-scripts.php:598
+#: includes/class-wc-frontend-scripts.php:604
 msgctxt "enhanced select"
 msgid "Please delete %qty% characters"
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:144
-#: includes/class-wc-frontend-scripts.php:599
+#: includes/class-wc-frontend-scripts.php:605
 msgctxt "enhanced select"
 msgid "You can only select 1 item"
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:145
-#: includes/class-wc-frontend-scripts.php:600
+#: includes/class-wc-frontend-scripts.php:606
 msgctxt "enhanced select"
 msgid "You can only select %qty% items"
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:146
-#: includes/class-wc-frontend-scripts.php:601
+#: includes/class-wc-frontend-scripts.php:607
 msgctxt "enhanced select"
 msgid "Loading more results&hellip;"
 msgstr ""
 
 #: includes/admin/class-wc-admin-assets.php:147
-#: includes/class-wc-frontend-scripts.php:602
+#: includes/class-wc-frontend-scripts.php:608
 msgctxt "enhanced select"
 msgid "Searching&hellip;"
 msgstr ""
@@ -9324,7 +9324,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-assets.php:286
 #: includes/admin/class-wc-admin-assets.php:459
 #: includes/admin/settings/views/html-webhooks-edit.php:68
-#: includes/class-wc-frontend-scripts.php:592
+#: includes/class-wc-frontend-scripts.php:598
 #: includes/wc-template-functions.php:2859
 #: includes/wc-template-functions.php:2860
 #: templates/cart/shipping-calculator.php:58
@@ -19197,7 +19197,7 @@ msgstr ""
 
 #: includes/class-wc-cart.php:1164
 #: includes/class-wc-cart.php:1227
-#: includes/class-wc-frontend-scripts.php:572
+#: includes/class-wc-frontend-scripts.php:578
 #: includes/wc-cart-functions.php:125
 #: includes/wc-template-functions.php:2196
 msgid "View cart"
@@ -20018,39 +20018,39 @@ msgstr ""
 msgid "Your account was created successfully. Your login details have been sent to your email address."
 msgstr ""
 
-#: includes/class-wc-frontend-scripts.php:496
+#: includes/class-wc-frontend-scripts.php:502
 msgid "Please select a rating"
 msgstr ""
 
-#: includes/class-wc-frontend-scripts.php:539
+#: includes/class-wc-frontend-scripts.php:545
 msgid "Error processing checkout. Please try again."
 msgstr ""
 
-#: includes/class-wc-frontend-scripts.php:546
+#: includes/class-wc-frontend-scripts.php:552
 #: includes/wc-template-functions.php:2769
 #: templates/checkout/terms.php:31
 msgid "required"
 msgstr ""
 
-#: includes/class-wc-frontend-scripts.php:547
+#: includes/class-wc-frontend-scripts.php:553
 #: includes/wc-template-functions.php:2771
 msgid "optional"
 msgstr ""
 
-#: includes/class-wc-frontend-scripts.php:584
+#: includes/class-wc-frontend-scripts.php:590
 msgid "Sorry, no products matched your selection. Please choose a different combination."
 msgstr ""
 
-#: includes/class-wc-frontend-scripts.php:585
+#: includes/class-wc-frontend-scripts.php:591
 msgid "Please select some product options before adding this product to your cart."
 msgstr ""
 
-#: includes/class-wc-frontend-scripts.php:586
+#: includes/class-wc-frontend-scripts.php:592
 #: templates/single-product/add-to-cart/variation.php:22
 msgid "Sorry, this product is unavailable. Please choose a different combination."
 msgstr ""
 
-#: includes/class-wc-frontend-scripts.php:609
+#: includes/class-wc-frontend-scripts.php:615
 msgid "Please enter a stronger password."
 msgstr ""
 
