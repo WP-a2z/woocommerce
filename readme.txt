@@ -2,9 +2,9 @@
 Contributors: automattic, mikejolley, jameskoster, claudiosanches, rodrigosprimo, peterfabian1000, vedjain, jamosova, obliviousharmony, konamiman, sadowski, wpmuguru, royho, barryhughes-1
 Tags: online store, ecommerce, shop, shopping cart, storefront, checkout, downloadable, downloads, payments, paypal, storefront, stripe, woo commerce, e-commerce, store, sales, sell, woo, cart
 Requires at least: 5.8
-Tested up to: 6.0
+Tested up to: 6.1
 Requires PHP: 7.2
-Stable tag: 7.0.0
+Stable tag: 7.0.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -163,6 +163,22 @@ WooCommerce comes with some sample data you can use to see how products look; im
 
 == Changelog ==
 
+= 7.0.1 2022-11-01 =
+
+**WooCommerce**
+
+* Dev - Twenty Twenty-Three theme compatibility. [#35306](https://github.com/woocommerce/woocommerce/pull/35306)
+* Dev - Simplify and reduce size of payload supplied by the woocommerce_get_customer_details ajax endpoint.
+
+**WooCommerce Blocks 8.5.2**
+
+* Enhancement - Fix Mini Cart Global Styles. [7515](https://github.com/woocommerce/woocommerce-blocks/pull/7515)
+* Enhancement - Fix inconsistent button styling with TT3. ([7516](https://github.com/woocommerce/woocommerce-blocks/pull/7516))
+* Enhancement - Make the Filter by Price block range color dependent of the theme color. [7525](https://github.com/woocommerce/woocommerce-blocks/pull/7525)
+* Enhancement - Filter by Price block: fix price slider visibility on dark themes. [7527](https://github.com/woocommerce/woocommerce-blocks/pull/7527)
+* Enhancement - Update the Mini Cart block drawer to honor the theme's background. [7510](https://github.com/woocommerce/woocommerce-blocks/pull/7510)
+* Enhancement - Add white background to Filter by Attribute block dropdown so text is legible in dark backgrounds. [7506](https://github.com/woocommerce/woocommerce-blocks/pull/7506)
+
 = 7.0.0 2022-10-11 =
 
 **WooCommerce**
@@ -198,6 +214,7 @@ WooCommerce comes with some sample data you can use to see how products look; im
 * Fix - [COT](https://github.com/woocommerce/woocommerce/pull/) Fix error during apply coupon when COT enabled. [#34498](https://github.com/woocommerce/woocommerce/pull/34498)
 * Fix - Fix Enriched-label styles. [#34382](https://github.com/woocommerce/woocommerce/pull/34382)
 * Fix - Fix failing to update onboarding profile data for PHP 8. [#34832](https://github.com/woocommerce/woocommerce/pull/34832)
+* Add - Twenty Twenty-Three theme compatibility. [#35306](https://github.com/woocommerce/woocommerce/pull/35306)
 * Add - Added the get mobile app task to the additional tasklist [#34651](https://github.com/woocommerce/woocommerce/pull/34651)
 * Add - Added tracks for woocommerce mobile app modal [#34670](https://github.com/woocommerce/woocommerce/pull/34670)
 * Add - Add include_meta and exclude_meta collection params to the orders and products WC REST API endpoints. These allow for limiting which meta keys are included in the meta_data response. [#34478](https://github.com/woocommerce/woocommerce/pull/34478)
