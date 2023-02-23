@@ -17,7 +17,6 @@ import {
 	useState,
 } from 'react';
 import { WP_REST_API_Category } from 'wp-types';
-import { hasSpacingStyleSupport } from '@woocommerce/utils';
 
 /**
  * Internal dependencies
@@ -197,14 +196,10 @@ export const withFeaturedItem =
 					: style?.color?.text,
 			};
 
-			const wrapperStyle = hasSpacingStyleSupport()
-				? {
-						...getSpacingClassesAndStyles( attributes ).style,
-						minHeight,
-				  }
-				: {
-						minHeight,
-				  };
+			const wrapperStyle = {
+				...getSpacingClassesAndStyles( attributes ).style,
+				minHeight,
+			};
 
 			const isImgElement = ! isRepeated && ! hasParallax;
 

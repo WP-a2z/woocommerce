@@ -5,7 +5,7 @@ import { __ } from '@wordpress/i18n';
 import { createBlock, registerBlockType } from '@wordpress/blocks';
 import type { BlockInstance } from '@wordpress/blocks';
 import { toggle } from '@woocommerce/icons';
-import { useBlockProps, InnerBlocks } from '@wordpress/block-editor';
+import { useBlockProps, useInnerBlocksProps } from '@wordpress/block-editor';
 import {
 	Icon,
 	category,
@@ -111,21 +111,17 @@ const transformFilterBlock = (
 registerBlockType( metadata, {
 	edit,
 	save() {
-		return (
-			<div { ...useBlockProps.save() }>
-				<InnerBlocks.Content />
-			</div>
+		const innerBlocksProps = useInnerBlocksProps.save(
+			useBlockProps.save()
 		);
+		return <div { ...innerBlocksProps } />;
 	},
 	variations: [
 		{
 			name: 'active-filters',
-			title: __(
-				'Active Product Filters',
-				'woo-gutenberg-products-block'
-			),
+			title: __( 'Active Filters', 'woo-gutenberg-products-block' ),
 			description: __(
-				'Display the currently active product filters.',
+				'Display the currently active filters.',
 				'woo-gutenberg-products-block'
 			),
 			/**

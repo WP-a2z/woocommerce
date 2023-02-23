@@ -16,11 +16,12 @@ import {
 	PanelBody,
 	RangeControl,
 	ToggleControl,
+	__experimentalToggleGroupControl as ToggleGroupControl,
+	__experimentalToggleGroupControlOption as ToggleGroupControlOption,
 	TextareaControl,
 	ExternalLink,
 } from '@wordpress/components';
 import { LooselyMustHave, ProductResponseItem } from '@woocommerce/types';
-import ToggleButtonControl from '@woocommerce/editor-components/toggle-button-control';
 
 /**
  * Internal dependencies
@@ -151,7 +152,7 @@ export const InspectorControls = ( {
 								} }
 							/>
 							{ ! isRepeated && (
-								<ToggleButtonControl
+								<ToggleGroupControl
 									help={
 										<>
 											<span
@@ -183,24 +184,23 @@ export const InspectorControls = ( {
 											imageFit: value,
 										} )
 									}
-									options={ [
-										{
-											label: __(
-												'None',
-												'woo-gutenberg-products-block'
-											),
-											value: 'none',
-										},
-										{
-											/* translators: "Cover" is a verb that indicates an image covering the entire container. */
-											label: __(
-												'Cover',
-												'woo-gutenberg-products-block'
-											),
-											value: 'cover',
-										},
-									] }
-								/>
+								>
+									<ToggleGroupControlOption
+										label={ __(
+											'None',
+											'woo-gutenberg-products-block'
+										) }
+										value="none"
+									/>
+									<ToggleGroupControlOption
+										/* translators: "Cover" is a verb that indicates an image covering the entire container. */
+										label={ __(
+											'Cover',
+											'woo-gutenberg-products-block'
+										) }
+										value="cover"
+									/>
+								</ToggleGroupControl>
 							) }
 							<FocalPointPicker
 								label={ __(
