@@ -4,7 +4,7 @@ Tags: online store, ecommerce, shop, shopping cart, sell online, storefront, che
 Requires at least: 5.8
 Tested up to: 6.1
 Requires PHP: 7.2
-Stable tag: 7.2.2
+Stable tag: 7.2.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -163,11 +163,13 @@ WooCommerce comes with some sample data you can use to see how products look; im
 
 == Changelog ==
 
-= 7.2.2 2022-12-21 =
+= 7.2.3 2023-1-9
 
-**WooCommerce**
+**WooCommerce Blocks 8.9.4**
 
-* Fix - Corrects a hard-coded reference to the WP post meta table within the HPOS Migration Helper, that would fail on some sites. [#36100](https://github.com/woocommerce/woocommerce/pull/36100)
+* Fix - fatal error in WordPress 5.8 when creating a post or page. #7496
+* Fix - hangs in the block editor with WordPress 5.8. #8095
+* Fix - Filter by Attribute block crashing in the editor of WordPress 5.8. #8101
 
 = 7.2.1 2022-12-16 =
 

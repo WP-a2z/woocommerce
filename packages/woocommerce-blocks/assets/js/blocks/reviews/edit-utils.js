@@ -11,11 +11,8 @@ import {
 	ToolbarGroup,
 	RangeControl,
 	SelectControl,
-	// eslint-disable-next-line @wordpress/no-unsafe-wp-apis
-	__experimentalToggleGroupControl as ToggleGroupControl,
-	// eslint-disable-next-line @wordpress/no-unsafe-wp-apis
-	__experimentalToggleGroupControlOption as ToggleGroupControlOption,
 } from '@wordpress/components';
+import ToggleButtonControl from '@woocommerce/editor-components/toggle-button-control';
 
 export const getBlockControls = ( editMode, setAttributes, buttonTitle ) => (
 	<BlockControls>
@@ -109,31 +106,32 @@ export const getSharedReviewContentControls = ( attributes, setAttributes ) => {
 			/>
 			{ attributes.showReviewImage && (
 				<>
-					<ToggleGroupControl
+					<ToggleButtonControl
 						label={ __(
 							'Review image',
 							'woocommerce'
 						) }
 						value={ attributes.imageType }
+						options={ [
+							{
+								label: __(
+									'Reviewer photo',
+									'woocommerce'
+								),
+								value: 'reviewer',
+							},
+							{
+								label: __(
+									'Product',
+									'woocommerce'
+								),
+								value: 'product',
+							},
+						] }
 						onChange={ ( value ) =>
 							setAttributes( { imageType: value } )
 						}
-					>
-						<ToggleGroupControlOption
-							value="reviewer"
-							label={ __(
-								'Reviewer photo',
-								'woocommerce'
-							) }
-						/>
-						<ToggleGroupControlOption
-							value="product"
-							label={ __(
-								'Product',
-								'woocommerce'
-							) }
-						/>
-					</ToggleGroupControl>
+					/>
 					{ attributes.imageType === 'reviewer' && ! showAvatars && (
 						<Notice
 							className="wc-block-base-control-notice"
