@@ -2,9 +2,9 @@
 Contributors: automattic, mikejolley, jameskoster, claudiosanches, rodrigosprimo, peterfabian1000, vedjain, jamosova, obliviousharmony, konamiman, sadowski, wpmuguru, royho, barryhughes-1
 Tags: online store, ecommerce, shop, shopping cart, sell online, storefront, checkout, payments, woo, woo commerce, e-commerce, store
 Requires at least: 5.8
-Tested up to: 6.0
+Tested up to: 6.1
 Requires PHP: 7.2
-Stable tag: 7.2.0
+Stable tag: 7.2.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -163,10 +163,18 @@ WooCommerce comes with some sample data you can use to see how products look; im
 
 == Changelog ==
 
+= 7.2.1 2022-12-16 =
+
+**WooCommerce**
+
+* Update - Include taxes migration in MigrationHelper::migrate_country_states [#35967](https://github.com/woocommerce/woocommerce/pull/35967)
+
 = 7.2.0 2022-12-14 =
 
 **WooCommerce**
 
+* Fix - Drop usage of WP 5.9 function in the product quantity selector template. [#36054](https://github.com/woocommerce/woocommerce/pull/36054)
+* Fix - Add a data migration for changed New Zealand and Ukraine state codes [#35669](https://github.com/woocommerce/woocommerce/pull/35669)
 * Fix - Fix error in onboarding wizard when plugin is activated but includes unexpected output. [#35866](https://github.com/woocommerce/woocommerce/pull/35866)
 * Fix - Increased margin so that overflow modal content doesn't clip header [#35780](https://github.com/woocommerce/woocommerce/pull/35780)
 * Fix - Added default additional content to emails via filter woocommerce_email_additional_content_. [#35195](https://github.com/woocommerce/woocommerce/pull/35195)
