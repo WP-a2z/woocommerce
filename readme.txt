@@ -4,7 +4,7 @@ Tags: online store, ecommerce, shop, shopping cart, sell online, storefront, che
 Requires at least: 5.8
 Tested up to: 6.1
 Requires PHP: 7.2
-Stable tag: 7.2.1
+Stable tag: 7.2.2
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -163,6 +163,12 @@ WooCommerce comes with some sample data you can use to see how products look; im
 
 == Changelog ==
 
+= 7.2.2 2022-12-21 =
+
+**WooCommerce**
+
+* Fix - Corrects a hard-coded reference to the WP post meta table within the HPOS Migration Helper, that would fail on some sites. [#36100](https://github.com/woocommerce/woocommerce/pull/36100)
+
 = 7.2.1 2022-12-16 =
 
 **WooCommerce**
@@ -173,6 +179,7 @@ WooCommerce comes with some sample data you can use to see how products look; im
 
 **WooCommerce**
 
+* Fix - Corrects a hard-coded reference to the WP post meta table within the HPOS Migration Helper, that would fail on some sites. [#36100](https://github.com/woocommerce/woocommerce/pull/36100)
 * Fix - Drop usage of WP 5.9 function in the product quantity selector template. [#36054](https://github.com/woocommerce/woocommerce/pull/36054)
 * Fix - Add a data migration for changed New Zealand and Ukraine state codes [#35669](https://github.com/woocommerce/woocommerce/pull/35669)
 * Fix - Fix error in onboarding wizard when plugin is activated but includes unexpected output. [#35866](https://github.com/woocommerce/woocommerce/pull/35866)
