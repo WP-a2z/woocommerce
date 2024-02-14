@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 8.5.0\n"
+"Project-Id-Version: WooCommerce 8.5.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-01-09T08:31:15+00:00\n"
+"POT-Creation-Date: 2024-01-15T12:08:50+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.9.0\n"
 "X-Domain: woocommerce\n"
@@ -8978,7 +8978,7 @@ msgstr ""
 #: includes/admin/class-wc-admin-reports.php:108
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:276
 #: includes/admin/reports/class-wc-report-stock.php:118
-#: includes/wc-product-functions.php:875
+#: includes/wc-product-functions.php:876
 #: src/Blocks/BlockTypes/ProductStockIndicator.php:66
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/ProductVariationTemplate.php:434
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:837
@@ -13918,7 +13918,7 @@ msgstr ""
 
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:272
 #: includes/admin/reports/class-wc-report-stock.php:114
-#: includes/wc-product-functions.php:876
+#: includes/wc-product-functions.php:877
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/ProductVariationTemplate.php:438
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:841
 #: assets/client/admin/chunks/analytics-report-stock.js:1
@@ -13929,7 +13929,7 @@ msgstr ""
 #: includes/admin/list-tables/class-wc-admin-list-table-products.php:274
 #: includes/admin/reports/class-wc-report-stock.php:116
 #: includes/wc-formatting-functions.php:1247
-#: includes/wc-product-functions.php:874
+#: includes/wc-product-functions.php:875
 #: src/Blocks/BlockTypes/ProductStockIndicator.php:64
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/ProductVariationTemplate.php:430
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:833
@@ -17800,7 +17800,7 @@ msgstr ""
 #: includes/admin/settings/views/html-settings-tax.php:24
 #: includes/admin/views/html-bulk-edit-product.php:97
 #: includes/admin/views/html-quick-edit-product.php:72
-#: includes/wc-product-functions.php:854
+#: includes/wc-product-functions.php:855
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/ProductVariationTemplate.php:325
 #: src/Internal/Features/ProductBlockEditor/ProductTemplates/SimpleProductTemplate.php:708
 msgid "Standard"
@@ -19138,7 +19138,7 @@ msgstr ""
 #: includes/admin/views/html-bulk-edit-product.php:230
 #: includes/admin/views/html-quick-edit-product.php:148
 #: includes/customizer/class-wc-shop-customizer.php:710
-#: includes/wc-product-functions.php:840
+#: includes/wc-product-functions.php:841
 msgid "Hidden"
 msgstr ""
 
@@ -19680,13 +19680,13 @@ msgid "%1$s has been removed from your cart because it has since been modified. 
 msgstr ""
 
 #. translators: %d item count
-#: includes/class-wc-cart-session.php:492
+#: includes/class-wc-cart-session.php:517
 msgid "%d item from your previous order is currently unavailable and could not be added to your cart."
 msgid_plural "%d items from your previous order are currently unavailable and could not be added to your cart."
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/class-wc-cart-session.php:505
+#: includes/class-wc-cart-session.php:530
 msgid "The cart has been filled with the items from your previous order."
 msgstr ""
 
@@ -22591,7 +22591,7 @@ msgstr ""
 #. translators: %1$s = order ID, %2$s = order id, %3$s = error message.
 #. translators: %1$d = peoperty name, %2$d = order ID, %3$s = error message.
 #: includes/data-stores/abstract-wc-order-data-store-cpt.php:186
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1481
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1495
 msgid "Error when setting property '%1$s' for order %2$d: %3$s"
 msgstr ""
 
@@ -24730,7 +24730,7 @@ msgid "The class attached to the \"woocommerce_queue_class\" does not implement 
 msgstr ""
 
 #: includes/react-admin/connect-existing-pages.php:27
-#: src/Internal/Admin/Marketplace.php:58
+#: src/Internal/Admin/Marketplace.php:60
 #: assets/client/admin/app/index.js:2
 #: assets/client/admin/chunks/homescreen.js:1
 #: assets/client/admin/chunks/marketplace.js:1
@@ -30586,47 +30586,47 @@ msgctxt "slug"
 msgid "uncategorized"
 msgstr ""
 
-#: includes/wc-product-functions.php:600
+#: includes/wc-product-functions.php:601
 msgid "Simple product"
 msgstr ""
 
-#: includes/wc-product-functions.php:601
+#: includes/wc-product-functions.php:602
 #: assets/client/admin/chunks/3538.js:1
 #: assets/client/admin/chunks/9693.js:1
 msgid "Grouped product"
 msgstr ""
 
-#: includes/wc-product-functions.php:602
+#: includes/wc-product-functions.php:603
 msgid "External/Affiliate product"
 msgstr ""
 
-#: includes/wc-product-functions.php:603
+#: includes/wc-product-functions.php:604
 #: assets/client/admin/chunks/3538.js:1
 #: assets/client/admin/chunks/9693.js:1
 msgid "Variable product"
 msgstr ""
 
-#: includes/wc-product-functions.php:837
+#: includes/wc-product-functions.php:838
 msgid "Shop and search results"
 msgstr ""
 
-#: includes/wc-product-functions.php:838
+#: includes/wc-product-functions.php:839
 msgid "Shop only"
 msgstr ""
 
-#: includes/wc-product-functions.php:839
+#: includes/wc-product-functions.php:840
 msgid "Search results only"
 msgstr ""
 
-#: includes/wc-product-functions.php:889
+#: includes/wc-product-functions.php:890
 msgid "Do not allow"
 msgstr ""
 
-#: includes/wc-product-functions.php:890
+#: includes/wc-product-functions.php:891
 msgid "Allow, but notify customer"
 msgstr ""
 
-#: includes/wc-product-functions.php:891
+#: includes/wc-product-functions.php:892
 msgid "Allow"
 msgstr ""
 
@@ -37744,46 +37744,46 @@ msgstr ""
 msgid "Order is not an HPOS order."
 msgstr ""
 
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1124
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1138
 msgid "Invalid order IDs in call to read_multiple()"
 msgstr ""
 
 #. translators: %1$d order ID.
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1316
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1330
 msgid "Unable to load the post record for order %1$d"
 msgstr ""
 
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1784
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1798
 msgid "Could not create order in posts table."
 msgstr ""
 
 #. translators: %s is a table name.
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1808
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1822
 msgid "Could not persist order to database table \"%s\"."
 msgstr ""
 
 #. translators: %s: Taxonomy name.
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1879
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:1893
 msgid "Invalid taxonomy: %s."
 msgstr ""
 
 #. translators: 1: order ID, 2: order status
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2276
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2290
 msgid "Order %1$d cannot be restored from the trash: it has already been restored to status \"%2$s\"."
 msgstr ""
 
 #. translators: 1: order ID, 2: order status
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2294
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2308
 msgid "The previous status of order %1$d (\"%2$s\") is invalid. It has been restored to \"pending\" status instead."
 msgstr ""
 
 #. translators: 1: order ID, 2: order status
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2306
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2320
 msgid "The previous status of order %1$d (\"%2$s\") is invalid. It could not be restored."
 msgstr ""
 
 #. translators: 1: order ID, 2: order status
-#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2342
+#: src/Internal/DataStores/Orders/OrdersTableDataStore.php:2356
 msgid "Something went wrong when trying to restore order %d from the trash. It could not be restored."
 msgstr ""
 
@@ -40702,6 +40702,10 @@ msgstr ""
 #: templates/myaccount/view-order.php:43
 #: templates/order/tracking.php:47
 msgid "l jS \\o\\f F Y, h:ia"
+msgstr ""
+
+#: templates/notices/error.php:35
+msgid "The following problems were found:"
 msgstr ""
 
 #: templates/order/attribution-data-fields.php:41
