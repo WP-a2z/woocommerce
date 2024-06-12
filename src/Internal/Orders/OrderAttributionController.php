@@ -16,6 +16,7 @@ use WC_Customer;
 use WC_Log_Levels;
 use WC_Logger_Interface;
 use WC_Order;
+use WC_Tracks;
 
 /**
  * Class OrderAttributionController
@@ -334,9 +335,6 @@ class OrderAttributionController implements RegisterHooksInterface {
 		$source_type = $order->get_meta( $this->get_meta_prefixed_field_name( 'source_type' ) );
 		$source      = $order->get_meta( $this->get_meta_prefixed_field_name( 'utm_source' ) );
 		$origin      = $this->get_origin_label( $source_type, $source );
-		if ( empty( $origin ) ) {
-			$origin = __( 'Unknown', 'woocommerce' );
-		}
 		echo esc_html( $origin );
 	}
 
@@ -439,9 +437,12 @@ class OrderAttributionController implements RegisterHooksInterface {
 			'customer_registered' => $order->get_customer_id() ? 'yes' : 'no',
 		);
 
-		if ( function_exists( 'wc_admin_record_tracks_event' ) ) {
-			wc_admin_record_tracks_event( 'order_attribution', $tracks_data );
-		}
+		$this->proxy->call_static(
+			WC_Tracks::class,
+			'record_event',
+			'order_attribution',
+			$tracks_data
+		);
 	}
 
 	/**

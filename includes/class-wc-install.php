@@ -248,6 +248,10 @@ class WC_Install {
 		'8.7.0' => array(
 			'wc_update_870_prevent_listing_of_transient_files_directory',
 		),
+		'8.9.0' => array(
+			'wc_update_890_update_connect_to_woocommerce_note',
+			'wc_update_890_update_paypal_standard_load_eligibility',
+		),
 	);
 
 	/**

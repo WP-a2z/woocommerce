@@ -65,6 +65,8 @@
 		if ( ! allow ) {
 			// Reset cookies, and clear form data.
 			removeTrackingCookies();
+		} else if ( typeof sbjs === 'undefined' ) {
+			return; // Do nothing, as sourcebuster.js is not loaded.
 		} else {
 			// If not done yet, initialize sourcebuster.js which populates `sbjs.get` object.
 			sbjs.init( {
@@ -153,16 +155,12 @@
 		 * but it's not yet supported in Safari.
 		 */
 		connectedCallback() {
-			this.innerHTML = '';
-			const inputs = new DocumentFragment();
+			let inputs = '';
 			for( const fieldName of this._fieldNames ) {
-				const input = document.createElement( 'input' );
-				input.type = 'hidden';
-				input.name = `${params.prefix}${fieldName}`;
-				input.value = stringifyFalsyInputValue( ( this.values && this.values[ fieldName ] ) || '' );
-				inputs.appendChild( input );
+				const value = stringifyFalsyInputValue( this.values[ fieldName ] );
+				inputs += `<input type="hidden" name="${params.prefix}${fieldName}" value="${value}"/>`;
 			}
-			this.appendChild( inputs );
+			this.innerHTML = inputs;
 		}
 
 		/**
