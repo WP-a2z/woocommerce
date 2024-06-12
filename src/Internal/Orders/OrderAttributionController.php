@@ -16,6 +16,7 @@ use WC_Customer;
 use WC_Log_Levels;
 use WC_Logger_Interface;
 use WC_Order;
+use WC_Tracks;
 
 /**
  * Class OrderAttributionController
@@ -110,8 +111,8 @@ class OrderAttributionController implements RegisterHooksInterface {
 			}
 		);
 
-		add_action( 'woocommerce_checkout_after_customer_details', array( $this, 'source_form_elements' ) );
-		add_action( 'woocommerce_register_form', array( $this, 'source_form_elements' ) );
+		add_action( 'woocommerce_checkout_after_customer_details', array( $this, 'stamp_html_element' ) );
+		add_action( 'woocommerce_register_form', array( $this, 'stamp_html_element' ) );
 
 		// Update order based on submitted fields.
 		add_action(
@@ -341,14 +342,11 @@ class OrderAttributionController implements RegisterHooksInterface {
 	}
 
 	/**
-	 * Print `<input type="hidden">` elements for source fields.
-	 * To be picked up and populated with data by the JS.
+	 * Add `<wc-order-attribution-inputs>` element that contributes the order attribution values to the enclosing form.
 	 * Used for checkout & customer register forms.
 	 */
-	public function source_form_elements() {
-		foreach ( $this->field_names as $field_name ) {
-			printf( '<input type="hidden" name="%s" value="" />', esc_attr( $this->get_prefixed_field_name( $field_name ) ) );
-		}
+	public function stamp_html_element() {
+		printf( '<wc-order-attribution-inputs></wc-order-attribution-inputs>' );
 	}
 
 	/**
@@ -442,9 +440,12 @@ class OrderAttributionController implements RegisterHooksInterface {
 			'customer_registered' => $order->get_customer_id() ? 'yes' : 'no',
 		);
 
-		if ( function_exists( 'wc_admin_record_tracks_event' ) ) {
-			wc_admin_record_tracks_event( 'order_attribution', $tracks_data );
-		}
+		$this->proxy->call_static(
+			WC_Tracks::class,
+			'record_event',
+			'order_attribution',
+			$tracks_data
+		);
 	}
 
 	/**
