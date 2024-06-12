@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 8.8.0\n"
+"Project-Id-Version: WooCommerce 8.8.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-04-09T16:18:49+00:00\n"
+"POT-Creation-Date: 2024-04-12T16:10:59+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: woocommerce\n"
@@ -35635,6 +35635,10 @@ msgstr ""
 msgid "AI content generation is not allowed on this store. Update your store settings if you wish to enable this feature."
 msgstr ""
 
+#: src/Blocks/BlockTemplatesController.php:580
+msgid "Shop"
+msgstr ""
+
 #: src/Blocks/BlockTypes/AbstractBlock.php:120
 msgid "Block name is required."
 msgstr ""
@@ -36275,17 +36279,13 @@ msgstr ""
 msgid "Displays products filtered by an attribute."
 msgstr ""
 
-#: src/Blocks/Templates/ProductCatalogTemplate.php:35
+#: src/Blocks/Templates/ProductCatalogTemplate.php:34
 msgctxt "Template name"
 msgid "Product Catalog"
 msgstr ""
 
-#: src/Blocks/Templates/ProductCatalogTemplate.php:44
+#: src/Blocks/Templates/ProductCatalogTemplate.php:43
 msgid "Displays your products."
-msgstr ""
-
-#: src/Blocks/Templates/ProductCatalogTemplate.php:76
-msgid "Shop"
 msgstr ""
 
 #: src/Blocks/Templates/ProductCategoryTemplate.php:41
