@@ -169,11 +169,13 @@ WooCommerce comes with some sample data you can use to see how products look; im
 
 == Changelog ==
 
-= 9.1.3 2024-07-24 =
+= 9.1.4 2024-07-26 =
 
 **WooCommerce**
 
 * Fix - Revert fixing terms count in tracking PR as it caused product_add_publish to be triggered more than usual. [#49797](https://github.com/woocommerce/woocommerce/pull/49797)
+* Fix - Hardening against XSS via the Product Button unescaped attribute. [#50010](https://github.com/woocommerce/woocommerce/pull/50010)
+* Fix - Enhance escaping for block attributes. [#50015](https://github.com/woocommerce/woocommerce/pull/50015)
 
 
 [See changelog for all versions](https://raw.githubusercontent.com/woocommerce/woocommerce/trunk/changelog.txt).
