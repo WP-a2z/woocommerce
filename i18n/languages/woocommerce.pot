@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 9.3.3\n"
+"Project-Id-Version: WooCommerce 9.3.4\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-09-25T08:21:07+00:00\n"
+"POT-Creation-Date: 2024-11-25T12:58:51+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woocommerce\n"
@@ -10797,14 +10797,14 @@ msgid "Product attribute base"
 msgstr ""
 
 #: includes/admin/class-wc-admin-permalink-settings.php:74
-#: includes/wc-core-functions.php:2185
+#: includes/wc-core-functions.php:2190
 #: includes/wc-update-functions.php:80
 msgctxt "slug"
 msgid "product-category"
 msgstr ""
 
 #: includes/admin/class-wc-admin-permalink-settings.php:83
-#: includes/wc-core-functions.php:2186
+#: includes/wc-core-functions.php:2191
 #: includes/wc-update-functions.php:81
 msgctxt "slug"
 msgid "product-tag"
@@ -10851,7 +10851,7 @@ msgstr ""
 
 #: includes/admin/class-wc-admin-permalink-settings.php:193
 #: includes/admin/class-wc-admin-permalink-settings.php:196
-#: includes/wc-core-functions.php:2184
+#: includes/wc-core-functions.php:2189
 #: includes/wc-update-functions.php:90
 msgctxt "slug"
 msgid "product"
@@ -20188,6 +20188,7 @@ msgstr ""
 #: includes/wc-cart-functions.php:128
 #: includes/wc-template-functions.php:2264
 #: src/Blocks/BlockTypes/ProductButton.php:276
+#: src/Blocks/BlockTypes/ProductButton.php:277
 msgid "View cart"
 msgstr ""
 
@@ -30341,49 +30342,49 @@ msgstr ""
 msgid "Zambian kwacha"
 msgstr ""
 
-#: includes/wc-core-functions.php:1563
+#: includes/wc-core-functions.php:1568
 msgctxt "Name of credit card"
 msgid "MasterCard"
 msgstr ""
 
-#: includes/wc-core-functions.php:1564
+#: includes/wc-core-functions.php:1569
 msgctxt "Name of credit card"
 msgid "Visa"
 msgstr ""
 
-#: includes/wc-core-functions.php:1565
+#: includes/wc-core-functions.php:1570
 msgctxt "Name of credit card"
 msgid "Discover"
 msgstr ""
 
-#: includes/wc-core-functions.php:1566
+#: includes/wc-core-functions.php:1571
 msgctxt "Name of credit card"
 msgid "American Express"
 msgstr ""
 
-#: includes/wc-core-functions.php:1567
+#: includes/wc-core-functions.php:1572
 msgctxt "Name of credit card"
 msgid "Cartes Bancaires"
 msgstr ""
 
-#: includes/wc-core-functions.php:1568
+#: includes/wc-core-functions.php:1573
 msgctxt "Name of credit card"
 msgid "Diners"
 msgstr ""
 
-#: includes/wc-core-functions.php:1569
+#: includes/wc-core-functions.php:1574
 msgctxt "Name of credit card"
 msgid "JCB"
 msgstr ""
 
 #. translators: 1: class name 2: woocommerce_logging_class 3: WC_Logger_Interface
-#: includes/wc-core-functions.php:2044
+#: includes/wc-core-functions.php:2049
 msgid "The class %1$s provided by %2$s filter must implement %3$s."
 msgstr ""
 
 #. translators: 1: wc_load_cart 2: woocommerce_init
 #. translators: 1: class::method 2: plugins_loaded
-#: includes/wc-core-functions.php:2557
+#: includes/wc-core-functions.php:2562
 #: src/Internal/Features/FeaturesController.php:542
 msgid "%1$s should not be called before the %2$s action."
 msgstr ""
