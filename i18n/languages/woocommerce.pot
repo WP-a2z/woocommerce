@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the WooCommerce plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce 9.4.0\n"
+"Project-Id-Version: WooCommerce 9.4.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woocommerce\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-11T13:25:47+00:00\n"
+"POT-Creation-Date: 2024-11-12T16:09:49+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: woocommerce\n"
@@ -27152,13 +27152,13 @@ msgstr ""
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2605
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2333
 #: src/StoreApi/Routes/V1/Products.php:287
-#: src/StoreApi/Routes/V1/Products.php:306
+#: src/StoreApi/Routes/V1/Products.php:310
 msgid "Limit result set to products assigned a specific category ID."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version1/class-wc-rest-products-v1-controller.php:2611
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2339
-#: src/StoreApi/Routes/V1/Products.php:325
+#: src/StoreApi/Routes/V1/Products.php:329
 msgid "Limit result set to products assigned a specific tag ID."
 msgstr ""
 
@@ -27979,7 +27979,7 @@ msgid "Limit result set to products in stock or out of stock."
 msgstr ""
 
 #: includes/rest-api/Controllers/Version2/class-wc-rest-products-v2-controller.php:2380
-#: src/StoreApi/Routes/V1/Products.php:341
+#: src/StoreApi/Routes/V1/Products.php:345
 msgid "Limit result set to products on sale."
 msgstr ""
 
@@ -29171,7 +29171,7 @@ msgstr ""
 
 #: includes/rest-api/Controllers/Version3/class-wc-rest-product-variations-controller.php:1050
 #: includes/rest-api/Controllers/Version3/class-wc-rest-products-controller.php:1576
-#: src/StoreApi/Routes/V1/Products.php:362
+#: src/StoreApi/Routes/V1/Products.php:366
 msgid "Limit result set to products with specified stock status."
 msgstr ""
 
@@ -36114,7 +36114,7 @@ msgstr ""
 msgid "Overriding existing data with an already registered key is not allowed"
 msgstr ""
 
-#: src/Blocks/BlockPatterns.php:160
+#: src/Blocks/BlockPatterns.php:164
 msgid "Empty patterns received from the PTK Pattern Store"
 msgstr ""
 
@@ -36743,7 +36743,7 @@ msgid "Wrong response received from the Patterns Toolkit API: try again later."
 msgstr ""
 
 #. translators: %s is a generated error message.
-#: src/Blocks/Patterns/PTKPatternsStore.php:212
+#: src/Blocks/Patterns/PTKPatternsStore.php:216
 msgid "Failed to get WooCommerce patterns from the PTK: \"%s\""
 msgstr ""
 
@@ -40886,51 +40886,51 @@ msgid "When limiting response using after/before, which date column to compare a
 msgstr ""
 
 #: src/StoreApi/Routes/V1/Products.php:294
-#: src/StoreApi/Routes/V1/Products.php:314
+#: src/StoreApi/Routes/V1/Products.php:318
 msgid "Operator to compare product category terms."
 msgstr ""
 
-#: src/StoreApi/Routes/V1/Products.php:332
+#: src/StoreApi/Routes/V1/Products.php:336
 msgid "Operator to compare product tags."
 msgstr ""
 
-#: src/StoreApi/Routes/V1/Products.php:348
+#: src/StoreApi/Routes/V1/Products.php:352
 msgid "Limit result set to products based on a minimum price, provided using the smallest unit of the currency."
 msgstr ""
 
-#: src/StoreApi/Routes/V1/Products.php:355
+#: src/StoreApi/Routes/V1/Products.php:359
 msgid "Limit result set to products based on a maximum price, provided using the smallest unit of the currency."
 msgstr ""
 
-#: src/StoreApi/Routes/V1/Products.php:374
+#: src/StoreApi/Routes/V1/Products.php:378
 msgid "Limit result set to products with selected global attributes."
 msgstr ""
 
-#: src/StoreApi/Routes/V1/Products.php:380
+#: src/StoreApi/Routes/V1/Products.php:384
 msgid "Attribute taxonomy name."
 msgstr ""
 
-#: src/StoreApi/Routes/V1/Products.php:385
+#: src/StoreApi/Routes/V1/Products.php:389
 msgid "List of attribute term IDs."
 msgstr ""
 
-#: src/StoreApi/Routes/V1/Products.php:393
+#: src/StoreApi/Routes/V1/Products.php:397
 msgid "List of attribute slug(s). If a term ID is provided, this will be ignored."
 msgstr ""
 
-#: src/StoreApi/Routes/V1/Products.php:401
+#: src/StoreApi/Routes/V1/Products.php:405
 msgid "Operator to compare product attribute terms."
 msgstr ""
 
-#: src/StoreApi/Routes/V1/Products.php:411
+#: src/StoreApi/Routes/V1/Products.php:415
 msgid "The logical relationship between attributes when filtering across multiple at once."
 msgstr ""
 
-#: src/StoreApi/Routes/V1/Products.php:420
+#: src/StoreApi/Routes/V1/Products.php:424
 msgid "Determines if hidden or visible catalog products are shown."
 msgstr ""
 
-#: src/StoreApi/Routes/V1/Products.php:428
+#: src/StoreApi/Routes/V1/Products.php:432
 msgid "Limit result set to products with a certain average rating."
 msgstr ""
 
